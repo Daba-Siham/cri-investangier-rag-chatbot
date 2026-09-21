@@ -1,0 +1,7 @@
+[
+  {"id":"g001","question":"Combien de projets ont été approuvés par la CRUI au premier semestre 2024 ?","query_language":"fr","answerable":true,"expected_fact":"379 projets approuvés","expected_sources":[{"document_id":"chiffres_cles_crui_1er_semestre_2024_francais","page":2,"language":"fr"}]},
+  {"id":"g002","question":"كم عدد الطلبات التي وافقت عليها اللجنة الجهوية الموحدة للاستثمار خلال سنة 2023؟","query_language":"ar","answerable":true,"expected_fact":"709 طلبا","expected_sources":[{"document_id":"akhbar_al_moustatmir_news","page":25,"language":"ar"}]},
+  {"id":"g003","question":"¿Cuántas nuevas empresas fueron creadas en la región en 2025?","query_language":"es","answerable":true,"expected_fact":"15 286 nuevas empresas","expected_sources":[{"document_id":"esp_chiffres_cles_annee_2025","page":2,"language":"es"}]},
+  {"id":"g004","question":"How many new companies were created in the region in 2025?","query_language":"en","answerable":true,"expected_fact":"15,286 new companies","expected_sources":[{"document_id":"eng_chiffres_cles_annee_2025","page":2,"language":"en"}]},
+  {"id":"g005","question":"Quel est le prix actuel du Bitcoin en dirhams ?","query_language":"fr","answerable":false,"expected_fact":"","expected_sources":[]}
+]

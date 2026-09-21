@@ -1,0 +1,114 @@
+{
+  "generated_at": "2026-08-31T13:18:50.036749+00:00",
+  "live_api": true,
+  "case_count": 4,
+  "results": [
+    {
+      "test_id": "chat-046",
+      "timestamp": "2026-08-31T13:18:49.753954+00:00",
+      "question": "Et en 2025 ?",
+      "language": "fr",
+      "category": "follow_up",
+      "status": "answered",
+      "answer": "En 2025, la région a enregistré la création de 15 286 nouvelles entreprises, ce qui en fait la 2e région en termes de création d'entreprises avec environ 14% du total national. En matière de promotion territoriale, 60 événements majeurs au rayonnement national et international sont prévus, dont 12 manifestations à l'international, 38 au niveau régional et 10 au niveau national. Parmi les événements visibles figurent notamment la Mission économique avec la CCIS à Copenhague (Janvier), AIM 2025 à Abu Dhabi (Avril), SIAM 2025 à Meknès (Avril), Logismed 2025 (Mai), Automotive Meetings à Tanger (Juin), Industry Meeting Days à Casablanca (Juillet), Power-to-X à Marrakech (Octobre), le Salon de l'Artisanat à Tétouan (Septembre), les Matinées de l'industrie à Barcelone (Décembre) et la Rencontre Hispano Marocaine à Gérone (Décembre). Le bilan 2025 de la promotion internationale des IDE via le « Doing Business in TTA Region » indique 1 stop, 300 participants et 30 opportunités dénichées.",
+      "citations": [
+        {
+          "source_id": "SOURCE_1",
+          "document_id": "fr_chiffres_cles_annee_2025",
+          "filename": "FR_ Chiffres clés de l_année 2025.pdf",
+          "page": 14,
+          "language": "fr",
+          "chunk_id": "fr_chiffres_cles_annee_2025_p14_c1"
+        },
+        {
+          "source_id": "SOURCE_3",
+          "document_id": "fr_chiffres_cles_annee_2025",
+          "filename": "FR_ Chiffres clés de l_année 2025.pdf",
+          "page": 2,
+          "language": "fr",
+          "chunk_id": "fr_chiffres_cles_annee_2025_p2_c1"
+        }
+      ],
+      "retrieval_status": "ok",
+      "llm_called": true,
+      "error_type": null,
+      "duration_seconds": 1.691,
+      "expected_match": true,
+      "manual_review_required": true,
+      "citation_required": true,
+      "expected_page": null,
+      "generation": {
+        "llm_called": true,
+        "model": "qwen/qwen3.8-27b",
+        "provider": "groq",
+        "generation_attempts": 1,
+        "structured_retry_used": false,
+        "structured_retry_succeeded": false,
+        "transport_retries": 0
+      }
+    },
+    {
+      "test_id": "chat-047",
+      "timestamp": "2026-08-31T13:18:49.853299+00:00",
+      "question": "And for 2025?",
+      "language": "en",
+      "category": "follow_up",
+      "status": "insufficient_evidence",
+      "answer": "This information is not available in the provided documents.",
+      "citations": [],
+      "retrieval_status": "insufficient_evidence",
+      "llm_called": false,
+      "error_type": null,
+      "duration_seconds": 0.097,
+      "expected_match": false,
+      "manual_review_required": true,
+      "citation_required": true,
+      "expected_page": null,
+      "generation": {
+        "llm_called": false
+      }
+    },
+    {
+      "test_id": "chat-048",
+      "timestamp": "2026-08-31T13:18:49.924626+00:00",
+      "question": "¿Y en 2025?",
+      "language": "es",
+      "category": "follow_up",
+      "status": "insufficient_evidence",
+      "answer": "Esta información no está disponible en los documentos proporcionados.",
+      "citations": [],
+      "retrieval_status": "insufficient_evidence",
+      "llm_called": false,
+      "error_type": null,
+      "duration_seconds": 0.071,
+      "expected_match": false,
+      "manual_review_required": true,
+      "citation_required": true,
+      "expected_page": null,
+      "generation": {
+        "llm_called": false
+      }
+    },
+    {
+      "test_id": "chat-049",
+      "timestamp": "2026-08-31T13:18:50.036401+00:00",
+      "question": "وماذا عن سنة 2025؟",
+      "language": "ar",
+      "category": "follow_up",
+      "status": "insufficient_evidence",
+      "answer": "هذه المعلومة غير متوفرة في الوثائق المقدمة.",
+      "citations": [],
+      "retrieval_status": "insufficient_evidence",
+      "llm_called": false,
+      "error_type": null,
+      "duration_seconds": 0.112,
+      "expected_match": false,
+      "manual_review_required": true,
+      "citation_required": true,
+      "expected_page": null,
+      "generation": {
+        "llm_called": false
+      }
+    }
+  ]
+}

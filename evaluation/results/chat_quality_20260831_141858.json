@@ -1,0 +1,141 @@
+{
+  "generated_at": "2026-08-31T13:19:00.015545+00:00",
+  "live_api": true,
+  "case_count": 6,
+  "results": [
+    {
+      "test_id": "chat-050",
+      "timestamp": "2026-08-31T13:18:58.304421+00:00",
+      "question": "Quel est le prix actuel du Bitcoin en dirhams ?",
+      "language": "fr",
+      "category": "out_of_corpus",
+      "status": "insufficient_evidence",
+      "answer": "Cette information n’est pas disponible dans les documents fournis.",
+      "citations": [],
+      "retrieval_status": "insufficient_evidence",
+      "llm_called": false,
+      "error_type": null,
+      "duration_seconds": 0.083,
+      "expected_match": true,
+      "manual_review_required": false,
+      "citation_required": false,
+      "expected_page": null,
+      "generation": {
+        "llm_called": false
+      }
+    },
+    {
+      "test_id": "chat-051",
+      "timestamp": "2026-08-31T13:18:59.009456+00:00",
+      "question": "ما حالة الطقس اليوم في طنجة؟",
+      "language": "ar",
+      "category": "out_of_corpus",
+      "status": "insufficient_evidence",
+      "answer": "هذه المعلومة غير متوفرة في الوثائق المقدمة.",
+      "citations": [],
+      "retrieval_status": "ok",
+      "llm_called": true,
+      "error_type": null,
+      "duration_seconds": 0.704,
+      "expected_match": false,
+      "manual_review_required": false,
+      "citation_required": false,
+      "expected_page": null,
+      "generation": {
+        "llm_called": true,
+        "generation_attempts": 1,
+        "structured_retry_used": false,
+        "structured_retry_succeeded": false,
+        "transport_retries": 0
+      }
+    },
+    {
+      "test_id": "chat-052",
+      "timestamp": "2026-08-31T13:18:59.105665+00:00",
+      "question": "¿Quién ganará el próximo Mundial de fútbol?",
+      "language": "es",
+      "category": "out_of_corpus",
+      "status": "insufficient_evidence",
+      "answer": "Esta información no está disponible en los documentos proporcionados.",
+      "citations": [],
+      "retrieval_status": "insufficient_evidence",
+      "llm_called": false,
+      "error_type": null,
+      "duration_seconds": 0.096,
+      "expected_match": true,
+      "manual_review_required": false,
+      "citation_required": false,
+      "expected_page": null,
+      "generation": {
+        "llm_called": false
+      }
+    },
+    {
+      "test_id": "chat-053",
+      "timestamp": "2026-08-31T13:18:59.220884+00:00",
+      "question": "What is the current EUR/USD exchange rate?",
+      "language": "en",
+      "category": "out_of_corpus",
+      "status": "insufficient_evidence",
+      "answer": "This information is not available in the provided documents.",
+      "citations": [],
+      "retrieval_status": "insufficient_evidence",
+      "llm_called": false,
+      "error_type": null,
+      "duration_seconds": 0.115,
+      "expected_match": true,
+      "manual_review_required": false,
+      "citation_required": false,
+      "expected_page": null,
+      "generation": {
+        "llm_called": false
+      }
+    },
+    {
+      "test_id": "chat-054",
+      "timestamp": "2026-08-31T13:18:59.306828+00:00",
+      "question": "Quels sont les résultats des dernières élections nationales ?",
+      "language": "fr",
+      "category": "out_of_corpus",
+      "status": "insufficient_evidence",
+      "answer": "This information is not available in the provided documents.",
+      "citations": [],
+      "retrieval_status": "insufficient_evidence",
+      "llm_called": false,
+      "error_type": null,
+      "duration_seconds": 0.086,
+      "expected_match": false,
+      "manual_review_required": false,
+      "citation_required": false,
+      "expected_page": null,
+      "generation": {
+        "llm_called": false
+      }
+    },
+    {
+      "test_id": "chat-055",
+      "timestamp": "2026-08-31T13:19:00.015092+00:00",
+      "question": "Explain photosynthesis in general.",
+      "language": "en",
+      "category": "out_of_corpus",
+      "status": "insufficient_evidence",
+      "answer": "This information is not available in the provided documents.",
+      "citations": [],
+      "retrieval_status": "ok",
+      "llm_called": true,
+      "error_type": null,
+      "duration_seconds": 0.708,
+      "expected_match": false,
+      "manual_review_required": false,
+      "citation_required": false,
+      "expected_page": null,
+      "generation": {
+        "llm_called": true,
+        "generation_attempts": 1,
+        "structured_retry_used": false,
+        "structured_retry_succeeded": false,
+        "transport_retries": 0
+      }
+    }
+  ]
+}

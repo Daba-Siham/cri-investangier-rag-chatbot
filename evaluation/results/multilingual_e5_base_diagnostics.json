@@ -1,0 +1,3098 @@
+[
+  {
+    "id": "q001",
+    "question": "Combien de projets ont été approuvés par la CRUI au premier semestre 2024 ?",
+    "query_language": "fr",
+    "answerable": true,
+    "cross_lingual": true,
+    "expected_sources": [
+      {
+        "document_id": "chiffres_cles_crui_1er_semestre_2024_francais",
+        "page": 2,
+        "language": "fr"
+      },
+      {
+        "document_id": "chiffres_cles_crui_1er_semestre_2024_arabe",
+        "page": 2,
+        "language": "ar"
+      },
+      {
+        "document_id": "chiffres_cles_crui_1er_semestre_2024_anglais",
+        "page": 2,
+        "language": "en"
+      },
+      {
+        "document_id": "chiffres_cles_crui_1er_semestre_2024_espagnol",
+        "page": 2,
+        "language": "es"
+      }
+    ],
+    "top_results": [
+      {
+        "rank": 1,
+        "score": 0.8890477,
+        "document_id": "fr_presentation_cri_tta_vf",
+        "page": 41,
+        "language": "fr",
+        "preview": "sun\n== À == Une fois vous êtes ici, vous êtes partout ! a \\ 4 eee\npe Ar e. . e\nBilan La CRUI, facilitateur et accélérateur des projets d'investissement\nCRUI 202"
+      },
+      {
+        "rank": 2,
+        "score": 0.88438916,
+        "document_id": "manar_al_moustatmir_news",
+        "page": 25,
+        "language": "fr",
+        "preview": "19\nDurant l’année 2023, la CRUI a instruit 972 actes lors de ses 230 réunions et \npour lesquels la Commission Régionale Unifiée d’Investissement a approuvé \n709"
+      },
+      {
+        "rank": 3,
+        "score": 0.8837864,
+        "document_id": "chiffres_cles_crui_1er_semestre_2024_francais",
+        "page": 2,
+        "language": "fr",
+        "preview": "Une fois vous êtes ici, vous êtes partout !\n\n433\nNombre de projets instruits par la CRUI avec avis définitif\n\n379\nProjets approuvés soit 87,5% des projets statu"
+      },
+      {
+        "rank": 4,
+        "score": 0.87872183,
+        "document_id": "manar_al_moustatmir_news",
+        "page": 26,
+        "language": "fr",
+        "preview": "20\nwww.investangier.com\nEvolution des montants d’investissement approuvés en CRUI 2021-2023\n(En milliards MAD)\n52\n36,6\n~73,4\n2021\n2022\n2023\n+41%\nAnnée\nEvolution"
+      },
+      {
+        "rank": 5,
+        "score": 0.87071764,
+        "document_id": "fr_chiffres_cles_critta_30_sept_2024",
+        "page": 2,
+        "language": "fr",
+        "preview": "Une fois vous êtes ici, vous êtes partout !\n\n693\nactes instruits par la CRUI\nau 30 septembre 2024\n\n615\nactes approuvés par la CRUI\nau 30 septembre 2024\n\nÉvoluti"
+      },
+      {
+        "rank": 6,
+        "score": 0.8704197,
+        "document_id": "chiffres_cles_crui_1er_semestre_2024_espagnol",
+        "page": 2,
+        "language": "es",
+        "preview": "¡Una vez aquí, está en todas partes!\n\n433\nproyectos examinados por la Comisión Regional Unificada de Inversiones (CRUI)\n\n379\nproyectos aprobados, el 87,5% de lo"
+      },
+      {
+        "rank": 7,
+        "score": 0.86868215,
+        "document_id": "fr_chiffres_cles_annee_2025",
+        "page": 9,
+        "language": "fr",
+        "preview": "Bilan de la CRUI (6/6)\n\nUne région pionnière en énergie, moteur de compétitivité et durabilité à l’export\n\n11 projets approuvés\n~22,4 milliards de dirhams proje"
+      },
+      {
+        "rank": 8,
+        "score": 0.8656125,
+        "document_id": "fr_chiffres_cles_annee_2025",
+        "page": 5,
+        "language": "fr",
+        "preview": "Bilan de la CRUI (2/6)\n\n487\nDossiers d’investissement approuvés par la CRUI*\n\n80 MMDH\nd’investissements approuvés\n\n57 043\nEmplois projetés\n\n* Commission Régiona"
+      },
+      {
+        "rank": 9,
+        "score": 0.8638594,
+        "document_id": "chiffres_cles_crui_1er_semestre_2024_francais",
+        "page": 6,
+        "language": "fr",
+        "preview": "Une fois vous êtes ici, vous êtes partout !\n\n16\nProjets de conventions d’investissement approuvés\n\n9,54 milliards MAD d’investissement\n6 525 emplois directs pro"
+      },
+      {
+        "rank": 10,
+        "score": 0.86227643,
+        "document_id": "fr_chiffres_cles_annee_2025",
+        "page": 6,
+        "language": "fr",
+        "preview": "Bilan de la CRUI (3/6)\n\nRépartition sectorielle des dossiers d’investissement approuvés en CRUI\n\nSecteurs :\nÉnergie\nIndustrie\nTourisme\nServices\nAutres\n\nPar nomb"
+      }
+    ],
+    "top1_score": 0.8890477,
+    "first_relevant_rank": 3,
+    "first_cross_language_relevant_rank": 6,
+    "recall_hits": {
+      "recall_at_1": false,
+      "recall_at_3": true,
+      "recall_at_5": true,
+      "recall_at_10": true
+    }
+  },
+  {
+    "id": "q002",
+    "question": "Quelle part des investissements approuvés par la CRUI au premier semestre 2024 correspond à l'industrie ?",
+    "query_language": "fr",
+    "answerable": true,
+    "cross_lingual": false,
+    "expected_sources": [
+      {
+        "document_id": "chiffres_cles_crui_1er_semestre_2024_francais",
+        "page": 3,
+        "language": "fr"
+      }
+    ],
+    "top_results": [
+      {
+        "rank": 1,
+        "score": 0.8794988,
+        "document_id": "manar_al_moustatmir_news",
+        "page": 26,
+        "language": "fr",
+        "preview": "20\nwww.investangier.com\nEvolution des montants d’investissement approuvés en CRUI 2021-2023\n(En milliards MAD)\n52\n36,6\n~73,4\n2021\n2022\n2023\n+41%\nAnnée\nEvolution"
+      },
+      {
+        "rank": 2,
+        "score": 0.8788605,
+        "document_id": "fr_presentation_cri_tta_vf",
+        "page": 41,
+        "language": "fr",
+        "preview": "sun\n== À == Une fois vous êtes ici, vous êtes partout ! a \\ 4 eee\npe Ar e. . e\nBilan La CRUI, facilitateur et accélérateur des projets d'investissement\nCRUI 202"
+      },
+      {
+        "rank": 3,
+        "score": 0.87532854,
+        "document_id": "fr_chiffres_cles_annee_2025",
+        "page": 6,
+        "language": "fr",
+        "preview": "Bilan de la CRUI (3/6)\n\nRépartition sectorielle des dossiers d’investissement approuvés en CRUI\n\nSecteurs :\nÉnergie\nIndustrie\nTourisme\nServices\nAutres\n\nPar nomb"
+      },
+      {
+        "rank": 4,
+        "score": 0.86759543,
+        "document_id": "manar_al_moustatmir_news",
+        "page": 25,
+        "language": "fr",
+        "preview": "19\nDurant l’année 2023, la CRUI a instruit 972 actes lors de ses 230 réunions et \npour lesquels la Commission Régionale Unifiée d’Investissement a approuvé \n709"
+      },
+      {
+        "rank": 5,
+        "score": 0.86316705,
+        "document_id": "chiffres_cles_crui_1er_semestre_2024_francais",
+        "page": 6,
+        "language": "fr",
+        "preview": "Une fois vous êtes ici, vous êtes partout !\n\n16\nProjets de conventions d’investissement approuvés\n\n9,54 milliards MAD d’investissement\n6 525 emplois directs pro"
+      },
+      {
+        "rank": 6,
+        "score": 0.8613865,
+        "document_id": "manar_al_moustatmir_news",
+        "page": 5,
+        "language": "fr",
+        "preview": "www.investangier.com\nPar ailleurs, depuis l’entrée 2023 de la nouvelle charte de \nl’investissement, la CRUI a également joué un rôle crucial en \napprouvant 44 p"
+      },
+      {
+        "rank": 7,
+        "score": 0.86044884,
+        "document_id": "esp_chiffres_cles_annee_2025",
+        "page": 6,
+        "language": "es",
+        "preview": "Balance de la CRUI (3/6)\n\nDistribución sectorial de los expedientes de inversión aprobados en la CRUI\n\nSectores:\nEnergía\nIndustria\nTurismo\nServicios\nOtros\n\nPor "
+      },
+      {
+        "rank": 8,
+        "score": 0.8602853,
+        "document_id": "chiffres_cles_crui_1er_semestre_2024_francais",
+        "page": 2,
+        "language": "fr",
+        "preview": "Une fois vous êtes ici, vous êtes partout !\n\n433\nNombre de projets instruits par la CRUI avec avis définitif\n\n379\nProjets approuvés soit 87,5% des projets statu"
+      },
+      {
+        "rank": 9,
+        "score": 0.8574157,
+        "document_id": "fr_chiffres_cles_annee_2025",
+        "page": 5,
+        "language": "fr",
+        "preview": "Bilan de la CRUI (2/6)\n\n487\nDossiers d’investissement approuvés par la CRUI*\n\n80 MMDH\nd’investissements approuvés\n\n57 043\nEmplois projetés\n\n* Commission Régiona"
+      },
+      {
+        "rank": 10,
+        "score": 0.85363615,
+        "document_id": "fr_presentation_cri_tta_vf",
+        "page": 40,
+        "language": "fr",
+        "preview": "a _ és\nsi El = Une fois vous êtes ici, vous êtes partout ! ANR\nBilan Une croissance soutenue des dossiers d'investissement approuvés en CRUI\nCRUI 2024 —\n737\nEvo"
+      }
+    ],
+    "top1_score": 0.8794988,
+    "first_relevant_rank": null,
+    "first_cross_language_relevant_rank": null,
+    "recall_hits": {
+      "recall_at_1": false,
+      "recall_at_3": false,
+      "recall_at_5": false,
+      "recall_at_10": false
+    }
+  },
+  {
+    "id": "q003",
+    "question": "Vers combien de ports mondiaux la zone logistique est-elle connectée chaque semaine ?",
+    "query_language": "fr",
+    "answerable": true,
+    "cross_lingual": false,
+    "expected_sources": [
+      {
+        "document_id": "brochure_secteur_logistique",
+        "page": 6,
+        "language": "fr"
+      }
+    ],
+    "top_results": [
+      {
+        "rank": 1,
+        "score": 0.8481835,
+        "document_id": "fr_presentation_cri_tta_vf",
+        "page": 18,
+        "language": "fr",
+        "preview": "== Ÿ == Une fois vous êtes ici, vous êtes partout ! FRA. ee\nLogistique«/2 Port Tanger Med, accélérateur de l'économie nationale\nTE — È = = Ed PT 7 2: YO HT TT E"
+      },
+      {
+        "rank": 2,
+        "score": 0.836411,
+        "document_id": "investors_guide_territorial_opportunities_fr",
+        "page": 136,
+        "language": "fr",
+        "preview": "Société de distribution\nFOCUS : MED HUB\nFOCUS : INFRASTRUCTURES\nD’ACCUEIL DE LA RÉGION TTA\nopérationnelles dont 1 complexe dédié à la\nde réalisation et 2 zones "
+      },
+      {
+        "rank": 3,
+        "score": 0.8241471,
+        "document_id": "brochure_secteur_logistique",
+        "page": 9,
+        "language": "fr",
+        "preview": "Le complexe portuaire Tanger Med s’étend sur I. Il englobe :\n\nLe Port Tanger Med 1\nComprend deux terminaux à conteneurs, un terminal ferroviaire, un terminal hy"
+      },
+      {
+        "rank": 4,
+        "score": 0.82105136,
+        "document_id": "brochure_secteur_logistique",
+        "page": 5,
+        "language": "fr",
+        "preview": "Infrastructures d’accueil des activités d’import export dans la Région :\n\nLa Région Tanger–Tétouan–Al Hoceima compte environ 1200 entreprises exportatrices réal"
+      },
+      {
+        "rank": 5,
+        "score": 0.81983364,
+        "document_id": "investors_guide_territorial_opportunities_fr",
+        "page": 127,
+        "language": "fr",
+        "preview": "15 Ports\n3 Aéroports\n• Tanger Ibn Battouta\n• Tétouan Saniat Rmel\n• Al Hoceima Cherif Idrissi\nPour le transbordement, TIR et\nPassagers, Croisières et Plaisance\nD"
+      },
+      {
+        "rank": 6,
+        "score": 0.81973106,
+        "document_id": "fr_presentation_cri_tta_vf",
+        "page": 19,
+        "language": "fr",
+        "preview": "_ v— gun\n== Ÿ == Une fois vous êtes ici, vous êtes partout ! ME re\nLogistique2/2 Première plateforme logistique à l'échelle nationale\nmedhub fs plateforme d'acc"
+      },
+      {
+        "rank": 7,
+        "score": 0.8180421,
+        "document_id": "brochure_secteur_logistique",
+        "page": 6,
+        "language": "fr",
+        "preview": "Hub logistique mondial, la zone est parfaitement intégrée au complexe portuaire qui offre une multimodalité de mode de transport et une connectivité maritime he"
+      },
+      {
+        "rank": 8,
+        "score": 0.8156485,
+        "document_id": "brochure_secteur_logistique",
+        "page": 11,
+        "language": "fr",
+        "preview": "Principaux opérateurs logistiques installés dans la région\n\nMAERSK\nAPM TERMINALS — Lifting Global Trade\nEUROGATE\nCMA CGM\nDACHSER — Intelligent Logistics\nGEFCO\nD"
+      },
+      {
+        "rank": 9,
+        "score": 0.8149354,
+        "document_id": "brochure_secteur_logistique",
+        "page": 7,
+        "language": "fr",
+        "preview": "La zone d’activités économiques de Fnideq\n\nLa création de la Zone d’Activités Economiques Commerciales de Fnideq, permet aux entreprises de développer leurs éch"
+      },
+      {
+        "rank": 10,
+        "score": 0.81225646,
+        "document_id": "investors_guide_territorial_opportunities_fr",
+        "page": 237,
+        "language": "fr",
+        "preview": "PORTNET S.A.\nChamps d’intervention\nSensibilisation et information\nOptimisation des opérations d’import/export (commerce extérieur et logistique)\nType d’appui:\nD"
+      }
+    ],
+    "top1_score": 0.8481835,
+    "first_relevant_rank": 7,
+    "first_cross_language_relevant_rank": null,
+    "recall_hits": {
+      "recall_at_1": false,
+      "recall_at_3": false,
+      "recall_at_5": false,
+      "recall_at_10": true
+    }
+  },
+  {
+    "id": "q004",
+    "question": "Quelle est la capacité nationale d’accueil et quelle est la capacité d’accueil dans la région pour les formations du transport et de la logistique ?",
+    "query_language": "fr",
+    "answerable": true,
+    "cross_lingual": false,
+    "expected_sources": [
+      {
+        "document_id": "brochure_secteur_logistique",
+        "page": 4,
+        "language": "fr"
+      }
+    ],
+    "top_results": [
+      {
+        "rank": 1,
+        "score": 0.8544384,
+        "document_id": "brochure_secteur_logistique",
+        "page": 4,
+        "language": "fr",
+        "preview": "Une offre de formation diversifiée et bien adaptée aux besoins du secteur de la logistique\n\nL’Office de la Formation Professionnelle et de la Promotion du Trava"
+      },
+      {
+        "rank": 2,
+        "score": 0.84860957,
+        "document_id": "fr_indicateurs_climat_dinvestissement",
+        "page": 22,
+        "language": "fr",
+        "preview": "94% des interrogés jugent les politiques menées par les acteurs régionaux pour l’amélioration de l’attractivité de la région TTA efficaces et pertinentes.\n\n2. P"
+      },
+      {
+        "rank": 3,
+        "score": 0.843688,
+        "document_id": "investors_guide_territorial_opportunities_fr",
+        "page": 84,
+        "language": "fr",
+        "preview": "26% de la population de la région est inscrite dans l’un des cycles d’enseignement (préscolaire,\nscolaire ou supérieur) ou dans une formation professionnelle\nAN"
+      },
+      {
+        "rank": 4,
+        "score": 0.8423959,
+        "document_id": "investors_guide_territorial_opportunities_fr",
+        "page": 215,
+        "language": "fr",
+        "preview": "Champs d’intervention\nFinancement\nType d’appui:\nDescription de l’offre de service\nNature de l’accompagnement: Le programme propose un accompagnement\ntechnique e"
+      },
+      {
+        "rank": 5,
+        "score": 0.8423315,
+        "document_id": "brochure_secteur_logistique",
+        "page": 3,
+        "language": "fr",
+        "preview": "Une stratégie Nationale ambitieuse à l’horizon 2030, pour le développement de la compétitivité logistique du Royaume\n\nCompte tenu du potentiel d’amélioration de"
+      },
+      {
+        "rank": 6,
+        "score": 0.8420329,
+        "document_id": "fr_indicateurs_climat_dinvestissement",
+        "page": 11,
+        "language": "fr",
+        "preview": "Motivations principales d’implantation dans la région\n\nLégende :\nTrès important\nMoyennement important\nPas important\n\n2. Économie / coût\n\nAccès aux sources de fi"
+      },
+      {
+        "rank": 7,
+        "score": 0.8410373,
+        "document_id": "fr_presentation_cri_tta_vf",
+        "page": 18,
+        "language": "fr",
+        "preview": "== Ÿ == Une fois vous êtes ici, vous êtes partout ! FRA. ee\nLogistique«/2 Port Tanger Med, accélérateur de l'économie nationale\nTE — È = = Ed PT 7 2: YO HT TT E"
+      },
+      {
+        "rank": 8,
+        "score": 0.8390744,
+        "document_id": "brochure_secteur_logistique",
+        "page": 5,
+        "language": "fr",
+        "preview": "Infrastructures d’accueil des activités d’import export dans la Région :\n\nLa Région Tanger–Tétouan–Al Hoceima compte environ 1200 entreprises exportatrices réal"
+      },
+      {
+        "rank": 9,
+        "score": 0.8380568,
+        "document_id": "investors_guide_territorial_opportunities_fr",
+        "page": 204,
+        "language": "fr",
+        "preview": "CHIFFRES CLÉS DU SECTEUR DU TOURISME - RÉGION TTA\nLa région totalise, en 2020, 338 établissements classés pour une capacité de 28 285 lits, soit\nrespectivement "
+      },
+      {
+        "rank": 10,
+        "score": 0.8380551,
+        "document_id": "investors_guide_territorial_opportunities_fr",
+        "page": 209,
+        "language": "fr",
+        "preview": "Complexe touristique et résidentiel\nMATRICE SWOT DE L’OPPORTUNITÉ D’INVESTISSEMENT\nForces\nFaiblesses\nUn secteur touristique marocain en croissance et\nfaisant pa"
+      }
+    ],
+    "top1_score": 0.8544384,
+    "first_relevant_rank": 1,
+    "first_cross_language_relevant_rank": null,
+    "recall_hits": {
+      "recall_at_1": true,
+      "recall_at_3": true,
+      "recall_at_5": true,
+      "recall_at_10": true
+    }
+  },
+  {
+    "id": "q005",
+    "question": "Combien de nouvelles entreprises ont été créées dans la région en 2025 ?",
+    "query_language": "fr",
+    "answerable": true,
+    "cross_lingual": true,
+    "expected_sources": [
+      {
+        "document_id": "fr_chiffres_cles_annee_2025",
+        "page": 2,
+        "language": "fr"
+      },
+      {
+        "document_id": "arabe_chiffres_cles_2025",
+        "page": 2,
+        "language": "ar"
+      },
+      {
+        "document_id": "eng_chiffres_cles_annee_2025",
+        "page": 2,
+        "language": "en"
+      },
+      {
+        "document_id": "esp_chiffres_cles_annee_2025",
+        "page": 2,
+        "language": "es"
+      }
+    ],
+    "top_results": [
+      {
+        "rank": 1,
+        "score": 0.86305285,
+        "document_id": "eng_chiffres_cles_annee_2025",
+        "page": 2,
+        "language": "en",
+        "preview": "Business Creation (1/2)\n\n15 286\nNEW COMPANIES CREATED IN 2025\nAt 31 / 12 / 2025\n\n2ND REGION IN MOROCCO FOR BUSINESS CREATION,\nREPRESENTING APPROXIMATELY 14% OF "
+      },
+      {
+        "rank": 2,
+        "score": 0.8539917,
+        "document_id": "fr_presentation_cri_tta_vf",
+        "page": 39,
+        "language": "fr",
+        "preview": "— = Une fois vous êtes ici, vous êtes partout ! FA Le\ne e\nBrent Une dynamique entrepreneuriale soutenue\nd'investissement —\n4%\n5%\na k 1% 0\nog 2ère région en term"
+      },
+      {
+        "rank": 3,
+        "score": 0.85362303,
+        "document_id": "manar_al_moustatmir_news",
+        "page": 23,
+        "language": "fr",
+        "preview": "17\nLa région Tanger-Tétouan-Al Hoceima s’est classée deuxième au \nniveau national, après la région de Casablanca-Settat, en termes de \ncréation d’entreprises à "
+      },
+      {
+        "rank": 4,
+        "score": 0.8480682,
+        "document_id": "manar_al_moustatmir_news",
+        "page": 5,
+        "language": "fr",
+        "preview": "www.investangier.com\nPar ailleurs, depuis l’entrée 2023 de la nouvelle charte de \nl’investissement, la CRUI a également joué un rôle crucial en \napprouvant 44 p"
+      },
+      {
+        "rank": 5,
+        "score": 0.84747845,
+        "document_id": "fr_chiffres_cles_annee_2025",
+        "page": 3,
+        "language": "fr",
+        "preview": "Création d’entreprises (2/2)\n\nRépartition sectorielle des nouvelles créations d’entreprises\n\n15 286 NOUVELLES ENTREPRISES CRÉÉES EN 2025\n\nCommerce : 44,0%\nServi"
+      },
+      {
+        "rank": 6,
+        "score": 0.8445677,
+        "document_id": "fr_chiffres_cles_annee_2025",
+        "page": 2,
+        "language": "fr",
+        "preview": "Création d’entreprises (1/2)\n\n15 286\nNOUVELLES ENTREPRISES CRÉÉES EN 2025\n\n2ÈME RÉGION EN TERMES DE CRÉATION D’ENTREPRISES\nAVEC ~14% DU TOTAL NATIONAL\n\nSource :"
+      },
+      {
+        "rank": 7,
+        "score": 0.8402333,
+        "document_id": "esp_chiffres_cles_annee_2025",
+        "page": 2,
+        "language": "es",
+        "preview": "Creación de empresas (1/2)\n\n15 286\nNUEVAS EMPRESAS CREADAS EN 2025\n\nCifras hasta el 31/12/2025\n\n2.ª REGIÓN EN TÉRMINO DE CREACIÓN DE EMPRESAS\nCON APROXIMADAMENT"
+      },
+      {
+        "rank": 8,
+        "score": 0.8380121,
+        "document_id": "fr_chiffres_cles_annee_2025",
+        "page": 14,
+        "language": "fr",
+        "preview": "Promotion et partenariats (1/4)\n\nPromotion territoriale : 60 événements majeurs au rayonnement national et international\n\n12 manifestations à l’international\n38"
+      },
+      {
+        "rank": 9,
+        "score": 0.8365563,
+        "document_id": "esp_chiffres_cles_annee_2025",
+        "page": 3,
+        "language": "es",
+        "preview": "Creación de empresas (2/2)\n\nDistribución sectorial de las nuevas empresas creadas\n\n15 286 nuevas empresas en 2025\n\nComercio: 44,0%\nServicios diversos: 16,5%\nCon"
+      },
+      {
+        "rank": 10,
+        "score": 0.8346318,
+        "document_id": "fr_chiffres_cles_critta_30_sept_2024",
+        "page": 8,
+        "language": "fr",
+        "preview": "Une fois vous êtes ici, vous êtes partout !\n\nVentilation du nombre d'entreprises\ncréées par secteur d’activité\nAu 30 Août 2023\n\nCommerce : 41,48%\nServices diver"
+      }
+    ],
+    "top1_score": 0.86305285,
+    "first_relevant_rank": 1,
+    "first_cross_language_relevant_rank": 1,
+    "recall_hits": {
+      "recall_at_1": true,
+      "recall_at_3": true,
+      "recall_at_5": true,
+      "recall_at_10": true
+    }
+  },
+  {
+    "id": "q006",
+    "question": "كم عدد الطلبات التي وافقت عليها اللجنة الجهوية الموحدة للاستثمار خلال سنة 2023؟",
+    "query_language": "ar",
+    "answerable": true,
+    "cross_lingual": true,
+    "expected_sources": [
+      {
+        "document_id": "akhbar_al_moustatmir_news",
+        "page": 25,
+        "language": "ar"
+      },
+      {
+        "document_id": "manar_al_moustatmir_news",
+        "page": 25,
+        "language": "fr"
+      }
+    ],
+    "top_results": [
+      {
+        "rank": 1,
+        "score": 0.8700675,
+        "document_id": "chiffres_cles_crui_1er_semestre_2024_arabe",
+        "page": 2,
+        "language": "ar",
+        "preview": "إن كنتم هنا، فأنتم في كل مكان\n\n433\nعدد المشاريع التي تم فحصها من طرف اللجنة الجهوية الموحدة للاستثمار\n\n379\nمشروع مصادق عليه، أي 87,5% من مجموع المشاريع التي تمت"
+      },
+      {
+        "rank": 2,
+        "score": 0.86630714,
+        "document_id": "arabe_chiffres_cles_2025",
+        "page": 5,
+        "language": "ar",
+        "preview": "حصيلة اللجنة الجهوية الموحدة للاستثمار (2/6)\n487\nملف استثماري تمت المصادقة عليه من طرف اللجنة الجهوية الموحدة للاستثمار\n80 مليار درهم\nمن الاستثمارات المصادق علي"
+      },
+      {
+        "rank": 3,
+        "score": 0.8581331,
+        "document_id": "arabe_chiffres_cles_2025",
+        "page": 8,
+        "language": "ar",
+        "preview": "حصيلة اللجنة الجهوية الموحدة للاستثمار (5/6)\nدينامية قوية للاستثمار السياحي مدعومة برؤية واعدة\nلقد اختاروا الجهة سنة 2025\n\n7 مؤسسات مفتوحة سنة 2025\n+300 غرفة\n19"
+      },
+      {
+        "rank": 4,
+        "score": 0.8545445,
+        "document_id": "akhbar_al_moustatmir_news",
+        "page": 5,
+        "language": "ar",
+        "preview": "، لعبت اللجنة2023 بالإضافة إلى ذلك، ومنذ دخول ميثاق الاستثمار الجديد في سنة\n( دورا حاسماً في تحقيق مزيد من النجاحات، حيث CRUI) الجهوية الموحدة للاستثمار\nمليار د"
+      },
+      {
+        "rank": 5,
+        "score": 0.8536962,
+        "document_id": "arabe_chiffres_cles_2025",
+        "page": 9,
+        "language": "ar",
+        "preview": "حصيلة اللجنة الجهوية الموحدة للاستثمار (6/6)\nجهة رائدة في مجال الطاقة، ومحرك للتنافسية والاستدامة\nلقد اختاروا الجهة سنة 2025\n\n11 مشروع تمت المصادقة عليه\n22,4 مل"
+      },
+      {
+        "rank": 6,
+        "score": 0.8528999,
+        "document_id": "akhbar_al_moustatmir_news",
+        "page": 25,
+        "language": "ar",
+        "preview": "19\nwww.investangier.com\n. 230 طلبا إثر اجتماعاتها ال972 CRUI ، درست2023 »خلال سنة\n709 ومن بين هذه الطلبات، وافقت اللجنة الجهوية الموحدة للاستثمار على\nمن الطلبات"
+      },
+      {
+        "rank": 7,
+        "score": 0.85160357,
+        "document_id": "arabe_chiffres_cles_2025",
+        "page": 6,
+        "language": "ar",
+        "preview": "حصيلة اللجنة الجهوية الموحدة للاستثمار (3/6)\nالتوزيع القطاعي للملفات المصادق عليها داخل اللجنة الجهوية الموحدة للاستثمار\nالقطاعات: الطاقة، الصناعة، السياحة، الخ"
+      },
+      {
+        "rank": 8,
+        "score": 0.8500607,
+        "document_id": "arabe_chiffres_cles_2025",
+        "page": 4,
+        "language": "ar",
+        "preview": "حصيلة اللجنة الجهوية الموحدة للاستثمار (1/6)\n224\nاجتماع تم عقده من طرف اللجنة الجهوية الموحدة للاستثمار\n6,44 أيام\nمتوسط آجال البت من طرف اللجنة الجهوية الموحدة "
+      },
+      {
+        "rank": 9,
+        "score": 0.8426111,
+        "document_id": "chiffres_cles_crui_1er_semestre_2024_arabe",
+        "page": 5,
+        "language": "ar",
+        "preview": "إن كنتم هنا، فأنتم في كل مكان\n\n121\nاجتماعاً للجنة الجهوية الموحدة للاستثمار\n\nwww.investangier.com"
+      },
+      {
+        "rank": 10,
+        "score": 0.8378967,
+        "document_id": "chiffres_cles_crui_1er_semestre_2024_arabe",
+        "page": 1,
+        "language": "ar",
+        "preview": "إن كنتم هنا، فأنتم في كل مكان\n\nحصيلة\nاللجنة الجهوية الموحدة للاستثمار\nالنصف الأول من سنة 2024\n\nالمركز الجهوي للاستثمار لجهة طنجة - تطوان - الحسيمة\n\nwww.investan"
+      }
+    ],
+    "top1_score": 0.8700675,
+    "first_relevant_rank": 6,
+    "first_cross_language_relevant_rank": null,
+    "recall_hits": {
+      "recall_at_1": false,
+      "recall_at_3": false,
+      "recall_at_5": false,
+      "recall_at_10": true
+    }
+  },
+  {
+    "id": "q007",
+    "question": "ما قيمة الاستثمارات وعدد فرص العمل التي نتجت عن 44 مشروع اتفاقية استثمار في سنة 2023؟",
+    "query_language": "ar",
+    "answerable": true,
+    "cross_lingual": true,
+    "expected_sources": [
+      {
+        "document_id": "akhbar_al_moustatmir_news",
+        "page": 5,
+        "language": "ar"
+      },
+      {
+        "document_id": "manar_al_moustatmir_news",
+        "page": 5,
+        "language": "fr"
+      },
+      {
+        "document_id": "manar_al_moustatmir_eng_png",
+        "page": 5,
+        "language": "en"
+      }
+    ],
+    "top_results": [
+      {
+        "rank": 1,
+        "score": 0.862192,
+        "document_id": "chiffres_cles_crui_1er_semestre_2024_arabe",
+        "page": 2,
+        "language": "ar",
+        "preview": "إن كنتم هنا، فأنتم في كل مكان\n\n433\nعدد المشاريع التي تم فحصها من طرف اللجنة الجهوية الموحدة للاستثمار\n\n379\nمشروع مصادق عليه، أي 87,5% من مجموع المشاريع التي تمت"
+      },
+      {
+        "rank": 2,
+        "score": 0.8573657,
+        "document_id": "akhbar_al_moustatmir_news",
+        "page": 26,
+        "language": "ar",
+        "preview": "www.investangier.com\n20\n52\n36,6\n~73,4\n2021\n2022\n2023\n+41%\nالسنة\n~37 500\n~58 000\n~70 000\n2021\n2022\n2023\n+20,6%\n44\nمشروع\n9%\n20,5%\n13,7%\n56,8%\nالصناعة\nالسياحة\nالصن"
+      },
+      {
+        "rank": 3,
+        "score": 0.85555637,
+        "document_id": "chiffres_cles_crui_1er_semestre_2024_arabe",
+        "page": 6,
+        "language": "ar",
+        "preview": "إن كنتم هنا، فأنتم في كل مكان\n\n16\nاتفاقية استثمار\n\n9,54 مليار درهم من الاستثمار\n6 525 منصب شغل مباشر\n\nتوزيع مبالغ الاستثمارات المبرمجة في إطار اتفاقيات الاستثما"
+      },
+      {
+        "rank": 4,
+        "score": 0.8470228,
+        "document_id": "akhbar_al_moustatmir_news",
+        "page": 5,
+        "language": "ar",
+        "preview": "، لعبت اللجنة2023 بالإضافة إلى ذلك، ومنذ دخول ميثاق الاستثمار الجديد في سنة\n( دورا حاسماً في تحقيق مزيد من النجاحات، حيث CRUI) الجهوية الموحدة للاستثمار\nمليار د"
+      },
+      {
+        "rank": 5,
+        "score": 0.8426944,
+        "document_id": "akhbar_al_moustatmir_news",
+        "page": 25,
+        "language": "ar",
+        "preview": "19\nwww.investangier.com\n. 230 طلبا إثر اجتماعاتها ال972 CRUI ، درست2023 »خلال سنة\n709 ومن بين هذه الطلبات، وافقت اللجنة الجهوية الموحدة للاستثمار على\nمن الطلبات"
+      },
+      {
+        "rank": 6,
+        "score": 0.8331555,
+        "document_id": "arabe_chiffres_cles_2025",
+        "page": 6,
+        "language": "ar",
+        "preview": "حصيلة اللجنة الجهوية الموحدة للاستثمار (3/6)\nالتوزيع القطاعي للملفات المصادق عليها داخل اللجنة الجهوية الموحدة للاستثمار\nالقطاعات: الطاقة، الصناعة، السياحة، الخ"
+      },
+      {
+        "rank": 7,
+        "score": 0.8301765,
+        "document_id": "arabe_chiffres_cles_2025",
+        "page": 9,
+        "language": "ar",
+        "preview": "حصيلة اللجنة الجهوية الموحدة للاستثمار (6/6)\nجهة رائدة في مجال الطاقة، ومحرك للتنافسية والاستدامة\nلقد اختاروا الجهة سنة 2025\n\n11 مشروع تمت المصادقة عليه\n22,4 مل"
+      },
+      {
+        "rank": 8,
+        "score": 0.824322,
+        "document_id": "arabe_chiffres_cles_2025",
+        "page": 5,
+        "language": "ar",
+        "preview": "حصيلة اللجنة الجهوية الموحدة للاستثمار (2/6)\n487\nملف استثماري تمت المصادقة عليه من طرف اللجنة الجهوية الموحدة للاستثمار\n80 مليار درهم\nمن الاستثمارات المصادق علي"
+      },
+      {
+        "rank": 9,
+        "score": 0.82207644,
+        "document_id": "akhbar_al_moustatmir_news",
+        "page": 10,
+        "language": "ar",
+        "preview": "04\nwww.investangier.com\nتعزیز العرض العقاري المخصص لقطاع\nالسیاحة من خلال إتاحة فرص عقاریة \nمتر مربع لبناء 2949 للمستثمرین بمساحة\nنجوم أو أكثر في أصیلة.4 فندق\nبع"
+      },
+      {
+        "rank": 10,
+        "score": 0.82176393,
+        "document_id": "chiffres_cles_crui_1er_semestre_2024_arabe",
+        "page": 3,
+        "language": "ar",
+        "preview": "إن كنتم هنا، فأنتم في كل مكان\n\nتوزيع حجم الاستثمارات حسب القطاع\n\nيواصل القطاع الصناعي نموه الاستثنائي بأكثر من نصف الاستثمارات التي تمت المصادقة عليها\n\nإجمالي ا"
+      }
+    ],
+    "top1_score": 0.862192,
+    "first_relevant_rank": 4,
+    "first_cross_language_relevant_rank": null,
+    "recall_hits": {
+      "recall_at_1": false,
+      "recall_at_3": false,
+      "recall_at_5": true,
+      "recall_at_10": true
+    }
+  },
+  {
+    "id": "q008",
+    "question": "ما عدد مشاريع الطاقة التي تمت المصادقة عليها في الجهة سنة 2025، وما قيمة الاستثمارات المرتقبة؟",
+    "query_language": "ar",
+    "answerable": true,
+    "cross_lingual": true,
+    "expected_sources": [
+      {
+        "document_id": "arabe_chiffres_cles_2025",
+        "page": 9,
+        "language": "ar"
+      },
+      {
+        "document_id": "fr_chiffres_cles_annee_2025",
+        "page": 9,
+        "language": "fr"
+      },
+      {
+        "document_id": "eng_chiffres_cles_annee_2025",
+        "page": 9,
+        "language": "en"
+      },
+      {
+        "document_id": "esp_chiffres_cles_annee_2025",
+        "page": 9,
+        "language": "es"
+      }
+    ],
+    "top_results": [
+      {
+        "rank": 1,
+        "score": 0.8760924,
+        "document_id": "arabe_chiffres_cles_2025",
+        "page": 9,
+        "language": "ar",
+        "preview": "حصيلة اللجنة الجهوية الموحدة للاستثمار (6/6)\nجهة رائدة في مجال الطاقة، ومحرك للتنافسية والاستدامة\nلقد اختاروا الجهة سنة 2025\n\n11 مشروع تمت المصادقة عليه\n22,4 مل"
+      },
+      {
+        "rank": 2,
+        "score": 0.8403982,
+        "document_id": "chiffres_cles_crui_1er_semestre_2024_arabe",
+        "page": 2,
+        "language": "ar",
+        "preview": "إن كنتم هنا، فأنتم في كل مكان\n\n433\nعدد المشاريع التي تم فحصها من طرف اللجنة الجهوية الموحدة للاستثمار\n\n379\nمشروع مصادق عليه، أي 87,5% من مجموع المشاريع التي تمت"
+      },
+      {
+        "rank": 3,
+        "score": 0.8356297,
+        "document_id": "akhbar_al_moustatmir_news",
+        "page": 5,
+        "language": "ar",
+        "preview": "، لعبت اللجنة2023 بالإضافة إلى ذلك، ومنذ دخول ميثاق الاستثمار الجديد في سنة\n( دورا حاسماً في تحقيق مزيد من النجاحات، حيث CRUI) الجهوية الموحدة للاستثمار\nمليار د"
+      },
+      {
+        "rank": 4,
+        "score": 0.83516943,
+        "document_id": "arabe_chiffres_cles_2025",
+        "page": 8,
+        "language": "ar",
+        "preview": "حصيلة اللجنة الجهوية الموحدة للاستثمار (5/6)\nدينامية قوية للاستثمار السياحي مدعومة برؤية واعدة\nلقد اختاروا الجهة سنة 2025\n\n7 مؤسسات مفتوحة سنة 2025\n+300 غرفة\n19"
+      },
+      {
+        "rank": 5,
+        "score": 0.8318041,
+        "document_id": "akhbar_al_moustatmir_news",
+        "page": 26,
+        "language": "ar",
+        "preview": "www.investangier.com\n20\n52\n36,6\n~73,4\n2021\n2022\n2023\n+41%\nالسنة\n~37 500\n~58 000\n~70 000\n2021\n2022\n2023\n+20,6%\n44\nمشروع\n9%\n20,5%\n13,7%\n56,8%\nالصناعة\nالسياحة\nالصن"
+      },
+      {
+        "rank": 6,
+        "score": 0.83057815,
+        "document_id": "arabe_chiffres_cles_2025",
+        "page": 7,
+        "language": "ar",
+        "preview": "حصيلة اللجنة الجهوية الموحدة للاستثمار (4/6)\nالجهة تعزز تموقعها الصناعي كرافعة لنموها الاقتصادي\nلقد اختاروا الجهة سنة 2025\n\nعدد المشاريع\nقيمة الاستثمار (مليار د"
+      },
+      {
+        "rank": 7,
+        "score": 0.8236362,
+        "document_id": "chiffres_cles_crui_1er_semestre_2024_arabe",
+        "page": 6,
+        "language": "ar",
+        "preview": "إن كنتم هنا، فأنتم في كل مكان\n\n16\nاتفاقية استثمار\n\n9,54 مليار درهم من الاستثمار\n6 525 منصب شغل مباشر\n\nتوزيع مبالغ الاستثمارات المبرمجة في إطار اتفاقيات الاستثما"
+      },
+      {
+        "rank": 8,
+        "score": 0.81928253,
+        "document_id": "arabe_chiffres_cles_2025",
+        "page": 6,
+        "language": "ar",
+        "preview": "حصيلة اللجنة الجهوية الموحدة للاستثمار (3/6)\nالتوزيع القطاعي للملفات المصادق عليها داخل اللجنة الجهوية الموحدة للاستثمار\nالقطاعات: الطاقة، الصناعة، السياحة، الخ"
+      },
+      {
+        "rank": 9,
+        "score": 0.81622577,
+        "document_id": "akhbar_al_moustatmir_news",
+        "page": 25,
+        "language": "ar",
+        "preview": "19\nwww.investangier.com\n. 230 طلبا إثر اجتماعاتها ال972 CRUI ، درست2023 »خلال سنة\n709 ومن بين هذه الطلبات، وافقت اللجنة الجهوية الموحدة للاستثمار على\nمن الطلبات"
+      },
+      {
+        "rank": 10,
+        "score": 0.81435627,
+        "document_id": "chiffres_cles_crui_1er_semestre_2024_arabe",
+        "page": 3,
+        "language": "ar",
+        "preview": "إن كنتم هنا، فأنتم في كل مكان\n\nتوزيع حجم الاستثمارات حسب القطاع\n\nيواصل القطاع الصناعي نموه الاستثنائي بأكثر من نصف الاستثمارات التي تمت المصادقة عليها\n\nإجمالي ا"
+      }
+    ],
+    "top1_score": 0.8760924,
+    "first_relevant_rank": 1,
+    "first_cross_language_relevant_rank": null,
+    "recall_hits": {
+      "recall_at_1": true,
+      "recall_at_3": true,
+      "recall_at_5": true,
+      "recall_at_10": true
+    }
+  },
+  {
+    "id": "q009",
+    "question": "ما هي المراحل التي يمكن أن يمر بها حامل المشروع للاستفادة من خدمات المواكبة؟",
+    "query_language": "ar",
+    "answerable": true,
+    "cross_lingual": false,
+    "expected_sources": [
+      {
+        "document_id": "guide_programme_integre_appui_financement_entreprises_ar",
+        "page": 2,
+        "language": "ar"
+      }
+    ],
+    "top_results": [
+      {
+        "rank": 1,
+        "score": 0.8947942,
+        "document_id": "guide_programme_integre_appui_financement_entreprises_ar",
+        "page": 2,
+        "language": "ar",
+        "preview": "ما المقصود بعرض المواكبة؟\n\nهي الخدمات المقدمة إلى حاملي المشاريع من أجل مساعدتهم على إنشاء مقاولاتهم وتيسير حصولهم على التمويل وكذا الخدمات المقدمة إلى المقاولا"
+      },
+      {
+        "rank": 2,
+        "score": 0.84582025,
+        "document_id": "arabe_chiffres_cles_2025",
+        "page": 10,
+        "language": "ar",
+        "preview": "مواكبة المقاولات (1/4)\n5 500\nمقاولة / حامل مشروع تمت مواكبتهم\n3 223 مستفيداً\n\nمحاور المواكبة:\nتسهيل الولوج إلى التمويل\nتعزيز القدرات المقاولاتية لحاملي المشاريع"
+      },
+      {
+        "rank": 3,
+        "score": 0.8153914,
+        "document_id": "ar_pr_sentation_cri_tta_vf",
+        "page": 4,
+        "language": "ar",
+        "preview": "ما 0\n٠. . . 2. 92\n. . . ما\n7 21 الهلما والثالية ولشديع الممابببى الفموزهية\nدوء وو ويايو دواعي ترد زيند بيتك\n. ا ل كم\n\nعرض خدمات يرتكز على 5 محاور رئيسية\n\nمواكبة"
+      },
+      {
+        "rank": 4,
+        "score": 0.8147671,
+        "document_id": "guide_programme_integre_appui_financement_entreprises_ar",
+        "page": 5,
+        "language": "ar",
+        "preview": "ما هو البرنامج المندمج لدعم وتمويل المقاولات؟\n\nهو برنامج مكون من عرض تمويل ومواكبة بشروط جد تفضيلية.\n\nمن هي الفئة المستهدفة من هذا البرنامج؟\n\n• الشباب حاملي الش"
+      },
+      {
+        "rank": 5,
+        "score": 0.8134091,
+        "document_id": "arabe_chiffres_cles_2025",
+        "page": 13,
+        "language": "ar",
+        "preview": "مواكبة المقاولات (4/4)\nتنظيم المسابقة النهائية للدورة الثانية من مسابقة التحدي الرقمي للذكاء الترابي\nTerritory Development Challenge - TDC\n\nأرقام رئيسية:\n120 مش"
+      },
+      {
+        "rank": 6,
+        "score": 0.8133334,
+        "document_id": "ar_pr_sentation_cri_tta_vf",
+        "page": 5,
+        "language": "ar",
+        "preview": "1 0\nمداه \"لامر\n\nعروض الخدمات\n(2/2)\n\nد إن كنتم هناء فأنتم في كل مكان؟؟\n\nخدمات موجهة لكل مرحلة من مراحل دورة حياة المشروع\n\nالتخطيط والإعداد للعرض الترابي إنشاء ال"
+      },
+      {
+        "rank": 7,
+        "score": 0.8108171,
+        "document_id": "ar_pr_sentation_cri_tta_vf",
+        "page": 55,
+        "language": "ar",
+        "preview": "القطاعات المؤهلة للاستفادة من الدعم\nترحيل الخدمات\n\nصناعة الطبران\n\nصناعة السيارات\n\n1ه 6ه الإلكترونيات\n\nالطاقات المتجددة\n\nالنجاعة الطاقية\n\nدعم التكوين فى القطاعات"
+      },
+      {
+        "rank": 8,
+        "score": 0.80871594,
+        "document_id": "ar_pr_sentation_cri_tta_vf",
+        "page": 39,
+        "language": "ar",
+        "preview": "46-5 .ى إن كنتم هناء فآنتم في كل مكان؟؟\n\nقن وق المقأولات واملي المشاريع خدمات الدعم مصممة خصيتا لتلبية احتياحات\nل\n\nءءء 5 9 لمت 3\n1 5 91 2 كن\n\nومنسق حول امود بال"
+      },
+      {
+        "rank": 9,
+        "score": 0.80823493,
+        "document_id": "guide_programme_integre_appui_financement_entreprises_ar",
+        "page": 4,
+        "language": "ar",
+        "preview": "ما هي متطلبات الاستفادة من عرض التمويل بشروط تفضيلية؟\n\n• بالنسبة للمقاولات قيد الإنشاء، يجب أن تتوفر على رقم معاملات توقعي يساوي أو يقل عن 10 مليون درهم.\n\n• الم"
+      },
+      {
+        "rank": 10,
+        "score": 0.8063781,
+        "document_id": "ar_pr_sentation_cri_tta_vf",
+        "page": 46,
+        "language": "ar",
+        "preview": "ميثاق الاستثمار مهن المستقبل و الارتقاء يمستوى الانشطة\n\nالجديد (4/11»)\nأنشطة تُمكن من تحسين مستوى الجودة والتنوع في العرض\n\nالقطاع المهن\n\n٠. صناعة قطع الغيار أجز"
+      }
+    ],
+    "top1_score": 0.8947942,
+    "first_relevant_rank": 1,
+    "first_cross_language_relevant_rank": null,
+    "recall_hits": {
+      "recall_at_1": true,
+      "recall_at_3": true,
+      "recall_at_5": true,
+      "recall_at_10": true
+    }
+  },
+  {
+    "id": "q010",
+    "question": "كم عدد الملفات الاستثمارية التي صادقت عليها اللجنة الجهوية الموحدة للاستثمار في حصيلة سنة 2025؟",
+    "query_language": "ar",
+    "answerable": true,
+    "cross_lingual": true,
+    "expected_sources": [
+      {
+        "document_id": "arabe_chiffres_cles_2025",
+        "page": 5,
+        "language": "ar"
+      },
+      {
+        "document_id": "fr_chiffres_cles_annee_2025",
+        "page": 5,
+        "language": "fr"
+      },
+      {
+        "document_id": "eng_chiffres_cles_annee_2025",
+        "page": 5,
+        "language": "en"
+      },
+      {
+        "document_id": "esp_chiffres_cles_annee_2025",
+        "page": 5,
+        "language": "es"
+      }
+    ],
+    "top_results": [
+      {
+        "rank": 1,
+        "score": 0.87600636,
+        "document_id": "chiffres_cles_crui_1er_semestre_2024_arabe",
+        "page": 2,
+        "language": "ar",
+        "preview": "إن كنتم هنا، فأنتم في كل مكان\n\n433\nعدد المشاريع التي تم فحصها من طرف اللجنة الجهوية الموحدة للاستثمار\n\n379\nمشروع مصادق عليه، أي 87,5% من مجموع المشاريع التي تمت"
+      },
+      {
+        "rank": 2,
+        "score": 0.8730282,
+        "document_id": "arabe_chiffres_cles_2025",
+        "page": 5,
+        "language": "ar",
+        "preview": "حصيلة اللجنة الجهوية الموحدة للاستثمار (2/6)\n487\nملف استثماري تمت المصادقة عليه من طرف اللجنة الجهوية الموحدة للاستثمار\n80 مليار درهم\nمن الاستثمارات المصادق علي"
+      },
+      {
+        "rank": 3,
+        "score": 0.8680693,
+        "document_id": "arabe_chiffres_cles_2025",
+        "page": 8,
+        "language": "ar",
+        "preview": "حصيلة اللجنة الجهوية الموحدة للاستثمار (5/6)\nدينامية قوية للاستثمار السياحي مدعومة برؤية واعدة\nلقد اختاروا الجهة سنة 2025\n\n7 مؤسسات مفتوحة سنة 2025\n+300 غرفة\n19"
+      },
+      {
+        "rank": 4,
+        "score": 0.8669492,
+        "document_id": "arabe_chiffres_cles_2025",
+        "page": 9,
+        "language": "ar",
+        "preview": "حصيلة اللجنة الجهوية الموحدة للاستثمار (6/6)\nجهة رائدة في مجال الطاقة، ومحرك للتنافسية والاستدامة\nلقد اختاروا الجهة سنة 2025\n\n11 مشروع تمت المصادقة عليه\n22,4 مل"
+      },
+      {
+        "rank": 5,
+        "score": 0.8619714,
+        "document_id": "arabe_chiffres_cles_2025",
+        "page": 6,
+        "language": "ar",
+        "preview": "حصيلة اللجنة الجهوية الموحدة للاستثمار (3/6)\nالتوزيع القطاعي للملفات المصادق عليها داخل اللجنة الجهوية الموحدة للاستثمار\nالقطاعات: الطاقة، الصناعة، السياحة، الخ"
+      },
+      {
+        "rank": 6,
+        "score": 0.8559435,
+        "document_id": "akhbar_al_moustatmir_news",
+        "page": 5,
+        "language": "ar",
+        "preview": "، لعبت اللجنة2023 بالإضافة إلى ذلك، ومنذ دخول ميثاق الاستثمار الجديد في سنة\n( دورا حاسماً في تحقيق مزيد من النجاحات، حيث CRUI) الجهوية الموحدة للاستثمار\nمليار د"
+      },
+      {
+        "rank": 7,
+        "score": 0.84482837,
+        "document_id": "arabe_chiffres_cles_2025",
+        "page": 4,
+        "language": "ar",
+        "preview": "حصيلة اللجنة الجهوية الموحدة للاستثمار (1/6)\n224\nاجتماع تم عقده من طرف اللجنة الجهوية الموحدة للاستثمار\n6,44 أيام\nمتوسط آجال البت من طرف اللجنة الجهوية الموحدة "
+      },
+      {
+        "rank": 8,
+        "score": 0.8407178,
+        "document_id": "chiffres_cles_crui_1er_semestre_2024_arabe",
+        "page": 6,
+        "language": "ar",
+        "preview": "إن كنتم هنا، فأنتم في كل مكان\n\n16\nاتفاقية استثمار\n\n9,54 مليار درهم من الاستثمار\n6 525 منصب شغل مباشر\n\nتوزيع مبالغ الاستثمارات المبرمجة في إطار اتفاقيات الاستثما"
+      },
+      {
+        "rank": 9,
+        "score": 0.84058636,
+        "document_id": "akhbar_al_moustatmir_news",
+        "page": 25,
+        "language": "ar",
+        "preview": "19\nwww.investangier.com\n. 230 طلبا إثر اجتماعاتها ال972 CRUI ، درست2023 »خلال سنة\n709 ومن بين هذه الطلبات، وافقت اللجنة الجهوية الموحدة للاستثمار على\nمن الطلبات"
+      },
+      {
+        "rank": 10,
+        "score": 0.83667755,
+        "document_id": "chiffres_cles_crui_1er_semestre_2024_arabe",
+        "page": 5,
+        "language": "ar",
+        "preview": "إن كنتم هنا، فأنتم في كل مكان\n\n121\nاجتماعاً للجنة الجهوية الموحدة للاستثمار\n\nwww.investangier.com"
+      }
+    ],
+    "top1_score": 0.87600636,
+    "first_relevant_rank": 2,
+    "first_cross_language_relevant_rank": null,
+    "recall_hits": {
+      "recall_at_1": false,
+      "recall_at_3": true,
+      "recall_at_5": true,
+      "recall_at_10": true
+    }
+  },
+  {
+    "id": "q011",
+    "question": "¿Cuántos proyectos aprobó la CRUI durante el primer semestre de 2024?",
+    "query_language": "es",
+    "answerable": true,
+    "cross_lingual": true,
+    "expected_sources": [
+      {
+        "document_id": "chiffres_cles_crui_1er_semestre_2024_espagnol",
+        "page": 2,
+        "language": "es"
+      },
+      {
+        "document_id": "chiffres_cles_crui_1er_semestre_2024_francais",
+        "page": 2,
+        "language": "fr"
+      },
+      {
+        "document_id": "chiffres_cles_crui_1er_semestre_2024_arabe",
+        "page": 2,
+        "language": "ar"
+      },
+      {
+        "document_id": "chiffres_cles_crui_1er_semestre_2024_anglais",
+        "page": 2,
+        "language": "en"
+      }
+    ],
+    "top_results": [
+      {
+        "rank": 1,
+        "score": 0.887809,
+        "document_id": "chiffres_cles_crui_1er_semestre_2024_espagnol",
+        "page": 2,
+        "language": "es",
+        "preview": "¡Una vez aquí, está en todas partes!\n\n433\nproyectos examinados por la Comisión Regional Unificada de Inversiones (CRUI)\n\n379\nproyectos aprobados, el 87,5% de lo"
+      },
+      {
+        "rank": 2,
+        "score": 0.8640647,
+        "document_id": "esp_chiffres_cles_annee_2025",
+        "page": 5,
+        "language": "es",
+        "preview": "Balance de la CRUI (2/6)\n\n487 expedientes de inversión aprobados por la CRUI*\n\n80 mil millones MAD de inversiones aprobadas\n\n57 043 empleos proyectados\n\n* CRUI:"
+      },
+      {
+        "rank": 3,
+        "score": 0.8542924,
+        "document_id": "esp_chiffres_cles_annee_2025",
+        "page": 6,
+        "language": "es",
+        "preview": "Balance de la CRUI (3/6)\n\nDistribución sectorial de los expedientes de inversión aprobados en la CRUI\n\nSectores:\nEnergía\nIndustria\nTurismo\nServicios\nOtros\n\nPor "
+      },
+      {
+        "rank": 4,
+        "score": 0.85117507,
+        "document_id": "esp_chiffres_cles_annee_2025",
+        "page": 9,
+        "language": "es",
+        "preview": "Balance de la CRUI (6/6)\n\nUna región pionera en energía, motor de competitividad y sostenibilidad para la exportación\n\n11 proyectos aprobados\n~22,4 mil millones"
+      },
+      {
+        "rank": 5,
+        "score": 0.84369755,
+        "document_id": "fr_presentation_cri_tta_vf",
+        "page": 41,
+        "language": "fr",
+        "preview": "sun\n== À == Une fois vous êtes ici, vous êtes partout ! a \\ 4 eee\npe Ar e. . e\nBilan La CRUI, facilitateur et accélérateur des projets d'investissement\nCRUI 202"
+      },
+      {
+        "rank": 6,
+        "score": 0.8394132,
+        "document_id": "chiffres_cles_crui_1er_semestre_2024_espagnol",
+        "page": 6,
+        "language": "es",
+        "preview": "¡Una vez aquí, está en todas partes!\n\n16\nconvenios de inversión aprobados\n\n9.540 millones de dirhams de inversión\n6 525 empleos directos a medio y largo plazo\n\n"
+      },
+      {
+        "rank": 7,
+        "score": 0.8374655,
+        "document_id": "chiffres_cles_crui_1er_semestre_2024_francais",
+        "page": 2,
+        "language": "fr",
+        "preview": "Une fois vous êtes ici, vous êtes partout !\n\n433\nNombre de projets instruits par la CRUI avec avis définitif\n\n379\nProjets approuvés soit 87,5% des projets statu"
+      },
+      {
+        "rank": 8,
+        "score": 0.8347181,
+        "document_id": "manar_al_moustatmir_news",
+        "page": 25,
+        "language": "fr",
+        "preview": "19\nDurant l’année 2023, la CRUI a instruit 972 actes lors de ses 230 réunions et \npour lesquels la Commission Régionale Unifiée d’Investissement a approuvé \n709"
+      },
+      {
+        "rank": 9,
+        "score": 0.83434856,
+        "document_id": "esp_chiffres_cles_annee_2025",
+        "page": 4,
+        "language": "es",
+        "preview": "Balance de la CRUI (1/6)\n\n224\nreuniones de la CRUI*\n\n6,44 días\nplazo medio de tramitación en la CRUI\n\n* CRUI: Comisión Regional Unificada de Inversión\n\nwww.inve"
+      },
+      {
+        "rank": 10,
+        "score": 0.8286997,
+        "document_id": "eng_chiffres_cles_annee_2025",
+        "page": 5,
+        "language": "en",
+        "preview": "CRUI Report (2/6)\n\n487 Acts approved by the CRUI*\n\n80 Billion MAD in approved investments\n\n57 043 projected jobs\n\n* CRUI: Unified Regional Investment Commission"
+      }
+    ],
+    "top1_score": 0.887809,
+    "first_relevant_rank": 1,
+    "first_cross_language_relevant_rank": 7,
+    "recall_hits": {
+      "recall_at_1": true,
+      "recall_at_3": true,
+      "recall_at_5": true,
+      "recall_at_10": true
+    }
+  },
+  {
+    "id": "q012",
+    "question": "¿Qué porcentaje representó la industria del volumen total de inversiones aprobadas por la CRUI en el primer semestre de 2024?",
+    "query_language": "es",
+    "answerable": true,
+    "cross_lingual": false,
+    "expected_sources": [
+      {
+        "document_id": "chiffres_cles_crui_1er_semestre_2024_espagnol",
+        "page": 3,
+        "language": "es"
+      }
+    ],
+    "top_results": [
+      {
+        "rank": 1,
+        "score": 0.8853744,
+        "document_id": "esp_chiffres_cles_annee_2025",
+        "page": 6,
+        "language": "es",
+        "preview": "Balance de la CRUI (3/6)\n\nDistribución sectorial de los expedientes de inversión aprobados en la CRUI\n\nSectores:\nEnergía\nIndustria\nTurismo\nServicios\nOtros\n\nPor "
+      },
+      {
+        "rank": 2,
+        "score": 0.8679075,
+        "document_id": "chiffres_cles_crui_1er_semestre_2024_espagnol",
+        "page": 2,
+        "language": "es",
+        "preview": "¡Una vez aquí, está en todas partes!\n\n433\nproyectos examinados por la Comisión Regional Unificada de Inversiones (CRUI)\n\n379\nproyectos aprobados, el 87,5% de lo"
+      },
+      {
+        "rank": 3,
+        "score": 0.86367804,
+        "document_id": "esp_chiffres_cles_annee_2025",
+        "page": 5,
+        "language": "es",
+        "preview": "Balance de la CRUI (2/6)\n\n487 expedientes de inversión aprobados por la CRUI*\n\n80 mil millones MAD de inversiones aprobadas\n\n57 043 empleos proyectados\n\n* CRUI:"
+      },
+      {
+        "rank": 4,
+        "score": 0.86076474,
+        "document_id": "chiffres_cles_crui_1er_semestre_2024_espagnol",
+        "page": 6,
+        "language": "es",
+        "preview": "¡Una vez aquí, está en todas partes!\n\n16\nconvenios de inversión aprobados\n\n9.540 millones de dirhams de inversión\n6 525 empleos directos a medio y largo plazo\n\n"
+      },
+      {
+        "rank": 5,
+        "score": 0.84398144,
+        "document_id": "fr_chiffres_cles_annee_2025",
+        "page": 6,
+        "language": "fr",
+        "preview": "Bilan de la CRUI (3/6)\n\nRépartition sectorielle des dossiers d’investissement approuvés en CRUI\n\nSecteurs :\nÉnergie\nIndustrie\nTourisme\nServices\nAutres\n\nPar nomb"
+      },
+      {
+        "rank": 6,
+        "score": 0.84158516,
+        "document_id": "chiffres_cles_crui_1er_semestre_2024_espagnol",
+        "page": 4,
+        "language": "es",
+        "preview": "¡Una vez aquí, está en todas partes!\n\nEl sector industrial continúa su excepcional crecimiento con más de la mitad de las inversiones aprobadas.\n\nIndustria: 83%"
+      },
+      {
+        "rank": 7,
+        "score": 0.8411266,
+        "document_id": "esp_chiffres_cles_annee_2025",
+        "page": 9,
+        "language": "es",
+        "preview": "Balance de la CRUI (6/6)\n\nUna región pionera en energía, motor de competitividad y sostenibilidad para la exportación\n\n11 proyectos aprobados\n~22,4 mil millones"
+      },
+      {
+        "rank": 8,
+        "score": 0.83951527,
+        "document_id": "chiffres_cles_crui_1er_semestre_2024_espagnol",
+        "page": 3,
+        "language": "es",
+        "preview": "¡Una vez aquí, está en todas partes!\n\nDesglose del volumen de inversión por sector\n\nEl sector industrial continúa su excepcional crecimiento con más de la mitad"
+      },
+      {
+        "rank": 9,
+        "score": 0.8382654,
+        "document_id": "manar_al_moustatmir_news",
+        "page": 26,
+        "language": "fr",
+        "preview": "20\nwww.investangier.com\nEvolution des montants d’investissement approuvés en CRUI 2021-2023\n(En milliards MAD)\n52\n36,6\n~73,4\n2021\n2022\n2023\n+41%\nAnnée\nEvolution"
+      },
+      {
+        "rank": 10,
+        "score": 0.8372954,
+        "document_id": "fr_presentation_cri_tta_vf",
+        "page": 41,
+        "language": "fr",
+        "preview": "sun\n== À == Une fois vous êtes ici, vous êtes partout ! a \\ 4 eee\npe Ar e. . e\nBilan La CRUI, facilitateur et accélérateur des projets d'investissement\nCRUI 202"
+      }
+    ],
+    "top1_score": 0.8853744,
+    "first_relevant_rank": 8,
+    "first_cross_language_relevant_rank": null,
+    "recall_hits": {
+      "recall_at_1": false,
+      "recall_at_3": false,
+      "recall_at_5": false,
+      "recall_at_10": true
+    }
+  },
+  {
+    "id": "q013",
+    "question": "¿Cuántos proyectos de energía fueron aprobados en 2025 y qué potencia instalada se indica?",
+    "query_language": "es",
+    "answerable": true,
+    "cross_lingual": false,
+    "expected_sources": [
+      {
+        "document_id": "esp_chiffres_cles_annee_2025",
+        "page": 9,
+        "language": "es"
+      }
+    ],
+    "top_results": [
+      {
+        "rank": 1,
+        "score": 0.8487545,
+        "document_id": "esp_chiffres_cles_annee_2025",
+        "page": 9,
+        "language": "es",
+        "preview": "Balance de la CRUI (6/6)\n\nUna región pionera en energía, motor de competitividad y sostenibilidad para la exportación\n\n11 proyectos aprobados\n~22,4 mil millones"
+      },
+      {
+        "rank": 2,
+        "score": 0.8114983,
+        "document_id": "esp_presentation_cri_tta_vf",
+        "page": 28,
+        "language": "es",
+        "preview": "NIT\n¡Una vez aquí, está en todas partes! il.\n\nINVASTANO LEA\n\nEnergias Precursor nacional en transición energética y desarrollo sostenible\n\nrenovables\n\nPAGS DUST"
+      },
+      {
+        "rank": 3,
+        "score": 0.8111131,
+        "document_id": "eng_chiffres_cles_annee_2025",
+        "page": 9,
+        "language": "en",
+        "preview": "CRUI report (6/6)\n\nEnergy Sector\n\n11 approved projects\n+770 jobs\n~22.4 Billion MAD\n2,4 GW installed power\n\n2 solar projects approved\n7 M MAD\n57 GW installed pow"
+      },
+      {
+        "rank": 4,
+        "score": 0.80912447,
+        "document_id": "esp_chiffres_cles_annee_2025",
+        "page": 6,
+        "language": "es",
+        "preview": "Balance de la CRUI (3/6)\n\nDistribución sectorial de los expedientes de inversión aprobados en la CRUI\n\nSectores:\nEnergía\nIndustria\nTurismo\nServicios\nOtros\n\nPor "
+      },
+      {
+        "rank": 5,
+        "score": 0.80449975,
+        "document_id": "esp_presentation_cri_tta_vf",
+        "page": 27,
+        "language": "es",
+        "preview": "ENERGÍAS\nRENOVABLES"
+      },
+      {
+        "rank": 6,
+        "score": 0.8041153,
+        "document_id": "chiffres_cles_crui_1er_semestre_2024_espagnol",
+        "page": 2,
+        "language": "es",
+        "preview": "¡Una vez aquí, está en todas partes!\n\n433\nproyectos examinados por la Comisión Regional Unificada de Inversiones (CRUI)\n\n379\nproyectos aprobados, el 87,5% de lo"
+      },
+      {
+        "rank": 7,
+        "score": 0.80339646,
+        "document_id": "investors_guide_territorial_opportunities_fr",
+        "page": 97,
+        "language": "fr",
+        "preview": "• Bâtiment : - 14 % \n• Éclairage public : - 13 %\nUn potentiel total en biomasse évalué à 2,914 \nmillions Mwh/an, permettant d’installer d’ici \n2030 une capacité"
+      },
+      {
+        "rank": 8,
+        "score": 0.8032497,
+        "document_id": "esp_chiffres_cles_annee_2025",
+        "page": 8,
+        "language": "es",
+        "preview": "Balance de la CRUI (5/6)\n\nUna fuerte dinámica de inversión turística respaldada por una visión ambiciosa\n\nProyectos operacionales:\n7 establecimientos abiertos e"
+      },
+      {
+        "rank": 9,
+        "score": 0.80301654,
+        "document_id": "esp_chiffres_cles_annee_2025",
+        "page": 2,
+        "language": "es",
+        "preview": "Creación de empresas (1/2)\n\n15 286\nNUEVAS EMPRESAS CREADAS EN 2025\n\nCifras hasta el 31/12/2025\n\n2.ª REGIÓN EN TÉRMINO DE CREACIÓN DE EMPRESAS\nCON APROXIMADAMENT"
+      },
+      {
+        "rank": 10,
+        "score": 0.7985008,
+        "document_id": "fr_chiffres_cles_annee_2025",
+        "page": 9,
+        "language": "fr",
+        "preview": "Bilan de la CRUI (6/6)\n\nUne région pionnière en énergie, moteur de compétitivité et durabilité à l’export\n\n11 projets approuvés\n~22,4 milliards de dirhams proje"
+      }
+    ],
+    "top1_score": 0.8487545,
+    "first_relevant_rank": 1,
+    "first_cross_language_relevant_rank": null,
+    "recall_hits": {
+      "recall_at_1": true,
+      "recall_at_3": true,
+      "recall_at_5": true,
+      "recall_at_10": true
+    }
+  },
+  {
+    "id": "q014",
+    "question": "¿Cuántas nuevas empresas se crearon en la región en 2025?",
+    "query_language": "es",
+    "answerable": true,
+    "cross_lingual": false,
+    "expected_sources": [
+      {
+        "document_id": "esp_chiffres_cles_annee_2025",
+        "page": 2,
+        "language": "es"
+      }
+    ],
+    "top_results": [
+      {
+        "rank": 1,
+        "score": 0.8577936,
+        "document_id": "esp_chiffres_cles_annee_2025",
+        "page": 2,
+        "language": "es",
+        "preview": "Creación de empresas (1/2)\n\n15 286\nNUEVAS EMPRESAS CREADAS EN 2025\n\nCifras hasta el 31/12/2025\n\n2.ª REGIÓN EN TÉRMINO DE CREACIÓN DE EMPRESAS\nCON APROXIMADAMENT"
+      },
+      {
+        "rank": 2,
+        "score": 0.8558216,
+        "document_id": "esp_chiffres_cles_annee_2025",
+        "page": 3,
+        "language": "es",
+        "preview": "Creación de empresas (2/2)\n\nDistribución sectorial de las nuevas empresas creadas\n\n15 286 nuevas empresas en 2025\n\nComercio: 44,0%\nServicios diversos: 16,5%\nCon"
+      },
+      {
+        "rank": 3,
+        "score": 0.8449143,
+        "document_id": "eng_chiffres_cles_annee_2025",
+        "page": 2,
+        "language": "en",
+        "preview": "Business Creation (1/2)\n\n15 286\nNEW COMPANIES CREATED IN 2025\nAt 31 / 12 / 2025\n\n2ND REGION IN MOROCCO FOR BUSINESS CREATION,\nREPRESENTING APPROXIMATELY 14% OF "
+      },
+      {
+        "rank": 4,
+        "score": 0.81282955,
+        "document_id": "esp_presentation_cri_tta_vf",
+        "page": 41,
+        "language": "es",
+        "preview": "¡Una vez aquí, está en todas partes! a A\n\nINVESTANGIER COME nEOCHAL 0 rare\n\nUn clima de negocios faborable para los inversores\n\n929% DE LAS EMPRESAS ESTÁN SATIS"
+      },
+      {
+        "rank": 5,
+        "score": 0.80883163,
+        "document_id": "esp_chiffres_cles_annee_2025",
+        "page": 9,
+        "language": "es",
+        "preview": "Balance de la CRUI (6/6)\n\nUna región pionera en energía, motor de competitividad y sostenibilidad para la exportación\n\n11 proyectos aprobados\n~22,4 mil millones"
+      },
+      {
+        "rank": 6,
+        "score": 0.807266,
+        "document_id": "esp_indicateurs_climat_dinvestissement",
+        "page": 6,
+        "language": "es",
+        "preview": "PRINCIPALES RESULTADOS\n\n88% prevén una extensión de su inversión en la región.\n79% prevén una nueva inversión en la región.\n53% han reinvertido en la expansión "
+      },
+      {
+        "rank": 7,
+        "score": 0.8059987,
+        "document_id": "esp_indicateurs_climat_dinvestissement",
+        "page": 12,
+        "language": "es",
+        "preview": "Tendencias y perspectivas del desarrollo empresarial en la región\n\n82% de los interrogados juzgan la situación actual de sus empresas satisfactoria.\n\nSituación "
+      },
+      {
+        "rank": 8,
+        "score": 0.8040557,
+        "document_id": "esp_chiffres_cles_annee_2025",
+        "page": 14,
+        "language": "es",
+        "preview": "Promoción y alianzas (1/4)\n\nPromoción territorial: 60 eventos destacados con alcance nacional e internacional\n\n12 eventos a nivel internacional\n38 eventos a niv"
+      },
+      {
+        "rank": 9,
+        "score": 0.80305934,
+        "document_id": "esp_indicateurs_climat_dinvestissement",
+        "page": 9,
+        "language": "es",
+        "preview": "92%\nde las empresas están satisfechas de su implantación en la región Tánger-Tetuán-Alhucemas.\n\n7"
+      },
+      {
+        "rank": 10,
+        "score": 0.8028996,
+        "document_id": "esp_indicateurs_climat_dinvestissement",
+        "page": 11,
+        "language": "es",
+        "preview": "Motivaciones para implantarse en la región TTA\n\nLeyenda:\nMuy importante\nModeradamente importante\nNo importante\n\n2. Economía / Coste\n\nAcceso a fuentes de financi"
+      }
+    ],
+    "top1_score": 0.8577936,
+    "first_relevant_rank": 1,
+    "first_cross_language_relevant_rank": null,
+    "recall_hits": {
+      "recall_at_1": true,
+      "recall_at_3": true,
+      "recall_at_5": true,
+      "recall_at_10": true
+    }
+  },
+  {
+    "id": "q015",
+    "question": "¿Qué superficie ocupa la plataforma Tánger Tech y cuántos empleos se proyectan?",
+    "query_language": "es",
+    "answerable": true,
+    "cross_lingual": false,
+    "expected_sources": [
+      {
+        "document_id": "esp_presentation_cri_tta_vf",
+        "page": 32,
+        "language": "es"
+      }
+    ],
+    "top_results": [
+      {
+        "rank": 1,
+        "score": 0.8508221,
+        "document_id": "esp_presentation_cri_tta_vf",
+        "page": 32,
+        "language": "es",
+        "preview": "Tanger Tech\n\nE y\n- ¡Una vez aquí, está en todas partes!\n\nINVASTANOLEA\n\nCiudad Mohammed VI Tánger Tech, acelerador de la revolución industrial\ny digital en Marru"
+      },
+      {
+        "rank": 2,
+        "score": 0.84249544,
+        "document_id": "es_panorama_des_zi",
+        "page": 6,
+        "language": "es",
+        "preview": "Tánger-Asilah\nUna tierra cosmopolita que combina tradición y modernidad, y en la actualidad se ha convertido en\nel motor del desarrollo económico de la región d"
+      },
+      {
+        "rank": 3,
+        "score": 0.8405722,
+        "document_id": "es_panorama_des_zi",
+        "page": 2,
+        "language": "es",
+        "preview": "Mensaje del Director\nEl\nauge\neconómico\nque\nexperimenta\nactualmente\nla\nregión\nTánger-Tetuán-Alhucemas es gracias a la consolidación de los logros\nobtenidos desde"
+      },
+      {
+        "rank": 4,
+        "score": 0.83961797,
+        "document_id": "es_panorama_des_zi",
+        "page": 12,
+        "language": "es",
+        "preview": "Prefectura: TÁNGER-ASILAH\nZI l Tánger\nSuperficie total (Ha):\n138\nNumero de parcelas:\n146\nSector de actividad:\nMultisectoriel\nEmpleos:\n30 000\nNumero de empresas "
+      },
+      {
+        "rank": 5,
+        "score": 0.8375199,
+        "document_id": "es_panorama_des_zi",
+        "page": 35,
+        "language": "es",
+        "preview": "Provincia: FAHS-ANJRA\nZAI l Tánger Automotive City (TAC)\nSuperficie total (Ha):\nNumero de parcelas:\nactividad:\nPrincipalmente actividades\n600\n467\nDe la Automoci"
+      },
+      {
+        "rank": 6,
+        "score": 0.83487034,
+        "document_id": "es_panorama_des_zi",
+        "page": 18,
+        "language": "es",
+        "preview": "Prefectura: TANGER-ASILAH\nZAI l Cuidad Mohammed VI l Tnger Tech\nSector de actividad:\nSmart City - Multisectorial\nSuperficie total (Ha):\nIndustrielle et 87 Ha dé"
+      },
+      {
+        "rank": 7,
+        "score": 0.8183968,
+        "document_id": "esp_presentation_cri_tta_vf",
+        "page": 8,
+        "language": "es",
+        "preview": "Potencial (1/2)\n\n¡Una vez aquí, está en todas partes!\n\ncon proyección internacional.\n\nPosición geográfica estratégica\n\n% Puerta de África, a 14 km de Europa en "
+      },
+      {
+        "rank": 8,
+        "score": 0.8181399,
+        "document_id": "es_panorama_des_zi",
+        "page": 32,
+        "language": "es",
+        "preview": "PROVINCIA DE FAHS-ANJRA\nUbicada en la costa mediterránea occidental de Marruecos, la provincia de Fahs-Anjra es una\nprovincia predominantemente rural que se car"
+      },
+      {
+        "rank": 9,
+        "score": 0.8176211,
+        "document_id": "es_panorama_des_zi",
+        "page": 4,
+        "language": "es",
+        "preview": "LA REGIÓN TÁNGER-TETUÁN-ALHUCEMAS\nGracias a su posición geográfica privilegiada en las costas mediterránea y atlántica, y su cercanía con\nEuropa, combinadas con"
+      },
+      {
+        "rank": 10,
+        "score": 0.8175744,
+        "document_id": "esp_indicateurs_climat_dinvestissement",
+        "page": 9,
+        "language": "es",
+        "preview": "92%\nde las empresas están satisfechas de su implantación en la región Tánger-Tetuán-Alhucemas.\n\n7"
+      }
+    ],
+    "top1_score": 0.8508221,
+    "first_relevant_rank": 1,
+    "first_cross_language_relevant_rank": null,
+    "recall_hits": {
+      "recall_at_1": true,
+      "recall_at_3": true,
+      "recall_at_5": true,
+      "recall_at_10": true
+    }
+  },
+  {
+    "id": "q016",
+    "question": "How many new companies were created in the region in 2025?",
+    "query_language": "en",
+    "answerable": true,
+    "cross_lingual": false,
+    "expected_sources": [
+      {
+        "document_id": "eng_chiffres_cles_annee_2025",
+        "page": 2,
+        "language": "en"
+      }
+    ],
+    "top_results": [
+      {
+        "rank": 1,
+        "score": 0.85296094,
+        "document_id": "eng_chiffres_cles_annee_2025",
+        "page": 2,
+        "language": "en",
+        "preview": "Business Creation (1/2)\n\n15 286\nNEW COMPANIES CREATED IN 2025\nAt 31 / 12 / 2025\n\n2ND REGION IN MOROCCO FOR BUSINESS CREATION,\nREPRESENTING APPROXIMATELY 14% OF "
+      },
+      {
+        "rank": 2,
+        "score": 0.81902295,
+        "document_id": "manar_al_moustatmir_eng_png",
+        "page": 23,
+        "language": "en",
+        "preview": "Entrepreneurship and Investment\nIndex in Tangier-Tetouan-Al Hoceima\nRegion\n\nThe Entrepreneurial Climate:\nBusiness Creation\n\nThe region of Tangier-Tetouan-Al Hoc"
+      },
+      {
+        "rank": 3,
+        "score": 0.8155507,
+        "document_id": "eng_chiffres_cles_annee_2025",
+        "page": 3,
+        "language": "en",
+        "preview": "Business Creation (2/2)\n\nSectoral Breakdown\n\n15 286 New Companies in 2025\n\nCommerce: 44,0%\nDiverse services: 16,5%\nConstruction & Real Estate: 15,4%\nIndustries:"
+      },
+      {
+        "rank": 4,
+        "score": 0.80938053,
+        "document_id": "eng_chiffres_cles_annee_2025",
+        "page": 14,
+        "language": "en",
+        "preview": "Promotion & Partnerships (1/4)\n\nTerritorial promotion: 60 major events with national and international reach\n\n12 International events\n38 regional events\n10 nati"
+      },
+      {
+        "rank": 5,
+        "score": 0.80899185,
+        "document_id": "esp_chiffres_cles_annee_2025",
+        "page": 2,
+        "language": "es",
+        "preview": "Creación de empresas (1/2)\n\n15 286\nNUEVAS EMPRESAS CREADAS EN 2025\n\nCifras hasta el 31/12/2025\n\n2.ª REGIÓN EN TÉRMINO DE CREACIÓN DE EMPRESAS\nCON APROXIMADAMENT"
+      },
+      {
+        "rank": 6,
+        "score": 0.8028616,
+        "document_id": "esp_chiffres_cles_annee_2025",
+        "page": 3,
+        "language": "es",
+        "preview": "Creación de empresas (2/2)\n\nDistribución sectorial de las nuevas empresas creadas\n\n15 286 nuevas empresas en 2025\n\nComercio: 44,0%\nServicios diversos: 16,5%\nCon"
+      },
+      {
+        "rank": 7,
+        "score": 0.8018125,
+        "document_id": "investors_guide_territorial_opportunities_en",
+        "page": 148,
+        "language": "en",
+        "preview": "• Province of Tétouan (Tétouan Park)\n• Province of Al Hoceima (ZAE of Ait Kamra)\n• Regional Investment Center (CRI).\n• \"Tatwir Start-up\" program launched by the"
+      },
+      {
+        "rank": 8,
+        "score": 0.798374,
+        "document_id": "manar_al_moustatmir_eng_png",
+        "page": 5,
+        "language": "en",
+        "preview": "Ve\n\ninvestment convention projects worth approximately 18 billion\ndirhams, generating thereby 10,200 jobs in the medium and the\nlong terms.\n\nIn terms of entrepr"
+      },
+      {
+        "rank": 9,
+        "score": 0.7975489,
+        "document_id": "investors_guide_territorial_opportunities_en",
+        "page": 13,
+        "language": "en",
+        "preview": "As part of its mission to provide economic incentives and promote the region’s\ninvestment offers,the Regional Investment Center of Tangier - Tetouan - Al\nHoceim"
+      },
+      {
+        "rank": 10,
+        "score": 0.79591966,
+        "document_id": "manar_al_moustatmir_eng_png",
+        "page": 4,
+        "language": "en",
+        "preview": "in @ © f\n\nVe\n\n& ra)\nEditorial\nPC\n\nEsteemed readers,\n\nIt is with great pride that we share with you some figures regarding the\nremarkable achievements of the Tan"
+      }
+    ],
+    "top1_score": 0.85296094,
+    "first_relevant_rank": 1,
+    "first_cross_language_relevant_rank": null,
+    "recall_hits": {
+      "recall_at_1": true,
+      "recall_at_3": true,
+      "recall_at_5": true,
+      "recall_at_10": true
+    }
+  },
+  {
+    "id": "q017",
+    "question": "What were the main support areas for project holders and SMEs in 2025?",
+    "query_language": "en",
+    "answerable": true,
+    "cross_lingual": false,
+    "expected_sources": [
+      {
+        "document_id": "eng_chiffres_cles_annee_2025",
+        "page": 10,
+        "language": "en"
+      }
+    ],
+    "top_results": [
+      {
+        "rank": 1,
+        "score": 0.81195104,
+        "document_id": "eng_chiffres_cles_annee_2025",
+        "page": 10,
+        "language": "en",
+        "preview": "Company Support (1/4)\n\n5 500\nsupported project holders\n\n3 223 beneficiaries\n\nSupport Axes:\nFacilitating finance access\nCapacity of project holders & SME's\nPost-"
+      },
+      {
+        "rank": 2,
+        "score": 0.8015909,
+        "document_id": "eng_indicateurs_climat_dinvestissement",
+        "page": 27,
+        "language": "en",
+        "preview": "Summary\n\nBusiness climate\n\nThe Tangier-Tetouan-Al Hoceima region is widely perceived as offering a very favorable business climate for investment, with potentia"
+      },
+      {
+        "rank": 3,
+        "score": 0.79784083,
+        "document_id": "eng_chiffres_cles_annee_2025",
+        "page": 14,
+        "language": "en",
+        "preview": "Promotion & Partnerships (1/4)\n\nTerritorial promotion: 60 major events with national and international reach\n\n12 International events\n38 regional events\n10 nati"
+      },
+      {
+        "rank": 4,
+        "score": 0.7969084,
+        "document_id": "eng_chiffres_cles_annee_2025",
+        "page": 16,
+        "language": "en",
+        "preview": "Promotion & Partnerships (3/4)\n\nSME Support\nNew support device for TPME (MSMEs)\n\n• Information caravan across the 8 provinces and prefectures\n• Explanation of e"
+      },
+      {
+        "rank": 5,
+        "score": 0.7939458,
+        "document_id": "investors_guide_territorial_opportunities_en",
+        "page": 5,
+        "language": "en",
+        "preview": "JALAL BENHAYOUN\nGeneral director of CRI TTA\nMorocco, with the clairvoyant vision of HIS MAJESTY KING MOHAMMED VI, MAY GOD BLESS HIM, \nplaces great emphasis on e"
+      },
+      {
+        "rank": 6,
+        "score": 0.7934636,
+        "document_id": "investors_guide_territorial_opportunities_en",
+        "page": 10,
+        "language": "en",
+        "preview": "INVESTORS MANAR AL MOUSTATMIR\nAs part of its missions related to contributing to the implementation of the State policy\non development, incentives, promotion, a"
+      },
+      {
+        "rank": 7,
+        "score": 0.7913438,
+        "document_id": "manar_al_moustatmir_eng_png",
+        "page": 29,
+        "language": "en",
+        "preview": "(GUICHET UNIQUE VIRTUEL D'ACCOMPAGNEMENT DES INVESTISSEURS\n\na [OC SMART TERRITORY\n\nreanvonw | DEVELOPMENT, INVESTMENT Pt\nPaes, & ENTREPRENEURSHIP DIGITAL a\n\nTDC"
+      },
+      {
+        "rank": 8,
+        "score": 0.7902124,
+        "document_id": "manar_al_moustatmir_eng_png",
+        "page": 27,
+        "language": "en",
+        "preview": "Plateforme communautaire d’accompagnement aux investisseurs\n\n4.551\n\nApplications were funded for a total amount of\nunder the PIAFE program\n\nsince its launch unt"
+      },
+      {
+        "rank": 9,
+        "score": 0.7890354,
+        "document_id": "guide_du_financement_des_entreprises",
+        "page": 7,
+        "language": "fr",
+        "preview": "Le présent guide du financement d’entreprise passe en revue différentes options \nsuivant le type de projet que l’entrepreneur cherche à financer un projet de cr"
+      },
+      {
+        "rank": 10,
+        "score": 0.78871703,
+        "document_id": "manar_al_moustatmir_eng_png",
+        "page": 25,
+        "language": "en",
+        "preview": "which the Regional Unified Investment Commission approved ‘709 requests,\nEvolution of the proportion of deeds\nfavorably reviewed by the Regional\nUnified Investm"
+      }
+    ],
+    "top1_score": 0.81195104,
+    "first_relevant_rank": 1,
+    "first_cross_language_relevant_rank": null,
+    "recall_hits": {
+      "recall_at_1": true,
+      "recall_at_3": true,
+      "recall_at_5": true,
+      "recall_at_10": true
+    }
+  },
+  {
+    "id": "q018",
+    "question": "How many files were financed through the PIAFE report for the TTA region?",
+    "query_language": "en",
+    "answerable": true,
+    "cross_lingual": false,
+    "expected_sources": [
+      {
+        "document_id": "eng_chiffres_cles_annee_2025",
+        "page": 11,
+        "language": "en"
+      }
+    ],
+    "top_results": [
+      {
+        "rank": 1,
+        "score": 0.8501278,
+        "document_id": "eng_chiffres_cles_annee_2025",
+        "page": 11,
+        "language": "en",
+        "preview": "Company support (2/4)\n\nPIAFE* report in Tanger-Tetouan-Al Hoceima region\n\n4 672\nFinanced files\n\n~1,14 Billion MAD\nin total financing\n\n*PIAFE: Integrated Support"
+      },
+      {
+        "rank": 2,
+        "score": 0.8312199,
+        "document_id": "fr_chiffres_cles_annee_2025",
+        "page": 11,
+        "language": "fr",
+        "preview": "Accompagnement des entreprises (2/4)\n\nBilan du PIAFE* au niveau de la région TTA\n\n4 672\nDossiers financés\n\n~1,14 M MAD\nde financement\n\n* Programme Intégré d’App"
+      },
+      {
+        "rank": 3,
+        "score": 0.8304771,
+        "document_id": "esp_chiffres_cles_annee_2025",
+        "page": 11,
+        "language": "es",
+        "preview": "Acompañamiento a las empresas (2/4)\n\nBalance del PIAFE* a nivel de la región TTA\n\n4 672 expedientes financiados\n\n~1,14 mil millones MAD de financiación\n\n* PIAFE"
+      },
+      {
+        "rank": 4,
+        "score": 0.8131522,
+        "document_id": "manar_al_moustatmir_eng_png",
+        "page": 6,
+        "language": "en",
+        "preview": "ne\n7\n\nin @ © f\n\nCONTENTS\n\nHighlights\nSpecial tourism\n\nEntrepreneurship and\nbarometer in the TTA region\n\ninvestment\n\nActivity report on the promotion of the\n\nter"
+      },
+      {
+        "rank": 5,
+        "score": 0.81189585,
+        "document_id": "manar_al_moustatmir_eng_png",
+        "page": 27,
+        "language": "en",
+        "preview": "Plateforme communautaire d’accompagnement aux investisseurs\n\n4.551\n\nApplications were funded for a total amount of\nunder the PIAFE program\n\nsince its launch unt"
+      },
+      {
+        "rank": 6,
+        "score": 0.80199003,
+        "document_id": "eng_indicateurs_climat_dinvestissement",
+        "page": 22,
+        "language": "en",
+        "preview": "94% of respondents consider the policies implemented by regional actors to improve the attractiveness of the TTA region effective and relevant.\n\n2. Perception o"
+      },
+      {
+        "rank": 7,
+        "score": 0.8012895,
+        "document_id": "manar_al_moustatmir_eng_png",
+        "page": 43,
+        "language": "en",
+        "preview": "rr\n\nFt\nENTREPRISE\n\n2022\n\nInvestment & Business Investor's guide to Guide to Business\nSupport Single Window territorial opportunities Financing\n\nPanorama of econ"
+      },
+      {
+        "rank": 8,
+        "score": 0.80040264,
+        "document_id": "eng_indicateurs_climat_dinvestissement",
+        "page": 3,
+        "language": "en",
+        "preview": "CONTEXT\n\nThe regional investment center of Tangier-Tetouan-Al Hoceima region has conducted a study in collaboration with the IFC within the framework of a partn"
+      },
+      {
+        "rank": 9,
+        "score": 0.7987418,
+        "document_id": "eng_indicateurs_climat_dinvestissement",
+        "page": 2,
+        "language": "en",
+        "preview": "SUMMARY\n\nContext — 1\nSurveyed Profiles — 2\nMain results — 3\n\nAxis 1: Investors' Perception of the Business Climate in the Region — 6\n• Reasons for Establishment"
+      },
+      {
+        "rank": 10,
+        "score": 0.7979046,
+        "document_id": "investors_guide_territorial_opportunities_en",
+        "page": 13,
+        "language": "en",
+        "preview": "As part of its mission to provide economic incentives and promote the region’s\ninvestment offers,the Regional Investment Center of Tangier - Tetouan - Al\nHoceim"
+      }
+    ],
+    "top1_score": 0.8501278,
+    "first_relevant_rank": 1,
+    "first_cross_language_relevant_rank": null,
+    "recall_hits": {
+      "recall_at_1": true,
+      "recall_at_3": true,
+      "recall_at_5": true,
+      "recall_at_10": true
+    }
+  },
+  {
+    "id": "q019",
+    "question": "How many jobs is the Fnideq Economic Activity Zone expected to create?",
+    "query_language": "en",
+    "answerable": true,
+    "cross_lingual": false,
+    "expected_sources": [
+      {
+        "document_id": "eng_panorama_des_zi",
+        "page": 46,
+        "language": "en"
+      }
+    ],
+    "top_results": [
+      {
+        "rank": 1,
+        "score": 0.8657526,
+        "document_id": "eng_panorama_des_zi",
+        "page": 46,
+        "language": "en",
+        "preview": "CENTRE REGIONAL\nINVESTANGIER\n\nPREFECTURE OF M'DIQ-FNIDEQ\n\nThe coastal strip of the Prefecture.of M'diq-Fnideg, known as Tamuda Bay, attracts thousands of\norocca"
+      },
+      {
+        "rank": 2,
+        "score": 0.8418332,
+        "document_id": "panorama_zones_economiques_industrielles_fr",
+        "page": 46,
+        "language": "fr",
+        "preview": "Rd OS | امساح حصي\n“SRE علطعاء 21 فخا فق | ONE.\nكان كي °° Te - SE\ns CENTRE RÉGIONAL D'INVESTISSEMENT\nل “TANGER - TÉTOUAN\n“ALHOGEMR\nINVESTANGIER\nPRÉFECTURE M'DIQ-"
+      },
+      {
+        "rank": 3,
+        "score": 0.83457094,
+        "document_id": "es_panorama_des_zi",
+        "page": 46,
+        "language": "es",
+        "preview": "La franja costera de la prefectura de M'diq-Fnideg, conocida como Bahía de Tamuda, recibe a miles\nde visitantes marroquíes en busca de una suave brisa, playas d"
+      },
+      {
+        "rank": 4,
+        "score": 0.8313045,
+        "document_id": "eng_panorama_des_zi",
+        "page": 49,
+        "language": "en",
+        "preview": "Prefecture: M’diq-Fnideq\nNumber of lots: 76\nActivity sector: Commercial & Logistics\nInvestment: 200 Million MAD\nDeveloper / Investor / Manager: TMZ\nProjected jo"
+      },
+      {
+        "rank": 5,
+        "score": 0.8256413,
+        "document_id": "panorama_zones_economiques_industrielles_fr",
+        "page": 49,
+        "language": "fr",
+        "preview": "الموكزالجهوي للاستثمار\n\nطنجة_تطوان -الحسيمة | = 13\n4972 | عماعا. #3XX3C4 | | خا\nلاتب\nCENTRE RÉGIONAL D'INVESTISSEMENT\n\nTANGER - TÉTOUAN - AL HOGEIMA لا\n\nمنطقة ا"
+      },
+      {
+        "rank": 6,
+        "score": 0.8254465,
+        "document_id": "eng_panorama_des_zi",
+        "page": 45,
+        "language": "en",
+        "preview": "56\nINVESTANGIER\n\nNDUSTRIAL\n\ni CONOMIC ACTIVITY ZONES\nFahs ١\nAnjra 1 5\nae M'DIQ FNIDEQ —\nAsilah\nTetouan\nLarache\nChefchaouen\nAl Hoceima\nOuezzane\nPage\nEAZ FNIDEQ |"
+      },
+      {
+        "rank": 7,
+        "score": 0.82257795,
+        "document_id": "es_panorama_des_zi",
+        "page": 49,
+        "language": "es",
+        "preview": "Prefectura: M'diq-Fnideq\nZAE l Fnideq\nSector de actividad:\nSuperficie total (Ha):\nNumero de parcelas:\n76\nComercial\n& Logística\nUrbanizador / Desarrollador /\nInv"
+      },
+      {
+        "rank": 8,
+        "score": 0.82205284,
+        "document_id": "eng_chiffres_cles_annee_2025",
+        "page": 7,
+        "language": "en",
+        "preview": "CRUI report (4/6)\n\nIndustrial Vocation\n\nNumber of projects\nInvestment amount (Billion MAD)\nNumber of jobs\nOperating zone\nZone Under Development/Study\n\n278 dossi"
+      },
+      {
+        "rank": 9,
+        "score": 0.8209317,
+        "document_id": "brochure_secteur_logistique",
+        "page": 7,
+        "language": "fr",
+        "preview": "La zone d’activités économiques de Fnideq\n\nLa création de la Zone d’Activités Economiques Commerciales de Fnideq, permet aux entreprises de développer leurs éch"
+      },
+      {
+        "rank": 10,
+        "score": 0.8202631,
+        "document_id": "manar_al_moustatmir_eng_png",
+        "page": 45,
+        "language": "en",
+        "preview": ". a\na Pe\nJ ULE e Baomac fH\nLan baomac\n\nJAPAN TOBACCO INTERNATIONAL BAOMAC ELECTRONIC MOROCCO\nActivity: Tobacco Production Investment 179 MDH\n\nInvestment 930 MMA"
+      }
+    ],
+    "top1_score": 0.8657526,
+    "first_relevant_rank": 1,
+    "first_cross_language_relevant_rank": null,
+    "recall_hits": {
+      "recall_at_1": true,
+      "recall_at_3": true,
+      "recall_at_5": true,
+      "recall_at_10": true
+    }
+  },
+  {
+    "id": "q020",
+    "question": "How many investment files were approved by the Regional Unified Investment Commission in 2025?",
+    "query_language": "en",
+    "answerable": true,
+    "cross_lingual": true,
+    "expected_sources": [
+      {
+        "document_id": "eng_chiffres_cles_annee_2025",
+        "page": 5,
+        "language": "en"
+      },
+      {
+        "document_id": "arabe_chiffres_cles_2025",
+        "page": 5,
+        "language": "ar"
+      },
+      {
+        "document_id": "fr_chiffres_cles_annee_2025",
+        "page": 5,
+        "language": "fr"
+      },
+      {
+        "document_id": "esp_chiffres_cles_annee_2025",
+        "page": 5,
+        "language": "es"
+      }
+    ],
+    "top_results": [
+      {
+        "rank": 1,
+        "score": 0.8569497,
+        "document_id": "chiffres_cles_crui_1er_semestre_2024_anglais",
+        "page": 2,
+        "language": "en",
+        "preview": "Once you are here, you are everywhere!\n\n433\nNumber of projects reviewed by the Regional Unified Investment Commission with a final opinion\n\n379\nApproved project"
+      },
+      {
+        "rank": 2,
+        "score": 0.8453828,
+        "document_id": "manar_al_moustatmir_eng_png",
+        "page": 25,
+        "language": "en",
+        "preview": "which the Regional Unified Investment Commission approved ‘709 requests,\nEvolution of the proportion of deeds\nfavorably reviewed by the Regional\nUnified Investm"
+      },
+      {
+        "rank": 3,
+        "score": 0.84050417,
+        "document_id": "manar_al_moustatmir_eng_png",
+        "page": 4,
+        "language": "en",
+        "preview": "in @ © f\n\nVe\n\n& ra)\nEditorial\nPC\n\nEsteemed readers,\n\nIt is with great pride that we share with you some figures regarding the\nremarkable achievements of the Tan"
+      },
+      {
+        "rank": 4,
+        "score": 0.8338608,
+        "document_id": "chiffres_cles_crui_1er_semestre_2024_anglais",
+        "page": 1,
+        "language": "en",
+        "preview": "Once you are here, you are everywhere!\n\nKEY FIGURES OF THE REGIONAL UNIFIED INVESTMENT COMMISSION\n1ST HALF OF 2024\n\nREGIONAL INVESTMENT CENTER\nTANGIER - TETOUAN"
+      },
+      {
+        "rank": 5,
+        "score": 0.8308212,
+        "document_id": "manar_al_moustatmir_eng_png",
+        "page": 26,
+        "language": "en",
+        "preview": "Ca\n— laren\nEvolution of approved investment amounts by the Regional Unified\nInvestment Commission 2021-2023 (In billion MAD)\n~73,4\n366 52 Ow\na> ere\nSj SS &\nYear"
+      },
+      {
+        "rank": 6,
+        "score": 0.8288986,
+        "document_id": "chiffres_cles_crui_1er_semestre_2024_anglais",
+        "page": 5,
+        "language": "en",
+        "preview": "Once you are here, you are everywhere!\n\n121\nMeetings of the Regional Unified Investment Commission\n\nwww.investangier.com"
+      },
+      {
+        "rank": 7,
+        "score": 0.815942,
+        "document_id": "chiffres_cles_crui_1er_semestre_2024_espagnol",
+        "page": 2,
+        "language": "es",
+        "preview": "¡Una vez aquí, está en todas partes!\n\n433\nproyectos examinados por la Comisión Regional Unificada de Inversiones (CRUI)\n\n379\nproyectos aprobados, el 87,5% de lo"
+      },
+      {
+        "rank": 8,
+        "score": 0.8098223,
+        "document_id": "eng_chiffres_cles_annee_2025",
+        "page": 5,
+        "language": "en",
+        "preview": "CRUI Report (2/6)\n\n487 Acts approved by the CRUI*\n\n80 Billion MAD in approved investments\n\n57 043 projected jobs\n\n* CRUI: Unified Regional Investment Commission"
+      },
+      {
+        "rank": 9,
+        "score": 0.80736417,
+        "document_id": "manar_al_moustatmir_eng_png",
+        "page": 34,
+        "language": "en",
+        "preview": "area at the regional level and over 88% of the planned aquaculture investment\nin the Tangier-Tetouan-Al Hoceima region. Additionally, the geostrategic\nposition "
+      },
+      {
+        "rank": 10,
+        "score": 0.8070906,
+        "document_id": "investors_guide_territorial_opportunities_en",
+        "page": 13,
+        "language": "en",
+        "preview": "As part of its mission to provide economic incentives and promote the region’s\ninvestment offers,the Regional Investment Center of Tangier - Tetouan - Al\nHoceim"
+      }
+    ],
+    "top1_score": 0.8569497,
+    "first_relevant_rank": 8,
+    "first_cross_language_relevant_rank": null,
+    "recall_hits": {
+      "recall_at_1": false,
+      "recall_at_3": false,
+      "recall_at_5": false,
+      "recall_at_10": true
+    }
+  },
+  {
+    "id": "q021",
+    "question": "Quel est le prix actuel du Bitcoin en dirhams ?",
+    "query_language": "fr",
+    "answerable": false,
+    "cross_lingual": false,
+    "expected_sources": [],
+    "top_results": [
+      {
+        "rank": 1,
+        "score": 0.8097703,
+        "document_id": "investors_guide_territorial_opportunities_fr",
+        "page": 54,
+        "language": "fr",
+        "preview": "Programme « IDMAJ » / Programme « TAEHIL »\n\n* : Le Système harmonisé de désignation et de codification des marchandises, ou Système harmonisé, est une nomenclat"
+      },
+      {
+        "rank": 2,
+        "score": 0.80911446,
+        "document_id": "nv_guide_cout_facteurs_cri_2024",
+        "page": 10,
+        "language": "fr",
+        "preview": "COÛT DU FONCIER"
+      },
+      {
+        "rank": 3,
+        "score": 0.8083981,
+        "document_id": "panorama_zones_economiques_industrielles_fr",
+        "page": 73,
+        "language": "fr",
+        "preview": "—\n\nINVESTANGIER\n\n0\nCOS\n\nVers 32 و\nKsar El Kbir ااي كو 22 Gare\n$ . ٠ KSarEl Kbir\n\nKsar El Kbir.\npui Vers kénitra SR\n\nVers\nKsar El Kbir\n\nPlan de situation\n\n4\n\n“Pl"
+      },
+      {
+        "rank": 4,
+        "score": 0.8082757,
+        "document_id": "nv_guide_cout_facteurs_cri_2024",
+        "page": 6,
+        "language": "fr",
+        "preview": "COÛT DE CRÉATION D’UNE SOCIÉTÉ"
+      },
+      {
+        "rank": 5,
+        "score": 0.80800474,
+        "document_id": "guide_du_financement_des_entreprises",
+        "page": 71,
+        "language": "fr",
+        "preview": "LE FINANCEMENT PAR \nLES CRÉDITS BANCAIRES\nLES CRÉDITS POUR LES OPÉRATIONS D’EXPORT\nLE PRÉFINANCEMENT EXPORT EN DIRHAMS.........................................."
+      },
+      {
+        "rank": 6,
+        "score": 0.8053932,
+        "document_id": "panorama_zones_economiques_industrielles_fr",
+        "page": 81,
+        "language": "fr",
+        "preview": "NY:\n\nAE: ©:\n\nINVESTANGIER\n\nTANGER QTÉTOUANAL NOGETMA\n\n“£AE 6tZAA\nnp:\n\na Le OuézZzane 3\nLars\n\nVers Kénitra"
+      },
+      {
+        "rank": 7,
+        "score": 0.8052038,
+        "document_id": "investors_guide_territorial_opportunities_fr",
+        "page": 68,
+        "language": "fr",
+        "preview": "érol dans le corps et dans le sang. Le \nCBD en complément alimentaire dispose ainsi \nd’un important potentiel de croissance. \nDe nombreux tests doivent être eff"
+      },
+      {
+        "rank": 8,
+        "score": 0.80519915,
+        "document_id": "investors_guide_territorial_opportunities_fr",
+        "page": 51,
+        "language": "fr",
+        "preview": "rmonisé, est une nomenclature internationale\ndéveloppée par l'Organisation mondiale des douanes pour classer les produits échangés au niveau international.\n** :"
+      },
+      {
+        "rank": 9,
+        "score": 0.8050126,
+        "document_id": "investors_guide_territorial_opportunities_fr",
+        "page": 150,
+        "language": "fr",
+        "preview": "), ou de bailleurs de fonds \ninternationaux tels que l’AFD ou l’UE.\nPrise de participation possible au niveau des \nentreprises accompagnées.\nFinancement**\nINDIC"
+      },
+      {
+        "rank": 10,
+        "score": 0.8049581,
+        "document_id": "fr_chiffres_cles_critta_30_sept_2024",
+        "page": 5,
+        "language": "fr",
+        "preview": "Une fois vous êtes ici, vous êtes partout !\n\n~68,8 milliards MAD\n\n~59 201 emplois stables\nprojetés à termes\n\nwww.investangier.com"
+      }
+    ],
+    "top1_score": 0.8097703,
+    "first_relevant_rank": null,
+    "first_cross_language_relevant_rank": null,
+    "recall_hits": {
+      "recall_at_1": false,
+      "recall_at_3": false,
+      "recall_at_5": false,
+      "recall_at_10": false
+    }
+  },
+  {
+    "id": "q022",
+    "question": "ما هي حالة الطقس اليوم في طنجة؟",
+    "query_language": "ar",
+    "answerable": false,
+    "cross_lingual": false,
+    "expected_sources": [],
+    "top_results": [
+      {
+        "rank": 1,
+        "score": 0.8231139,
+        "document_id": "ar_pr_sentation_cri_tta_vf",
+        "page": 8,
+        "language": "ar",
+        "preview": "الملف التعريفي جهة طنجة-تطوان-الحسيمة: لمحة مختصرة عن الجهة\n\nالمناخ()\n© 1000-4060 ملم من التساقطات المطرية\n\nاذ درجة الحرارة: من 10 إلى 55 درجة مئوية\n49 300 يوما"
+      },
+      {
+        "rank": 2,
+        "score": 0.7968694,
+        "document_id": "akhbar_al_moustatmir_news",
+        "page": 6,
+        "language": "ar",
+        "preview": "فهرس\nwww.investangier.com\nأحداث بارزة\nملف خاص بالسياحة\nمقياس الاستثمار والمقاولات بجهة طنجة تطوان أصيلة\nعرض الجهوي تقرير عن أنشطة الترويج\nملف تربية الأحياء الما"
+      },
+      {
+        "rank": 3,
+        "score": 0.7945652,
+        "document_id": "arabe_chiffres_cles_2025",
+        "page": 1,
+        "language": "ar",
+        "preview": "www.investangier.com\n365 يوماً\nفي خدمة الاستثمار\nسنة 2025\nطنجة – تطوان – الحسيمة\nدينامية الاستثمار"
+      },
+      {
+        "rank": 4,
+        "score": 0.7928659,
+        "document_id": "panorama_zones_economiques_industrielles_fr",
+        "page": 11,
+        "language": "fr",
+        "preview": "tt حزالجهوي للاستثمسار\nطنجة-تطون الحسيمة 1\nER - Di\n\nINVESTANGIER\n\nALT =\n\nASSOCIATION DE LA ZONE INDUSRIELLE D= TANGER\n\nPréfecture: TANGER-ASSILAH\n\nZi Tanger\n\nM."
+      },
+      {
+        "rank": 5,
+        "score": 0.7925348,
+        "document_id": "akhbar_al_moustatmir_news",
+        "page": 12,
+        "language": "ar",
+        "preview": "06\nwww.investangier.com\nمدن قدیمة7 \n[1] 2020 بیانات المندوبیة السامیة للتخطیط\nالحسیمة موطناً للتناقضات .إنھا - تطوان- لطالما كانت جھة طنجة\nمنطقة تجمع بین الأصال"
+      },
+      {
+        "rank": 6,
+        "score": 0.7912156,
+        "document_id": "ar_pr_sentation_cri_tta_vf",
+        "page": 7,
+        "language": "ar",
+        "preview": "إن كنتم هنا، فأنتم في كل مكان\nالملف التعريفي\nمؤهلات جهة طنجة-تطوان-الحسيمة\nالقطاعات الرئيسية بالجهة\nالعرض الترابي للاستثمار\nدينامية الاستثمار في الجهة"
+      },
+      {
+        "rank": 7,
+        "score": 0.7912156,
+        "document_id": "ar_pr_sentation_cri_tta_vf",
+        "page": 40,
+        "language": "ar",
+        "preview": "إن كنتم هنا، فأنتم في كل مكان\nالملف التعريفي\nمؤهلات جهة طنجة-تطوان-الحسيمة\nالقطاعات الرئيسية بالجهة\nالعرض الترابي للاستثمار\nدينامية الاستثمار في الجهة"
+      },
+      {
+        "rank": 8,
+        "score": 0.7912156,
+        "document_id": "ar_pr_sentation_cri_tta_vf",
+        "page": 32,
+        "language": "ar",
+        "preview": "إن كنتم هنا، فأنتم في كل مكان\nالملف التعريفي\nمؤهلات جهة طنجة-تطوان-الحسيمة\nالقطاعات الرئيسية بالجهة\nالعرض الترابي للاستثمار\nدينامية الاستثمار في الجهة"
+      },
+      {
+        "rank": 9,
+        "score": 0.7905453,
+        "document_id": "panorama_zones_economiques_industrielles_fr",
+        "page": 13,
+        "language": "fr",
+        "preview": "المركلزالجهوي للاستثمار\nطنجة.تطون الحسيمة\n\nHIXXICH ICE | 292.\nBulle PTEUCI - 1م 51\n\nCENTRE RÉGIONAL D'INVESTISSEMENT\nTANGER -TÉTOUAN - AL HOGEIMA\n\nPréfecture: T"
+      },
+      {
+        "rank": 10,
+        "score": 0.7905334,
+        "document_id": "chiffres_cles_crui_1er_semestre_2024_arabe",
+        "page": 1,
+        "language": "ar",
+        "preview": "إن كنتم هنا، فأنتم في كل مكان\n\nحصيلة\nاللجنة الجهوية الموحدة للاستثمار\nالنصف الأول من سنة 2024\n\nالمركز الجهوي للاستثمار لجهة طنجة - تطوان - الحسيمة\n\nwww.investan"
+      }
+    ],
+    "top1_score": 0.8231139,
+    "first_relevant_rank": null,
+    "first_cross_language_relevant_rank": null,
+    "recall_hits": {
+      "recall_at_1": false,
+      "recall_at_3": false,
+      "recall_at_5": false,
+      "recall_at_10": false
+    }
+  },
+  {
+    "id": "q023",
+    "question": "¿Quién ganará el próximo Mundial de fútbol?",
+    "query_language": "es",
+    "answerable": false,
+    "cross_lingual": false,
+    "expected_sources": [],
+    "top_results": [
+      {
+        "rank": 1,
+        "score": 0.77453375,
+        "document_id": "esp_indicateurs_climat_dinvestissement",
+        "page": 28,
+        "language": "es",
+        "preview": "¡Una vez aquí, está en todas partes!\n\nCon el apoyo de:\nIFC — International Finance Corporation — World Bank Group\n\nwww.investangier.com"
+      },
+      {
+        "rank": 2,
+        "score": 0.75933266,
+        "document_id": "investors_guide_territorial_opportunities_fr",
+        "page": 190,
+        "language": "fr",
+        "preview": "l’Espagne, la France, la Belgique ou encore les\nenfants : Sports d’hiver (Ski, Snowboard, ...),"
+      },
+      {
+        "rank": 3,
+        "score": 0.7571553,
+        "document_id": "investors_guide_territorial_opportunities_fr",
+        "page": 44,
+        "language": "fr",
+        "preview": "l’Europe du Sud)"
+      },
+      {
+        "rank": 4,
+        "score": 0.75627697,
+        "document_id": "esp_presentation_cri_tta_vf",
+        "page": 22,
+        "language": "es",
+        "preview": "AGRICULTURA\nY PESCA"
+      },
+      {
+        "rank": 5,
+        "score": 0.75234437,
+        "document_id": "esp_indicateurs_climat_dinvestissement",
+        "page": 5,
+        "language": "es",
+        "preview": "PRINCIPALES RESULTADOS\n\n3"
+      },
+      {
+        "rank": 6,
+        "score": 0.7512858,
+        "document_id": "esp_presentation_cri_tta_vf",
+        "page": 18,
+        "language": "es",
+        "preview": "WE. y\n\n¡Una vez aquí, está en todas partes! 2.\n\nIN ARANOln\n\nLogistica (1/33. Complejo Portuario Tánger Med, acelerador de la economía nacional\n\n10 millones de\n\n"
+      },
+      {
+        "rank": 7,
+        "score": 0.7511308,
+        "document_id": "esp_presentation_cri_tta_vf",
+        "page": 20,
+        "language": "es",
+        "preview": "TURISMO"
+      },
+      {
+        "rank": 8,
+        "score": 0.75006855,
+        "document_id": "eng_indicateurs_climat_dinvestissement",
+        "page": 28,
+        "language": "en",
+        "preview": "Once you are here, you are everywhere!\n\nWith the support of:\nIFC — International Finance Corporation — World Bank Group\n\nwww.investangier.com"
+      },
+      {
+        "rank": 9,
+        "score": 0.74888223,
+        "document_id": "esp_chiffres_cles_annee_2025",
+        "page": 13,
+        "language": "es",
+        "preview": "Acompañamiento a las empresas (4/4)\n\nOrganización de la gran final de la 2.ª edición\nTerritory Development Challenge “TDC”\n\nCifras clave:\n120 proyectos presenta"
+      },
+      {
+        "rank": 10,
+        "score": 0.748751,
+        "document_id": "esp_presentation_cri_tta_vf",
+        "page": 17,
+        "language": "es",
+        "preview": "LOGÍSTICA"
+      }
+    ],
+    "top1_score": 0.77453375,
+    "first_relevant_rank": null,
+    "first_cross_language_relevant_rank": null,
+    "recall_hits": {
+      "recall_at_1": false,
+      "recall_at_3": false,
+      "recall_at_5": false,
+      "recall_at_10": false
+    }
+  },
+  {
+    "id": "q024",
+    "question": "What is the current EUR/USD exchange rate?",
+    "query_language": "en",
+    "answerable": false,
+    "cross_lingual": false,
+    "expected_sources": [],
+    "top_results": [
+      {
+        "rank": 1,
+        "score": 0.80571663,
+        "document_id": "es_panorama_des_zi",
+        "page": 94,
+        "language": "es",
+        "preview": "www.investangier.com"
+      },
+      {
+        "rank": 2,
+        "score": 0.80571663,
+        "document_id": "panorama_zones_economiques_industrielles_fr",
+        "page": 94,
+        "language": "fr",
+        "preview": "www.investangier.com"
+      },
+      {
+        "rank": 3,
+        "score": 0.8050673,
+        "document_id": "eng_panorama_des_zi",
+        "page": 17,
+        "language": "en",
+        "preview": "@+&A&,(0+&2B2CDE1FGHIDJFKDL\nV\"Y$R$U95-??1X$dV$,-./012$,175$;08O\nU%31*$%&)T/1&\nYS-%(&0)T/1&"
+      },
+      {
+        "rank": 4,
+        "score": 0.7939646,
+        "document_id": "nv_guide_cout_facteurs_cri_2024",
+        "page": 10,
+        "language": "fr",
+        "preview": "COÛT DU FONCIER"
+      },
+      {
+        "rank": 5,
+        "score": 0.7875646,
+        "document_id": "fr_chiffres_cles_critta_30_sept_2024",
+        "page": 5,
+        "language": "fr",
+        "preview": "Une fois vous êtes ici, vous êtes partout !\n\n~68,8 milliards MAD\n\n~59 201 emplois stables\nprojetés à termes\n\nwww.investangier.com"
+      },
+      {
+        "rank": 6,
+        "score": 0.7875314,
+        "document_id": "eng_indicateurs_climat_dinvestissement",
+        "page": 28,
+        "language": "en",
+        "preview": "Once you are here, you are everywhere!\n\nWith the support of:\nIFC — International Finance Corporation — World Bank Group\n\nwww.investangier.com"
+      },
+      {
+        "rank": 7,
+        "score": 0.78421557,
+        "document_id": "manar_al_moustatmir_eng_png",
+        "page": 26,
+        "language": "en",
+        "preview": "Ca\n— laren\nEvolution of approved investment amounts by the Regional Unified\nInvestment Commission 2021-2023 (In billion MAD)\n~73,4\n366 52 Ow\na> ere\nSj SS &\nYear"
+      },
+      {
+        "rank": 8,
+        "score": 0.78351843,
+        "document_id": "manar_al_moustatmir_news",
+        "page": 31,
+        "language": "fr",
+        "preview": "FOCUS\nAQUACULTURE\nwww.investangier.com\n25"
+      },
+      {
+        "rank": 9,
+        "score": 0.7833656,
+        "document_id": "eng_presentation_cri_tta_vf",
+        "page": 3,
+        "language": "en",
+        "preview": "; _ | — INVEST AT THE HEART OF AN ENLIGHTENED\n¥ added value and quality\nE in the Worl\nfor the future towards Europe in the World\nanchor points for\n2TM Most attr"
+      },
+      {
+        "rank": 10,
+        "score": 0.78228605,
+        "document_id": "eng_panorama_des_zi",
+        "page": 81,
+        "language": "en",
+        "preview": "Qe\n\nLN og gall} Sl] Tess giy bs ase\n+8 teIEIeE | $07. Ee\n\nfreusr- Weiere.\nCENTRE REGIONAL D'INVESTISSEMENT\n\nSee NER"
+      }
+    ],
+    "top1_score": 0.80571663,
+    "first_relevant_rank": null,
+    "first_cross_language_relevant_rank": null,
+    "recall_hits": {
+      "recall_at_1": false,
+      "recall_at_3": false,
+      "recall_at_5": false,
+      "recall_at_10": false
+    }
+  },
+  {
+    "id": "q025",
+    "question": "Quel est le cours actuel de l'action Tesla ?",
+    "query_language": "fr",
+    "answerable": false,
+    "cross_lingual": false,
+    "expected_sources": [],
+    "top_results": [
+      {
+        "rank": 1,
+        "score": 0.8053213,
+        "document_id": "panorama_zones_economiques_industrielles_fr",
+        "page": 81,
+        "language": "fr",
+        "preview": "NY:\n\nAE: ©:\n\nINVESTANGIER\n\nTANGER QTÉTOUANAL NOGETMA\n\n“£AE 6tZAA\nnp:\n\na Le OuézZzane 3\nLars\n\nVers Kénitra"
+      },
+      {
+        "rank": 2,
+        "score": 0.80347764,
+        "document_id": "fr_chiffres_cles_critta_30_sept_2024",
+        "page": 5,
+        "language": "fr",
+        "preview": "Une fois vous êtes ici, vous êtes partout !\n\n~68,8 milliards MAD\n\n~59 201 emplois stables\nprojetés à termes\n\nwww.investangier.com"
+      },
+      {
+        "rank": 3,
+        "score": 0.80314016,
+        "document_id": "nv_guide_cout_facteurs_cri_2024",
+        "page": 10,
+        "language": "fr",
+        "preview": "COÛT DU FONCIER"
+      },
+      {
+        "rank": 4,
+        "score": 0.8015745,
+        "document_id": "nv_guide_cout_facteurs_cri_2024",
+        "page": 6,
+        "language": "fr",
+        "preview": "COÛT DE CRÉATION D’UNE SOCIÉTÉ"
+      },
+      {
+        "rank": 5,
+        "score": 0.7996743,
+        "document_id": "investors_guide_territorial_opportunities_fr",
+        "page": 58,
+        "language": "fr",
+        "preview": "Assemblage de Vélos & Motos électriques\nMATRICE SWOT DE L’OPPORTUNITÉ D’INVESTISSEMENT\nForces\nFaiblesses\nDes véhicules non polluants et peu bruyant.\nDes véhicul"
+      },
+      {
+        "rank": 6,
+        "score": 0.7989876,
+        "document_id": "panorama_zones_economiques_industrielles_fr",
+        "page": 94,
+        "language": "fr",
+        "preview": "www.investangier.com"
+      },
+      {
+        "rank": 7,
+        "score": 0.7989876,
+        "document_id": "es_panorama_des_zi",
+        "page": 94,
+        "language": "es",
+        "preview": "www.investangier.com"
+      },
+      {
+        "rank": 8,
+        "score": 0.79834163,
+        "document_id": "fr_chiffres_cles_critta_30_sept_2024",
+        "page": 1,
+        "language": "fr",
+        "preview": "CENTRE RÉGIONAL D’INVESTISSEMENT\nTANGER - TÉTOUAN - AL HOCEIMA\n\nChiffres clés au 30 septembre\n2024\n\nUne fois vous êtes ici, vous êtes partout !\n\nwww.investangie"
+      },
+      {
+        "rank": 9,
+        "score": 0.7971479,
+        "document_id": "panorama_zones_economiques_industrielles_fr",
+        "page": 35,
+        "language": "fr",
+        "preview": "ا\nINVESTANGIER\n\nTANGER CTÉTOUANLAL HOGATMA\n\nGA TANGER\n\nAUTOMOTIVE CITY\n\nrovince: FAHS-ANJIRA م\n\nZAI | Ta nger Automotive City (T AC)\n\n7\nامل م\n\n5\n\nActivités:\n00 "
+      },
+      {
+        "rank": 10,
+        "score": 0.79706764,
+        "document_id": "eng_panorama_des_zi",
+        "page": 81,
+        "language": "en",
+        "preview": "Qe\n\nLN og gall} Sl] Tess giy bs ase\n+8 teIEIeE | $07. Ee\n\nfreusr- Weiere.\nCENTRE REGIONAL D'INVESTISSEMENT\n\nSee NER"
+      }
+    ],
+    "top1_score": 0.8053213,
+    "first_relevant_rank": null,
+    "first_cross_language_relevant_rank": null,
+    "recall_hits": {
+      "recall_at_1": false,
+      "recall_at_3": false,
+      "recall_at_5": false,
+      "recall_at_10": false
+    }
+  },
+  {
+    "id": "q026",
+    "question": "ما هي شدة آخر زلزال وقع في العالم؟",
+    "query_language": "ar",
+    "answerable": false,
+    "cross_lingual": false,
+    "expected_sources": [],
+    "top_results": [
+      {
+        "rank": 1,
+        "score": 0.7489233,
+        "document_id": "ar_pr_sentation_cri_tta_vf",
+        "page": 12,
+        "language": "ar",
+        "preview": "الملف التعريفي\n\n|30 سم\n\nالعرض الترابي للاستثمار\n\nد إن كنتم هناء فأنتم في كل مكان؟؟"
+      },
+      {
+        "rank": 2,
+        "score": 0.7476263,
+        "document_id": "ar_pr_sentation_cri_tta_vf",
+        "page": 17,
+        "language": "ar",
+        "preview": "ا 000 صمة عدوي د لق عد إلقيس جوم\n4605 .إن كنتم هناء فأنتم في كل مكان؟؟ سكين جد\n\n1\n\n- | الأسلدك الكهربائية ارمع 01251يا) 1 ٠/ا ٠١8271 وباززوع 75 للك علداعاعه و)6"
+      },
+      {
+        "rank": 3,
+        "score": 0.744859,
+        "document_id": "ar_pr_sentation_cri_tta_vf",
+        "page": 31,
+        "language": "ar",
+        "preview": "دسي سين\n\n1 0\nلقع لا ل ع ال ل ا\n\nالطاقات المتجددة زأثقد وطنى فى مجال التحول الطاقى والتنمية المستدامة\n\n“ محطتان لتوليد الطاقة الهيدروليكية\n\n“ 5 محطات ريحية\nبقدرة"
+      },
+      {
+        "rank": 4,
+        "score": 0.7439838,
+        "document_id": "panorama_zones_economiques_industrielles_fr",
+        "page": 10,
+        "language": "fr",
+        "preview": "المركسزالجه وي للاستثمبا\n19 عل لف عرفو\nكارا .داكن اباي\n\nCENTRE RÉGIONAL D'INVESTISSEMENT\nTANGER -TÉTOUAN «AL HOGEIMA\n\nPréfecture: TANGER-ASSILAH\n\nZ\\| Tanger\n\nRo"
+      },
+      {
+        "rank": 5,
+        "score": 0.74337435,
+        "document_id": "panorama_zones_economiques_industrielles_fr",
+        "page": 39,
+        "language": "fr",
+        "preview": "الركبزالجهسوي للاستثمبار\nعد د\nCENTRE RÉGIONAL D'INVESTISSEMENT\ner\nPréfecture: FAHS-ANJRA\nZL | Med Hub\nHE Autoroute\nDEEE Voie express\nRoute nationale\nUr Gare LGV"
+      },
+      {
+        "rank": 6,
+        "score": 0.74271584,
+        "document_id": "ar_pr_sentation_cri_tta_vf",
+        "page": 54,
+        "language": "ar",
+        "preview": "المملكة المفربية اليس العومة»\n0 لخعن “د وويد\nل ان له\nٍ\n\n0 6 1 “6\nلي ل\n\nإن كنتم هناء فأنتم في كل مكان؟؟ بيك\n\n٠ إعفاء من الضريبة على الشركات خلال السنوات الخمس ال"
+      },
+      {
+        "rank": 7,
+        "score": 0.7422571,
+        "document_id": "ar_pr_sentation_cri_tta_vf",
+        "page": 22,
+        "language": "ar",
+        "preview": "ا 595 آذ\n1ن 1 2\nمدي 0 وه وغوه ء .ا عع\nن كنتم هناء. فانتم فى كل مكان ل\nام امي لقي ام ل\nذلاء - اله اا وان عو ما ل\n\nقطاع اللويستيك أول منصة لوجستيكية على الصعيد ال"
+      },
+      {
+        "rank": 8,
+        "score": 0.740314,
+        "document_id": "akhbar_al_moustatmir_news",
+        "page": 28,
+        "language": "ar",
+        "preview": "22\nwww.investangier.com\n148\nالتي تم حلها\nملفات الشكاوى\nامسح الرمز\nضوئيا للدخول\nwww.investangier.com"
+      },
+      {
+        "rank": 9,
+        "score": 0.739939,
+        "document_id": "eng_panorama_des_zi",
+        "page": 17,
+        "language": "en",
+        "preview": "@+&A&,(0+&2B2CDE1FGHIDJFKDL\nV\"Y$R$U95-??1X$dV$,-./012$,175$;08O\nU%31*$%&)T/1&\nYS-%(&0)T/1&"
+      },
+      {
+        "rank": 10,
+        "score": 0.73978406,
+        "document_id": "akhbar_al_moustatmir_news",
+        "page": 21,
+        "language": "ar",
+        "preview": "15\n\"المساحات الطبيعية الشاسعة والمواقع الغارقة في الثقافة والتاريخ تجعل\nمن وزان نقطة جذب رئيسية للسياحة البيئية والثقافية والروحية. مدينتها \nالقديمة، التي يعود "
+      }
+    ],
+    "top1_score": 0.7489233,
+    "first_relevant_rank": null,
+    "first_cross_language_relevant_rank": null,
+    "recall_hits": {
+      "recall_at_1": false,
+      "recall_at_3": false,
+      "recall_at_5": false,
+      "recall_at_10": false
+    }
+  },
+  {
+    "id": "q027",
+    "question": "¿Qué tiempo hace hoy en Casablanca?",
+    "query_language": "es",
+    "answerable": false,
+    "cross_lingual": false,
+    "expected_sources": [],
+    "top_results": [
+      {
+        "rank": 1,
+        "score": 0.79735434,
+        "document_id": "panorama_zones_economiques_industrielles_fr",
+        "page": 14,
+        "language": "fr",
+        "preview": "Aéroport Internationa ’\n\nde Tanger-lbn Batouta\n\nIndustriellé:Gueznaïa:\n\nPolejUrbain 14 65 2 Casablanca” Ne\nIbmBattouta AVAL SES ل EVE\n\nPtan de situation\n\nPlan d"
+      },
+      {
+        "rank": 2,
+        "score": 0.7906766,
+        "document_id": "es_panorama_des_zi",
+        "page": 7,
+        "language": "es",
+        "preview": "Prefectura: TÁNGER-ASILAH\nTanger Free Zone (TFZ)\nZAI I\nCarretera\nAutopista\n62 KM\nCarretera Nacional\nTánger\nEstación TGV Tánger\n15 KM\nPuerto Tánger Med\nFnideq\nPu"
+      },
+      {
+        "rank": 3,
+        "score": 0.7901498,
+        "document_id": "es_panorama_des_zi",
+        "page": 47,
+        "language": "es",
+        "preview": "Prefectura: M’diq-Fnideq\nZAE I Fnideq\nZona de Actividad\nAutopista\n22 KM\nEconomica\nFnideq\nAutovía\nTánger\nCarretera Nacional\nEstación TGV Tánger\nFnideq\n4 KM\nPuert"
+      },
+      {
+        "rank": 4,
+        "score": 0.78957653,
+        "document_id": "panorama_zones_economiques_industrielles_fr",
+        "page": 17,
+        "language": "fr",
+        "preview": "116000\n-Jbn'Batouta\n\nمت\n\n3\n\"A5 Vers Port Tanger Med\n\nin. fe Peage Autoroute: 34\n1 16 6306م قم Autoroûte\n34 اد ٠ ١ 0 Tanger AinDalia-\n.../\"/VersiRäbat/ الات\nCasa"
+      },
+      {
+        "rank": 5,
+        "score": 0.7881063,
+        "document_id": "es_panorama_des_zi",
+        "page": 50,
+        "language": "es",
+        "preview": "Prefectura: M’diq-Fnideq\nTetouan Shore\nAutopista\n52 KM\nAutovía\nCarretera Nacional\nTánger\nEstación TGV Tánger\nFnideq\nPuerto Tánger Med\nPuerto de la ciudad de Tán"
+      },
+      {
+        "rank": 6,
+        "score": 0.78779215,
+        "document_id": "es_panorama_des_zi",
+        "page": 22,
+        "language": "es",
+        "preview": "Prefectura: TANGER-ASILAH\nZAE I Rocade des Deux Mers\nAutopista\nAutovía\n42 KM\nCarretera Nacional\nEstación TGV Tánger\n10 KM\nTánger\nPuerto Tánger Med\nFnideq\n09 KM\n"
+      },
+      {
+        "rank": 7,
+        "score": 0.7874397,
+        "document_id": "es_panorama_des_zi",
+        "page": 85,
+        "language": "es",
+        "preview": "Provincia: AlHucemas\nZAE I Ait Kamra\nAutopista\nAutovía\nCarretera Nacional\nTánger\nPuerto AlHucemas\nFnideq\nAeropuerto Cherif Al Idrissi de AlHucemas\nZona Logístic"
+      },
+      {
+        "rank": 8,
+        "score": 0.7870059,
+        "document_id": "es_panorama_des_zi",
+        "page": 10,
+        "language": "es",
+        "preview": "Prefectura: TÁNGER-ASILAH\nZI I Tánger\nAutopista\nAutovía\n40 KM\nCarretera Nacional\nTánger\nEstación TGV Tánger\nZI Tánger\nFnideq\nPuerto Tánger Med\n15 KM\nPuerto de l"
+      },
+      {
+        "rank": 9,
+        "score": 0.78658825,
+        "document_id": "es_panorama_des_zi",
+        "page": 16,
+        "language": "es",
+        "preview": "Prefectura: TANGER-ASILAH\nZAI I Cuidad Mohammed VI I Tanger Tech\nAutopista\nAutovía\n46 KM\nCarretera Nacional\nTánger\nEstación TGV Tánger\nPuerto Tánger Med\nFnideq\n"
+      },
+      {
+        "rank": 10,
+        "score": 0.7865821,
+        "document_id": "es_panorama_des_zi",
+        "page": 28,
+        "language": "es",
+        "preview": "Prefectura: TANGER-ASILAH\nZAE I Asilah\nAutopista\nAutovía\nCarretera Nacional\nEstación TGV Tánger\nTánger\n85 KM\nPuerto Tánger Med\nFnideq\n51 KM\nPuerto de la ciudad "
+      }
+    ],
+    "top1_score": 0.79735434,
+    "first_relevant_rank": null,
+    "first_cross_language_relevant_rank": null,
+    "recall_hits": {
+      "recall_at_1": false,
+      "recall_at_3": false,
+      "recall_at_5": false,
+      "recall_at_10": false
+    }
+  },
+  {
+    "id": "q028",
+    "question": "What was the latest score of the Moroccan national football team?",
+    "query_language": "en",
+    "answerable": false,
+    "cross_lingual": false,
+    "expected_sources": [],
+    "top_results": [
+      {
+        "rank": 1,
+        "score": 0.7854353,
+        "document_id": "investors_guide_territorial_opportunities_en",
+        "page": 150,
+        "language": "en",
+        "preview": "Maroc Numeric Fund (MNF):\n\n142\nStart-up Accelerator\nFOCUS: POTENTIAL PARTNERS OF STARTUP ACCELERATORS IN \nMOROCCO (NON EXHAUSTIVE)\nKEY ESTABLISHED COMPETITORS I"
+      },
+      {
+        "rank": 2,
+        "score": 0.7828341,
+        "document_id": "investors_guide_territorial_opportunities_en",
+        "page": 184,
+        "language": "en",
+        "preview": "French, English, Spanish).\n\n176\nTheme Park: Science and Culture\nOVERVIEW OF THE TOURISM \nSECTOR IN MOROCCO\nMorocco experienced a record number of \ntourists in 2"
+      },
+      {
+        "rank": 3,
+        "score": 0.782495,
+        "document_id": "investors_guide_territorial_opportunities_en",
+        "page": 190,
+        "language": "en",
+        "preview": "\"IDMAJ\" Program / \"TAEHIL\" Program.\n\n182\nMini Ski Resort in Chakrane\nFinancial Incentives\nTax Incentives\nINVESTMENT ADVANTAGES\nIncentive mechanism implemented t"
+      },
+      {
+        "rank": 4,
+        "score": 0.77940893,
+        "document_id": "investors_guide_territorial_opportunities_en",
+        "page": 27,
+        "language": "en",
+        "preview": "Unit for processing red fruits\n\no\n\no\n\no\n\nRequirements\n\nLand.\n\nIndustrial unit and equipment depending on the\ntype of processing: refrigerated rooms (positive\nan"
+      },
+      {
+        "rank": 5,
+        "score": 0.77918154,
+        "document_id": "investors_guide_territorial_opportunities_en",
+        "page": 195,
+        "language": "en",
+        "preview": "Mountain Lodge\nKEY FIGURES OF THE TOURISM SECTOR - TTA REGION\nIn 2020, the region had a total of 338 classified establishments with a capacity of 28,285 beds,\na"
+      },
+      {
+        "rank": 6,
+        "score": 0.77732325,
+        "document_id": "investors_guide_territorial_opportunities_en",
+        "page": 148,
+        "language": "en",
+        "preview": "• Province of Tétouan (Tétouan Park)\n• Province of Al Hoceima (ZAE of Ait Kamra)\n• Regional Investment Center (CRI).\n• \"Tatwir Start-up\" program launched by the"
+      },
+      {
+        "rank": 7,
+        "score": 0.7769903,
+        "document_id": "investors_guide_territorial_opportunities_en",
+        "page": 202,
+        "language": "en",
+        "preview": "Tax Incentives\nFinancing**\n\"TAHFIZ\" program\nBank loans granted to tourist accommodation\nestablishments (EHT).\nTraining Assistance\n\"IDMAJ\" program / \"TAEHIL\" pro"
+      },
+      {
+        "rank": 8,
+        "score": 0.7768588,
+        "document_id": "investors_guide_territorial_opportunities_en",
+        "page": 110,
+        "language": "en",
+        "preview": "ficant\nportion of Moroccan tourism. Furthermore, there\nare no domestic suppliers meeting this demand.\nEstablishing the shipyard presents a significant\nopportuni"
+      },
+      {
+        "rank": 9,
+        "score": 0.77643716,
+        "document_id": "investors_guide_territorial_opportunities_en",
+        "page": 204,
+        "language": "en",
+        "preview": "French, English, Spanish).\nTanger-Med port, etc.).\n\n196\nTourist Vacation Village (\"Club Biladi\")\nBeing the second industrial hub in Morocco, the region also ben"
+      },
+      {
+        "rank": 10,
+        "score": 0.77593243,
+        "document_id": "investors_guide_territorial_opportunities_en",
+        "page": 20,
+        "language": "en",
+        "preview": "Unité industrielle de fabrication du couscous\n\nBENEFITS OF THE INVESTMENT INTERNATIONAL TRADE\nThe main benefits of the investment e Moroccan imports of couscous"
+      }
+    ],
+    "top1_score": 0.7854353,
+    "first_relevant_rank": null,
+    "first_cross_language_relevant_rank": null,
+    "recall_hits": {
+      "recall_at_1": false,
+      "recall_at_3": false,
+      "recall_at_5": false,
+      "recall_at_10": false
+    }
+  },
+  {
+    "id": "q029",
+    "question": "Quels sont les résultats des dernières élections nationales ?",
+    "query_language": "fr",
+    "answerable": false,
+    "cross_lingual": false,
+    "expected_sources": [],
+    "top_results": [
+      {
+        "rank": 1,
+        "score": 0.81465584,
+        "document_id": "esp_indicateurs_climat_dinvestissement",
+        "page": 5,
+        "language": "es",
+        "preview": "PRINCIPALES RESULTADOS\n\n3"
+      },
+      {
+        "rank": 2,
+        "score": 0.81463444,
+        "document_id": "nv_guide_cout_facteurs_cri_2024",
+        "page": 55,
+        "language": "fr",
+        "preview": "COMPARATIF DES PRINCIPAUX POSTES DE COÛTS DE PRODUCTION À L’ÉCHELLE NATIONALE ET INTERNATIONALE"
+      },
+      {
+        "rank": 3,
+        "score": 0.81401926,
+        "document_id": "guide_du_financement_des_entreprises",
+        "page": 103,
+        "language": "fr",
+        "preview": "LE FINANCEMENT PAR \nLES ORGANISMES PUBLICS\nAGENCE NATIONALE POUR LA PROMOTION DE PME\nFINÉA CAUTIONS............................................................."
+      },
+      {
+        "rank": 4,
+        "score": 0.8084792,
+        "document_id": "fr_indicateurs_climat_dinvestissement",
+        "page": 5,
+        "language": "fr",
+        "preview": "PRINCIPAUX RÉSULTATS\n\n3"
+      },
+      {
+        "rank": 5,
+        "score": 0.80543035,
+        "document_id": "investors_guide_territorial_opportunities_fr",
+        "page": 212,
+        "language": "fr",
+        "preview": "INSTITUTIONS PUBLIQUES\n202"
+      },
+      {
+        "rank": 6,
+        "score": 0.8019937,
+        "document_id": "guide_du_financement_des_entreprises",
+        "page": 161,
+        "language": "fr",
+        "preview": "161\nLISTE DES CONTACTS"
+      },
+      {
+        "rank": 7,
+        "score": 0.80110025,
+        "document_id": "manar_al_moustatmir_news",
+        "page": 1,
+        "language": "fr",
+        "preview": "LES CHIFFRES CLÉS DE\nL'INVESTISSEMENT\nET DE L'ENTREPRENEURIAT\nde l’année 2023\nMANAR AL\nMOUSTATMIR\nNews\nFAITS\nMARQUANTS\nBAROMÈTRE \nDE L’INVESTISSEMENT\nDOSSIER\nSP"
+      },
+      {
+        "rank": 8,
+        "score": 0.80109334,
+        "document_id": "nv_guide_cout_facteurs_cri_2024",
+        "page": 5,
+        "language": "fr",
+        "preview": "SOMMAIRE\n\nTransports — 27\n• Transport public et du personnel — 28\n• Transports routiers — 28\n• Transport ferroviaire — 29\n• Transport maritime — 30\n• Transport "
+      },
+      {
+        "rank": 9,
+        "score": 0.80108047,
+        "document_id": "nv_guide_cout_facteurs_cri_2024",
+        "page": 10,
+        "language": "fr",
+        "preview": "COÛT DU FONCIER"
+      },
+      {
+        "rank": 10,
+        "score": 0.80091155,
+        "document_id": "eng_presentation_cri_tta_vf",
+        "page": 61,
+        "language": "en",
+        "preview": "@ og Sail yu_siy\ntelOOEXAt | t1GcEt\nCHEF OU GOUVERNEMENT\n\n@ 4ya0l! a_Slaoll\n+oRWALt | HCWOLO\nAOYAUME DU MAROC\n\n@uogaall GLwluull @_sdig a: _flailig jL_oii wll d"
+      }
+    ],
+    "top1_score": 0.81465584,
+    "first_relevant_rank": null,
+    "first_cross_language_relevant_rank": null,
+    "recall_hits": {
+      "recall_at_1": false,
+      "recall_at_3": false,
+      "recall_at_5": false,
+      "recall_at_10": false
+    }
+  }
+]

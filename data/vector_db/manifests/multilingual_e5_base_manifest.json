@@ -1,0 +1,15 @@
+{
+  "collection_name": "cri_chunks_multilingual_e5_base",
+  "embedding_model": "intfloat/multilingual-e5-base",
+  "embedding_dimension": 768,
+  "distance": "Cosine",
+  "source_file": "data/processed/chunks.json",
+  "source_hash": "5a46b05dd2f52befb0ee3b96efb167a7ab23292e2e89010249d6ed5d5d8bfdcf",
+  "total_chunks": 1893,
+  "indexed_points": 1893,
+  "model_revision": null,
+  "chunk_size": 2800,
+  "chunk_overlap": 400,
+  "created_at": "2026-08-24T14:28:18.347585+00:00",
+  "indexing_duration_seconds": 1898.2509673000313
+}

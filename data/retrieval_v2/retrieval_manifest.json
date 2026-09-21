@@ -1,0 +1,147 @@
+{
+  "retrieval_schema_version": "2.0",
+  "source_schema_version": "2.2",
+  "source_semantic_document_count": 33,
+  "source_semantic_chunk_count": 913,
+  "retrieval_chunk_count": 1901,
+  "previous_retrieval_chunk_count": 1901,
+  "unsplit_count": 628,
+  "split_count": 285,
+  "parents_producing_multiple_chunks": 285,
+  "parents_covered": 913,
+  "parents_with_at_least_one_indexable_record": 906,
+  "parents_with_only_non_indexable_records": 7,
+  "language_distribution": {
+    "ar": 123,
+    "en": 536,
+    "es": 138,
+    "fr": 1104
+  },
+  "content_type_distribution": {
+    "contact_information": 46,
+    "cost_information": 11,
+    "eligibility_conditions": 6,
+    "faq": 33,
+    "financial_product": 171,
+    "industrial_zone": 97,
+    "investment_opportunity": 739,
+    "legal_information": 9,
+    "narrative": 291,
+    "procedure": 30,
+    "service": 162,
+    "statistics": 254,
+    "table": 52
+  },
+  "document_family_distribution": {
+    "chiffres_cles_2025": 75,
+    "conciliation_guide": 14,
+    "cri_presentation": 155,
+    "crui_key_figures_2024_09_30": 14,
+    "crui_key_figures_2024_h1": 28,
+    "electricity_water_sanitation_connection": 19,
+    "financing_guide": 282,
+    "industrial_zones_panorama": 153,
+    "integrated_business_support_financing": 5,
+    "investment_business_support_single_window": 24,
+    "investment_climate_indicators": 44,
+    "investors_guide_territorial_opportunities": 888,
+    "logistics_sector_brochure": 15,
+    "manar_al_moustatmir_news_2023": 133,
+    "production_factor_cost_guide_2024": 52
+  },
+  "indexable_record_count": 1894,
+  "non_indexable_record_count": 7,
+  "indexability_reason_distribution": {
+    "boilerplate_only": 2,
+    "navigation_only": 5,
+    "semantic_content": 1811,
+    "short_but_informative": 83
+  },
+  "non_indexable_by_family": {
+    "chiffres_cles_2025": 1,
+    "cri_presentation": 4,
+    "production_factor_cost_guide_2024": 2
+  },
+  "short_record_counts": {
+    "<50": 27,
+    "<100": 52,
+    "<200": 142
+  },
+  "short_records_still_indexable": 135,
+  "retrieval_text_characters": {
+    "min": 9,
+    "median": 1124,
+    "mean": 1034.3224618621778,
+    "max": 2334,
+    ">3000": 0,
+    ">4500": 0,
+    ">5000": 0,
+    ">8000": 0,
+    ">12000": 0
+  },
+  "e5_token_budget": {
+    "tokenizer_model": "intfloat/multilingual-e5-base",
+    "model_max_length": 512,
+    "safe_max_embedding_tokens": 500,
+    "token_target_for_oversized_records": 380,
+    "records_before_token_refinement": 1219,
+    "records_after_token_refinement": 1901,
+    "indexable_records": 1894,
+    "non_indexable_records": 7,
+    "max_embedding_token_count": 499,
+    "median_embedding_token_count": 315,
+    "mean_embedding_token_count": 279.4155707522357,
+    "records_over_500_before": 477,
+    "records_over_500_after": 0,
+    "records_over_512_before": 460,
+    "records_over_512_after": 0,
+    "records_additionally_split": 477,
+    "oversized_before_by_language": {
+      "ar": 14,
+      "en": 151,
+      "es": 11,
+      "fr": 301
+    },
+    "oversized_before_by_family": {
+      "chiffres_cles_2025": 3,
+      "cri_presentation": 12,
+      "electricity_water_sanitation_connection": 4,
+      "financing_guide": 89,
+      "industrial_zones_panorama": 35,
+      "integrated_business_support_financing": 1,
+      "investment_climate_indicators": 2,
+      "investors_guide_territorial_opportunities": 297,
+      "logistics_sector_brochure": 4,
+      "manar_al_moustatmir_news_2023": 20,
+      "production_factor_cost_guide_2024": 10
+    },
+    "oversized_before_by_content_type": {
+      "contact_information": 7,
+      "cost_information": 1,
+      "eligibility_conditions": 1,
+      "faq": 10,
+      "financial_product": 63,
+      "industrial_zone": 20,
+      "investment_opportunity": 265,
+      "legal_information": 2,
+      "narrative": 36,
+      "procedure": 8,
+      "service": 34,
+      "statistics": 18,
+      "table": 12
+    }
+  },
+  "page_mapping_precision_counts": {
+    "exact": 1901
+  },
+  "parent_mapping_by_family": {},
+  "parent_mapping_by_language": {},
+  "embedding_convention": "passage: <heading context>\\n<body text>",
+  "qdrant_ingestion_performed": false,
+  "jsonl_sha256": "5062E2135C8856EB5BE03D68F0D065C8460825B6899F52E839487FD0519011F2",
+  "determinism_test": {
+    "status": "PASS",
+    "previous_hash": "5062E2135C8856EB5BE03D68F0D065C8460825B6899F52E839487FD0519011F2",
+    "current_hash": "5062E2135C8856EB5BE03D68F0D065C8460825B6899F52E839487FD0519011F2"
+  }
+}

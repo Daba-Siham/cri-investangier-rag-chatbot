@@ -1,0 +1,508 @@
+[
+  {
+    "id": "q001",
+    "question": "Combien de projets ont été approuvés par la CRUI au premier semestre 2024 ?",
+    "query_language": "fr",
+    "answerable": true,
+    "cross_lingual": true,
+    "topic": "CRUI / investissement 2024",
+    "expected_fact": "379 projets approuvés",
+    "expected_sources": [
+      {
+        "document_id": "chiffres_cles_crui_1er_semestre_2024_francais",
+        "page": 2,
+        "language": "fr"
+      },
+      {
+        "document_id": "chiffres_cles_crui_1er_semestre_2024_arabe",
+        "page": 2,
+        "language": "ar"
+      },
+      {
+        "document_id": "chiffres_cles_crui_1er_semestre_2024_anglais",
+        "page": 2,
+        "language": "en"
+      },
+      {
+        "document_id": "chiffres_cles_crui_1er_semestre_2024_espagnol",
+        "page": 2,
+        "language": "es"
+      }
+    ]
+  },
+  {
+    "id": "q002",
+    "question": "Quelle part des investissements approuvés par la CRUI au premier semestre 2024 correspond à l'industrie ?",
+    "query_language": "fr",
+    "answerable": true,
+    "cross_lingual": false,
+    "topic": "CRUI / secteurs",
+    "expected_fact": "Industrie : 54%",
+    "expected_sources": [
+      {
+        "document_id": "chiffres_cles_crui_1er_semestre_2024_francais",
+        "page": 3,
+        "language": "fr"
+      }
+    ]
+  },
+  {
+    "id": "q003",
+    "question": "Vers combien de ports mondiaux la zone logistique est-elle connectée chaque semaine ?",
+    "query_language": "fr",
+    "answerable": true,
+    "cross_lingual": false,
+    "topic": "logistique",
+    "expected_fact": "180 ports mondiaux",
+    "expected_sources": [
+      {
+        "document_id": "brochure_secteur_logistique",
+        "page": 6,
+        "language": "fr"
+      }
+    ]
+  },
+  {
+    "id": "q004",
+    "question": "Quelle est la capacité nationale d’accueil et quelle est la capacité d’accueil dans la région pour les formations du transport et de la logistique ?",
+    "query_language": "fr",
+    "answerable": true,
+    "cross_lingual": false,
+    "topic": "logistique / formation",
+    "expected_fact": "7 429 stagiaires au total, dont 3 769 dans la région",
+    "expected_sources": [
+      {
+        "document_id": "brochure_secteur_logistique",
+        "page": 4,
+        "language": "fr"
+      }
+    ]
+  },
+  {
+    "id": "q005",
+    "question": "Combien de nouvelles entreprises ont été créées dans la région en 2025 ?",
+    "query_language": "fr",
+    "answerable": true,
+    "cross_lingual": true,
+    "topic": "création d'entreprises",
+    "expected_fact": "15 286 nouvelles entreprises",
+    "expected_sources": [
+      {
+        "document_id": "fr_chiffres_cles_annee_2025",
+        "page": 2,
+        "language": "fr"
+      },
+      {
+        "document_id": "arabe_chiffres_cles_2025",
+        "page": 2,
+        "language": "ar"
+      },
+      {
+        "document_id": "eng_chiffres_cles_annee_2025",
+        "page": 2,
+        "language": "en"
+      },
+      {
+        "document_id": "esp_chiffres_cles_annee_2025",
+        "page": 2,
+        "language": "es"
+      }
+    ]
+  },
+  {
+    "id": "q006",
+    "question": "كم عدد الطلبات التي وافقت عليها اللجنة الجهوية الموحدة للاستثمار خلال سنة 2023؟",
+    "query_language": "ar",
+    "answerable": true,
+    "cross_lingual": true,
+    "topic": "CRUI / investissement 2023",
+    "expected_fact": "709 demandes approuvées",
+    "expected_sources": [
+      {
+        "document_id": "akhbar_al_moustatmir_news",
+        "page": 25,
+        "language": "ar"
+      },
+      {
+        "document_id": "manar_al_moustatmir_news",
+        "page": 25,
+        "language": "fr"
+      }
+    ]
+  },
+  {
+    "id": "q007",
+    "question": "ما قيمة الاستثمارات وعدد فرص العمل التي نتجت عن 44 مشروع اتفاقية استثمار في سنة 2023؟",
+    "query_language": "ar",
+    "answerable": true,
+    "cross_lingual": true,
+    "topic": "CRUI / conventions d'investissement 2023",
+    "expected_fact": "حوالي 18 مليار درهم و10.200 فرصة عمل",
+    "expected_sources": [
+      {
+        "document_id": "akhbar_al_moustatmir_news",
+        "page": 5,
+        "language": "ar"
+      },
+      {
+        "document_id": "manar_al_moustatmir_news",
+        "page": 5,
+        "language": "fr"
+      },
+      {
+        "document_id": "manar_al_moustatmir_eng_png",
+        "page": 5,
+        "language": "en"
+      }
+    ]
+  },
+  {
+    "id": "q008",
+    "question": "ما عدد مشاريع الطاقة التي تمت المصادقة عليها في الجهة سنة 2025، وما قيمة الاستثمارات المرتقبة؟",
+    "query_language": "ar",
+    "answerable": true,
+    "cross_lingual": true,
+    "topic": "énergie",
+    "expected_fact": "11 مشروعاً وحوالي 22,4 مليار درهم",
+    "expected_sources": [
+      {
+        "document_id": "arabe_chiffres_cles_2025",
+        "page": 9,
+        "language": "ar"
+      },
+      {
+        "document_id": "fr_chiffres_cles_annee_2025",
+        "page": 9,
+        "language": "fr"
+      },
+      {
+        "document_id": "eng_chiffres_cles_annee_2025",
+        "page": 9,
+        "language": "en"
+      },
+      {
+        "document_id": "esp_chiffres_cles_annee_2025",
+        "page": 9,
+        "language": "es"
+      }
+    ]
+  },
+  {
+    "id": "q009",
+    "question": "ما هي المراحل التي يمكن أن يمر بها حامل المشروع للاستفادة من خدمات المواكبة؟",
+    "query_language": "ar",
+    "answerable": true,
+    "cross_lingual": false,
+    "topic": "accompagnement / financement",
+    "expected_fact": "نضج الفكرة، صياغة المشروع، إحداث المقاولة، البحث عن التمويلات، وتطوير المشروع",
+    "expected_sources": [
+      {
+        "document_id": "guide_programme_integre_appui_financement_entreprises_ar",
+        "page": 2,
+        "language": "ar"
+      }
+    ]
+  },
+  {
+    "id": "q010",
+    "question": "كم عدد الملفات الاستثمارية التي صادقت عليها اللجنة الجهوية الموحدة للاستثمار في حصيلة سنة 2025؟",
+    "query_language": "ar",
+    "answerable": true,
+    "cross_lingual": true,
+    "topic": "CRUI / investissement 2025",
+    "expected_fact": "487 ملفاً استثمارياً",
+    "expected_sources": [
+      {
+        "document_id": "arabe_chiffres_cles_2025",
+        "page": 5,
+        "language": "ar"
+      },
+      {
+        "document_id": "fr_chiffres_cles_annee_2025",
+        "page": 5,
+        "language": "fr"
+      },
+      {
+        "document_id": "eng_chiffres_cles_annee_2025",
+        "page": 5,
+        "language": "en"
+      },
+      {
+        "document_id": "esp_chiffres_cles_annee_2025",
+        "page": 5,
+        "language": "es"
+      }
+    ]
+  },
+  {
+    "id": "q011",
+    "question": "¿Cuántos proyectos aprobó la CRUI durante el primer semestre de 2024?",
+    "query_language": "es",
+    "answerable": true,
+    "cross_lingual": true,
+    "topic": "CRUI / inversión 2024",
+    "expected_fact": "379 proyectos aprobados",
+    "expected_sources": [
+      {
+        "document_id": "chiffres_cles_crui_1er_semestre_2024_espagnol",
+        "page": 2,
+        "language": "es"
+      },
+      {
+        "document_id": "chiffres_cles_crui_1er_semestre_2024_francais",
+        "page": 2,
+        "language": "fr"
+      },
+      {
+        "document_id": "chiffres_cles_crui_1er_semestre_2024_arabe",
+        "page": 2,
+        "language": "ar"
+      },
+      {
+        "document_id": "chiffres_cles_crui_1er_semestre_2024_anglais",
+        "page": 2,
+        "language": "en"
+      }
+    ]
+  },
+  {
+    "id": "q012",
+    "question": "¿Qué porcentaje representó la industria del volumen total de inversiones aprobadas por la CRUI en el primer semestre de 2024?",
+    "query_language": "es",
+    "answerable": true,
+    "cross_lingual": false,
+    "topic": "CRUI / sectores",
+    "expected_fact": "Industria: 54%",
+    "expected_sources": [
+      {
+        "document_id": "chiffres_cles_crui_1er_semestre_2024_espagnol",
+        "page": 3,
+        "language": "es"
+      }
+    ]
+  },
+  {
+    "id": "q013",
+    "question": "¿Cuántos proyectos de energía fueron aprobados en 2025 y qué potencia instalada se indica?",
+    "query_language": "es",
+    "answerable": true,
+    "cross_lingual": false,
+    "topic": "energía",
+    "expected_fact": "11 proyectos y 2,4 GW de potencia instalada",
+    "expected_sources": [
+      {
+        "document_id": "esp_chiffres_cles_annee_2025",
+        "page": 9,
+        "language": "es"
+      }
+    ]
+  },
+  {
+    "id": "q014",
+    "question": "¿Cuántas nuevas empresas se crearon en la región en 2025?",
+    "query_language": "es",
+    "answerable": true,
+    "cross_lingual": false,
+    "topic": "creación de empresas",
+    "expected_fact": "15 286 nuevas empresas",
+    "expected_sources": [
+      {
+        "document_id": "esp_chiffres_cles_annee_2025",
+        "page": 2,
+        "language": "es"
+      }
+    ]
+  },
+  {
+    "id": "q015",
+    "question": "¿Qué superficie ocupa la plataforma Tánger Tech y cuántos empleos se proyectan?",
+    "query_language": "es",
+    "answerable": true,
+    "cross_lingual": false,
+    "topic": "Tanger Tech / industria",
+    "expected_fact": "2 167 hectáreas y 100 000 empleos",
+    "expected_sources": [
+      {
+        "document_id": "esp_presentation_cri_tta_vf",
+        "page": 32,
+        "language": "es"
+      }
+    ]
+  },
+  {
+    "id": "q016",
+    "question": "How many new companies were created in the region in 2025?",
+    "query_language": "en",
+    "answerable": true,
+    "cross_lingual": false,
+    "topic": "business creation",
+    "expected_fact": "15,286 new companies",
+    "expected_sources": [
+      {
+        "document_id": "eng_chiffres_cles_annee_2025",
+        "page": 2,
+        "language": "en"
+      }
+    ]
+  },
+  {
+    "id": "q017",
+    "question": "What were the main support areas for project holders and SMEs in 2025?",
+    "query_language": "en",
+    "answerable": true,
+    "cross_lingual": false,
+    "topic": "company support",
+    "expected_fact": "Finance access, capacity building, post-investment follow-up, innovation and entrepreneurship",
+    "expected_sources": [
+      {
+        "document_id": "eng_chiffres_cles_annee_2025",
+        "page": 10,
+        "language": "en"
+      }
+    ]
+  },
+  {
+    "id": "q018",
+    "question": "How many files were financed through the PIAFE report for the TTA region?",
+    "query_language": "en",
+    "answerable": true,
+    "cross_lingual": false,
+    "topic": "PIAFE / financing",
+    "expected_fact": "4,672 financed files",
+    "expected_sources": [
+      {
+        "document_id": "eng_chiffres_cles_annee_2025",
+        "page": 11,
+        "language": "en"
+      }
+    ]
+  },
+  {
+    "id": "q019",
+    "question": "How many jobs is the Fnideq Economic Activity Zone expected to create?",
+    "query_language": "en",
+    "answerable": true,
+    "cross_lingual": false,
+    "topic": "economic zones / territorial opportunities",
+    "expected_fact": "400 jobs",
+    "expected_sources": [
+      {
+        "document_id": "eng_panorama_des_zi",
+        "page": 46,
+        "language": "en"
+      }
+    ]
+  },
+  {
+    "id": "q020",
+    "question": "How many investment files were approved by the Regional Unified Investment Commission in 2025?",
+    "query_language": "en",
+    "answerable": true,
+    "cross_lingual": true,
+    "topic": "CRUI / investment 2025",
+    "expected_fact": "487 approved investment files",
+    "expected_sources": [
+      {
+        "document_id": "eng_chiffres_cles_annee_2025",
+        "page": 5,
+        "language": "en"
+      },
+      {
+        "document_id": "arabe_chiffres_cles_2025",
+        "page": 5,
+        "language": "ar"
+      },
+      {
+        "document_id": "fr_chiffres_cles_annee_2025",
+        "page": 5,
+        "language": "fr"
+      },
+      {
+        "document_id": "esp_chiffres_cles_annee_2025",
+        "page": 5,
+        "language": "es"
+      }
+    ]
+  },
+  {
+    "id": "q021",
+    "question": "Quel est le prix actuel du Bitcoin en dirhams ?",
+    "query_language": "fr",
+    "answerable": false,
+    "cross_lingual": false,
+    "topic": "hors corpus",
+    "expected_sources": []
+  },
+  {
+    "id": "q022",
+    "question": "ما هي حالة الطقس اليوم في طنجة؟",
+    "query_language": "ar",
+    "answerable": false,
+    "cross_lingual": false,
+    "topic": "خارج corpus",
+    "expected_sources": []
+  },
+  {
+    "id": "q023",
+    "question": "¿Quién ganará el próximo Mundial de fútbol?",
+    "query_language": "es",
+    "answerable": false,
+    "cross_lingual": false,
+    "topic": "fuera del corpus",
+    "expected_sources": []
+  },
+  {
+    "id": "q024",
+    "question": "What is the current EUR/USD exchange rate?",
+    "query_language": "en",
+    "answerable": false,
+    "cross_lingual": false,
+    "topic": "out of corpus",
+    "expected_sources": []
+  },
+  {
+    "id": "q025",
+    "question": "Quel est le cours actuel de l'action Tesla ?",
+    "query_language": "fr",
+    "answerable": false,
+    "cross_lingual": false,
+    "topic": "hors corpus",
+    "expected_sources": []
+  },
+  {
+    "id": "q026",
+    "question": "ما هي شدة آخر زلزال وقع في العالم؟",
+    "query_language": "ar",
+    "answerable": false,
+    "cross_lingual": false,
+    "topic": "خارج corpus",
+    "expected_sources": []
+  },
+  {
+    "id": "q027",
+    "question": "¿Qué tiempo hace hoy en Casablanca?",
+    "query_language": "es",
+    "answerable": false,
+    "cross_lingual": false,
+    "topic": "fuera del corpus",
+    "expected_sources": []
+  },
+  {
+    "id": "q028",
+    "question": "What was the latest score of the Moroccan national football team?",
+    "query_language": "en",
+    "answerable": false,
+    "cross_lingual": false,
+    "topic": "out of corpus",
+    "expected_sources": []
+  },
+  {
+    "id": "q029",
+    "question": "Quels sont les résultats des dernières élections nationales ?",
+    "query_language": "fr",
+    "answerable": false,
+    "cross_lingual": false,
+    "topic": "hors corpus",
+    "expected_sources": []
+  }
+]

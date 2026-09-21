@@ -1,0 +1,1 @@
+export function TypingIndicator() { return <div className="ghaitta-typing" aria-live="polite"><img src="/assets/chat/ghaitta-avatar.jpg" alt="GH-AI-TTA" /><span className="ghaitta-typing__dots" aria-hidden="true">•••</span><span className="ghaitta-sr-only">GH-AI-TTA rédige une réponse</span></div>; }

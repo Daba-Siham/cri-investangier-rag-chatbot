@@ -1,0 +1,45 @@
+{
+  "generated_at": "2026-08-31T12:54:28.774397+00:00",
+  "live_api": false,
+  "case_count": 2,
+  "results": [
+    {
+      "test_id": "chat-001",
+      "timestamp": "2026-08-31T12:54:28.774156+00:00",
+      "question": "Combien de projets ont été approuvés par la CRUI au premier semestre 2024 ?",
+      "language": "fr",
+      "category": "documentary_known_fact",
+      "status": "not_run",
+      "answer": "",
+      "citations": [],
+      "retrieval_status": null,
+      "llm_called": null,
+      "error_type": null,
+      "duration_seconds": 0.0,
+      "expected_match": null,
+      "manual_review_required": false,
+      "citation_required": true,
+      "expected_page": null,
+      "generation": {}
+    },
+    {
+      "test_id": "chat-002",
+      "timestamp": "2026-08-31T12:54:28.774189+00:00",
+      "question": "كم عدد الطلبات التي وافقت عليها اللجنة الجهوية الموحدة للاستثمار خلال سنة 2023؟",
+      "language": "ar",
+      "category": "documentary_known_fact",
+      "status": "not_run",
+      "answer": "",
+      "citations": [],
+      "retrieval_status": null,
+      "llm_called": null,
+      "error_type": null,
+      "duration_seconds": 0.0,
+      "expected_match": null,
+      "manual_review_required": false,
+      "citation_required": true,
+      "expected_page": 25,
+      "generation": {}
+    }
+  ]
+}

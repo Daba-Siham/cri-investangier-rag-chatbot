@@ -1,0 +1,199 @@
+{
+  "generated_at": "2026-08-31T13:01:16.607288+00:00",
+  "live_api": true,
+  "case_count": 4,
+  "results": [
+    {
+      "test_id": "chat-001",
+      "timestamp": "2026-08-31T13:01:14.112848+00:00",
+      "question": "Combien de projets ont été approuvés par la CRUI au premier semestre 2024 ?",
+      "language": "fr",
+      "category": "documentary_known_fact",
+      "status": "answered",
+      "answer": "379",
+      "citations": [
+        {
+          "source_id": "SOURCE_2",
+          "document_id": "chiffres_cles_crui_1er_semestre_2024_francais",
+          "filename": "Chiffres clés CRUI 1er semestre 2024_Français.pdf",
+          "page": 2,
+          "language": "fr",
+          "chunk_id": "chiffres_cles_crui_1er_semestre_2024_francais_p2_c1"
+        },
+        {
+          "source_id": "SOURCE_4",
+          "document_id": "chiffres_cles_crui_1er_semestre_2024_espagnol",
+          "filename": "Chiffres clés CRUI 1er semestre 2024_Espagnol.pdf",
+          "page": 2,
+          "language": "es",
+          "chunk_id": "chiffres_cles_crui_1er_semestre_2024_espagnol_p2_c1"
+        }
+      ],
+      "retrieval_status": "ok",
+      "llm_called": true,
+      "error_type": null,
+      "duration_seconds": 17.624,
+      "expected_match": true,
+      "manual_review_required": false,
+      "citation_required": true,
+      "expected_page": null,
+      "generation": {
+        "llm_called": true,
+        "model": "qwen/qwen3.8-27b",
+        "provider": "groq",
+        "generation_attempts": 1,
+        "structured_retry_used": false,
+        "structured_retry_succeeded": false,
+        "transport_retries": 0
+      }
+    },
+    {
+      "test_id": "chat-002",
+      "timestamp": "2026-08-31T13:01:14.959531+00:00",
+      "question": "كم عدد الطلبات التي وافقت عليها اللجنة الجهوية الموحدة للاستثمار خلال سنة 2023؟",
+      "language": "ar",
+      "category": "documentary_known_fact",
+      "status": "answered",
+      "answer": "وافقت اللجنة الجهوية الموحدة للاستثمار على 709 طلبات خلال سنة 2023.",
+      "citations": [
+        {
+          "source_id": "SOURCE_2",
+          "document_id": "akhbar_al_moustatmir_news",
+          "filename": "Akhbar Al Moustatmir News VA compress.pdf",
+          "page": 25,
+          "language": "ar",
+          "chunk_id": "akhbar_al_moustatmir_news_p25_c1"
+        }
+      ],
+      "retrieval_status": "ok",
+      "llm_called": true,
+      "error_type": null,
+      "duration_seconds": 0.846,
+      "expected_match": true,
+      "manual_review_required": false,
+      "citation_required": true,
+      "expected_page": 25,
+      "generation": {
+        "llm_called": true,
+        "model": "qwen/qwen3.8-27b",
+        "provider": "groq",
+        "generation_attempts": 1,
+        "structured_retry_used": false,
+        "structured_retry_succeeded": false,
+        "transport_retries": 0
+      }
+    },
+    {
+      "test_id": "chat-003",
+      "timestamp": "2026-08-31T13:01:15.907491+00:00",
+      "question": "How many new companies were created in the region in 2025?",
+      "language": "en",
+      "category": "documentary_known_fact",
+      "status": "answered",
+      "answer": "15,286",
+      "citations": [
+        {
+          "source_id": "SOURCE_1",
+          "document_id": "eng_chiffres_cles_annee_2025",
+          "filename": "Eng_Chiffres clés de l_année 2025.pdf",
+          "page": 2,
+          "language": "en",
+          "chunk_id": "eng_chiffres_cles_annee_2025_p2_c1"
+        },
+        {
+          "source_id": "SOURCE_2",
+          "document_id": "eng_chiffres_cles_annee_2025",
+          "filename": "Eng_Chiffres clés de l_année 2025.pdf",
+          "page": 3,
+          "language": "en",
+          "chunk_id": "eng_chiffres_cles_annee_2025_p3_c1"
+        },
+        {
+          "source_id": "SOURCE_3",
+          "document_id": "esp_chiffres_cles_annee_2025",
+          "filename": "ESP_Chiffres clés de l_année 2025.pdf",
+          "page": 2,
+          "language": "es",
+          "chunk_id": "esp_chiffres_cles_annee_2025_p2_c1"
+        },
+        {
+          "source_id": "SOURCE_4",
+          "document_id": "esp_chiffres_cles_annee_2025",
+          "filename": "ESP_Chiffres clés de l_année 2025.pdf",
+          "page": 3,
+          "language": "es",
+          "chunk_id": "esp_chiffres_cles_annee_2025_p3_c1"
+        }
+      ],
+      "retrieval_status": "ok",
+      "llm_called": true,
+      "error_type": null,
+      "duration_seconds": 0.948,
+      "expected_match": true,
+      "manual_review_required": false,
+      "citation_required": true,
+      "expected_page": null,
+      "generation": {
+        "llm_called": true,
+        "model": "qwen/qwen3.8-27b",
+        "provider": "groq",
+        "generation_attempts": 1,
+        "structured_retry_used": false,
+        "structured_retry_succeeded": false,
+        "transport_retries": 0
+      }
+    },
+    {
+      "test_id": "chat-004",
+      "timestamp": "2026-08-31T13:01:16.605840+00:00",
+      "question": "¿Cuántas nuevas empresas fueron creadas en la región en 2025?",
+      "language": "es",
+      "category": "documentary_known_fact",
+      "status": "answered",
+      "answer": "En 2025 se crearon 15.286 nuevas empresas en la región.",
+      "citations": [
+        {
+          "source_id": "SOURCE_1",
+          "document_id": "esp_chiffres_cles_annee_2025",
+          "filename": "ESP_Chiffres clés de l_année 2025.pdf",
+          "page": 2,
+          "language": "es",
+          "chunk_id": "esp_chiffres_cles_annee_2025_p2_c1"
+        },
+        {
+          "source_id": "SOURCE_2",
+          "document_id": "esp_chiffres_cles_annee_2025",
+          "filename": "ESP_Chiffres clés de l_année 2025.pdf",
+          "page": 3,
+          "language": "es",
+          "chunk_id": "esp_chiffres_cles_annee_2025_p3_c1"
+        },
+        {
+          "source_id": "SOURCE_3",
+          "document_id": "eng_chiffres_cles_annee_2025",
+          "filename": "Eng_Chiffres clés de l_année 2025.pdf",
+          "page": 2,
+          "language": "en",
+          "chunk_id": "eng_chiffres_cles_annee_2025_p2_c1"
+        }
+      ],
+      "retrieval_status": "ok",
+      "llm_called": true,
+      "error_type": null,
+      "duration_seconds": 0.698,
+      "expected_match": true,
+      "manual_review_required": false,
+      "citation_required": true,
+      "expected_page": null,
+      "generation": {
+        "llm_called": true,
+        "model": "qwen/qwen3.8-27b",
+        "provider": "groq",
+        "generation_attempts": 1,
+        "structured_retry_used": false,
+        "structured_retry_succeeded": false,
+        "transport_retries": 0
+      }
+    }
+  ]
+}

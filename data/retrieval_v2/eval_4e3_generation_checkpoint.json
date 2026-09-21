@@ -1,0 +1,361 @@
+{
+  "schema_version": "4e3-generation-1",
+  "subset_query_ids": [
+    "Q019",
+    "Q024",
+    "Q027",
+    "Q029",
+    "Q032",
+    "Q036",
+    "Q048",
+    "Q001",
+    "Q002",
+    "Q003",
+    "Q004",
+    "Q005",
+    "Q006",
+    "Q007",
+    "Q008",
+    "Q009",
+    "Q010",
+    "Q011",
+    "Q012",
+    "Q043",
+    "Q045",
+    "Q049",
+    "Q013",
+    "Q014",
+    "Q015",
+    "Q016",
+    "Q017",
+    "Q018",
+    "Q020",
+    "Q021"
+  ],
+  "rows": {
+    "Q019": {
+      "query_id": "Q019",
+      "query": {
+        "query_id": "Q019",
+        "language": "en",
+        "question": "What are the logistics infrastructure assets of the region?",
+        "category": "infrastructure",
+        "explicit_year": null,
+        "expected_topics": [
+          "logistics_infrastructure",
+          "logistics_sector",
+          "tanger_med"
+        ],
+        "expected_document_families": [
+          "logistics_sector_brochure",
+          "industrial_zones_panorama"
+        ],
+        "acceptable_languages": [
+          "en",
+          "fr"
+        ]
+      },
+      "experimental_generation_reused": true,
+      "v1": {
+        "status": "generation_error",
+        "answer": "",
+        "citations": [],
+        "error": "LLM generation failed: Error code: 400 - {'error': {'message': \"Failed to generate JSON. Please adjust your prompt. See 'failed_generation' for more details.\", 'type': 'invalid_request_error', 'code': 'json_validate_failed', 'failed_generation': 'max completion tokens reached before generating a valid document'}}",
+        "generation_ms": 41236.51890002657,
+        "generation_metadata": {
+          "generation_attempts": 2,
+          "structured_retry_used": false,
+          "structured_retry_succeeded": false,
+          "transport_retries": 0
+        },
+        "evaluation_ms": 44236.93680006545
+      },
+      "evaluation": {
+        "v1": {
+          "claims": [],
+          "language_compliant": false,
+          "relevance_pass": null,
+          "completeness_pass": null,
+          "citation_validation": {
+            "citation_validation_pass": false,
+            "emitted_citation_ids": [],
+            "valid_citation_ids": [],
+            "unknown_citation_ids": []
+          },
+          "judge": {
+            "status": "not_applicable",
+            "claims": []
+          }
+        },
+        "v2": {
+          "claims": [
+            {
+              "claim": "The region's logistics infrastructure assets include a high-quality network of roads, ports, and airports, with strong national,",
+              "status": "supported",
+              "evidence_ids": []
+            }
+          ],
+          "lexical_secondary": {
+            "claim_count": 1,
+            "supported": 1,
+            "partially_supported": 0,
+            "unclear": 0,
+            "claims": [
+              {
+                "sentence": "The region's logistics infrastructure assets include a high-quality network of roads, ports, and airports, with strong national,",
+                "overlap": 0.875,
+                "status": "supported"
+              }
+            ]
+          },
+          "language_compliant": true,
+          "relevance_pass": null,
+          "completeness_pass": null,
+          "citation_validation": {
+            "emitted_citation_ids": [
+              "SOURCE_2",
+              "SOURCE_5",
+              "SOURCE_6"
+            ],
+            "valid_citation_ids": [
+              "SOURCE_2",
+              "SOURCE_5",
+              "SOURCE_6"
+            ],
+            "unknown_citation_ids": [],
+            "context_provenance_valid": true,
+            "citation_validation_pass": true
+          },
+          "judge": {
+            "status": "FAIL",
+            "error": "judge claims missing",
+            "claims": []
+          }
+        },
+        "v2_experimental": {
+          "claims": [
+            {
+              "claim": "The region's logistics infrastructure assets include a high-quality network of roads, ports, and airports, with strong national,",
+              "status": "supported",
+              "evidence_ids": []
+            }
+          ],
+          "lexical_secondary": {
+            "claim_count": 1,
+            "supported": 1,
+            "partially_supported": 0,
+            "unclear": 0,
+            "claims": [
+              {
+                "sentence": "The region's logistics infrastructure assets include a high-quality network of roads, ports, and airports, with strong national,",
+                "overlap": 0.875,
+                "status": "supported"
+              }
+            ]
+          },
+          "language_compliant": true,
+          "relevance_pass": null,
+          "completeness_pass": null,
+          "citation_validation": {
+            "citation_validation_pass": false,
+            "emitted_citation_ids": [],
+            "valid_citation_ids": [],
+            "unknown_citation_ids": []
+          },
+          "judge": {
+            "status": "FAIL",
+            "error": "judge claims missing",
+            "claims": []
+          }
+        }
+      },
+      "v2": {
+        "status": "answered",
+        "answer": "The region's logistics infrastructure assets include a high-quality network of roads, ports, and airports, with strong national,",
+        "citations": [
+          {
+            "source_id": "SOURCE_2",
+            "document_id": "investors_guide_territorial_opportunities_en",
+            "filename": "Investors_Guide_territorial_opportunities_EN.json",
+            "page": "p. 133",
+            "language": "en",
+            "chunk_id": "investors_guide_territorial_opportunities_en_chunk_0032__r001a"
+          },
+          {
+            "source_id": "SOURCE_5",
+            "document_id": "investors_guide_territorial_opportunities_en",
+            "filename": "Investors_Guide_territorial_opportunities_EN.json",
+            "page": "p. 130",
+            "language": "en",
+            "chunk_id": "investors_guide_territorial_opportunities_en_chunk_0031__r001b"
+          },
+          {
+            "source_id": "SOURCE_6",
+            "document_id": "investors_guide_territorial_opportunities_en",
+            "filename": "Investors_Guide_territorial_opportunities_EN.json",
+            "page": "pp. 133–134",
+            "language": "en",
+            "chunk_id": "investors_guide_territorial_opportunities_en_chunk_0032__r001b"
+          }
+        ],
+        "sufficient_context": true,
+        "generation_ms": 41335.87109996006,
+        "generation_metadata": {
+          "generation_attempts": 2,
+          "structured_retry_used": false,
+          "structured_retry_succeeded": false,
+          "transport_retries": 0
+        },
+        "evaluation_ms": 44336.26929996535
+      },
+      "v2_experimental": {
+        "status": "answered",
+        "answer": "The region's logistics infrastructure assets include a high-quality network of roads, ports, and airports, with strong national,",
+        "citations": [
+          {
+            "source_id": "SOURCE_2",
+            "document_id": "investors_guide_territorial_opportunities_en",
+            "filename": "Investors_Guide_territorial_opportunities_EN.json",
+            "page": "p. 133",
+            "language": "en",
+            "chunk_id": "investors_guide_territorial_opportunities_en_chunk_0032__r001a"
+          },
+          {
+            "source_id": "SOURCE_5",
+            "document_id": "investors_guide_territorial_opportunities_en",
+            "filename": "Investors_Guide_territorial_opportunities_EN.json",
+            "page": "p. 130",
+            "language": "en",
+            "chunk_id": "investors_guide_territorial_opportunities_en_chunk_0031__r001b"
+          },
+          {
+            "source_id": "SOURCE_6",
+            "document_id": "investors_guide_territorial_opportunities_en",
+            "filename": "Investors_Guide_territorial_opportunities_EN.json",
+            "page": "pp. 133–134",
+            "language": "en",
+            "chunk_id": "investors_guide_territorial_opportunities_en_chunk_0032__r001b"
+          }
+        ],
+        "sufficient_context": true,
+        "generation_ms": 13586.771300062537,
+        "generation_metadata": {
+          "generation_attempts": 1,
+          "structured_retry_used": false,
+          "structured_retry_succeeded": false,
+          "transport_retries": 0
+        },
+        "evaluation_ms": 16587.949999957345
+      }
+    },
+    "Q024": {
+      "query_id": "Q024",
+      "query": {
+        "query_id": "Q024",
+        "language": "en",
+        "question": "What is the cost of industrial land?",
+        "category": "cost",
+        "explicit_year": 2024,
+        "expected_topics": [
+          "industrial_land_cost"
+        ],
+        "expected_document_families": [
+          "production_factor_cost_guide_2024"
+        ],
+        "acceptable_languages": [
+          "en",
+          "fr"
+        ]
+      },
+      "experimental_generation_reused": true
+    }
+  },
+  "stats": {
+    "actual_llm_calls": 15,
+    "avoided_llm_calls": 0,
+    "rate_limit_events": [
+      {
+        "query_id": "Q019",
+        "system": "v1",
+        "phase": "generation",
+        "retry_number": 1,
+        "status": "429",
+        "retry_delay_seconds": 60.0
+      },
+      {
+        "query_id": "Q019",
+        "system": "v1",
+        "phase": "generation",
+        "retry_number": 2,
+        "status": "429",
+        "retry_delay_seconds": 60.0
+      },
+      {
+        "query_id": "Q019",
+        "system": "v1",
+        "phase": "generation",
+        "retry_number": 3,
+        "status": "429",
+        "retry_delay_seconds": 60.0
+      },
+      {
+        "query_id": "Q019",
+        "system": "v1",
+        "phase": "generation",
+        "retry_number": 4,
+        "status": "429",
+        "retry_delay_seconds": 60.0
+      },
+      {
+        "query_id": "Q024",
+        "system": "v1",
+        "phase": "generation",
+        "retry_number": 1,
+        "status": "429",
+        "retry_delay_seconds": 60.0
+      },
+      {
+        "query_id": "Q024",
+        "system": "v1",
+        "phase": "generation",
+        "retry_number": 2,
+        "status": "429",
+        "retry_delay_seconds": 60.0
+      },
+      {
+        "query_id": "Q024",
+        "system": "v1",
+        "phase": "generation",
+        "retry_number": 3,
+        "status": "429",
+        "retry_delay_seconds": 60.0
+      },
+      {
+        "query_id": "Q024",
+        "system": "v1",
+        "phase": "generation",
+        "retry_number": 4,
+        "status": "429",
+        "retry_delay_seconds": 60.0
+      },
+      {
+        "query_id": "Q024",
+        "system": "v1",
+        "phase": "generation",
+        "retry_number": 5,
+        "status": "429",
+        "retry_delay_seconds": 60.0
+      },
+      {
+        "query_id": "Q024",
+        "system": "v1",
+        "phase": "generation",
+        "retry_number": 6,
+        "status": "429",
+        "retry_delay_seconds": 60.0
+      }
+    ],
+    "total_rate_limit_wait_seconds": 600.0,
+    "resumed_queries": 1
+  }
+}

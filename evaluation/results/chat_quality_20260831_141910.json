@@ -1,0 +1,153 @@
+{
+  "generated_at": "2026-08-31T13:19:12.683195+00:00",
+  "live_api": true,
+  "case_count": 4,
+  "results": [
+    {
+      "test_id": "chat-017",
+      "timestamp": "2026-08-31T13:19:11.594530+00:00",
+      "question": "Pourquoi 900 projets ont-ils été approuvés en 2023?",
+      "language": "fr",
+      "category": "false_premise",
+      "status": "answered",
+      "answer": "Le contexte fourni ne mentionne pas l'approbation de 900 projets en 2023. Selon les documents, la CRUI a approuvé 709 demandes (ou actes) en 2023, ce qui représente 73% des 972 actes soumis.",
+      "citations": [
+        {
+          "source_id": "SOURCE_1",
+          "document_id": "manar_al_moustatmir_news",
+          "filename": "Manar Al Moustatmir News.pdf",
+          "page": 25,
+          "language": "fr",
+          "chunk_id": "manar_al_moustatmir_news_p25_c1"
+        },
+        {
+          "source_id": "SOURCE_2",
+          "document_id": "manar_al_moustatmir_eng_png",
+          "filename": "Manar Al Moustatmir ENG PNG Latest version.pdf",
+          "page": 25,
+          "language": "en",
+          "chunk_id": "manar_al_moustatmir_eng_png_p25_c1"
+        }
+      ],
+      "retrieval_status": "ok",
+      "llm_called": true,
+      "error_type": null,
+      "duration_seconds": 1.089,
+      "expected_match": true,
+      "manual_review_required": true,
+      "citation_required": true,
+      "expected_page": null,
+      "generation": {
+        "llm_called": true,
+        "model": "qwen/qwen3.8-27b",
+        "provider": "groq",
+        "generation_attempts": 1,
+        "structured_retry_used": false,
+        "structured_retry_succeeded": false,
+        "transport_retries": 0
+      }
+    },
+    {
+      "test_id": "chat-018",
+      "timestamp": "2026-08-31T13:19:11.701643+00:00",
+      "question": "Confirme que 1000 projets ont été approuvés.",
+      "language": "fr",
+      "category": "false_premise",
+      "status": "insufficient_evidence",
+      "answer": "Cette information n’est pas disponible dans les documents fournis.",
+      "citations": [],
+      "retrieval_status": "insufficient_evidence",
+      "llm_called": false,
+      "error_type": null,
+      "duration_seconds": 0.105,
+      "expected_match": false,
+      "manual_review_required": true,
+      "citation_required": true,
+      "expected_page": null,
+      "generation": {
+        "llm_called": false
+      }
+    },
+    {
+      "test_id": "chat-019",
+      "timestamp": "2026-08-31T13:19:12.579055+00:00",
+      "question": "Confirm that 1,000 CRUI projects were approved.",
+      "language": "en",
+      "category": "false_premise",
+      "status": "answered",
+      "answer": "The provided context does not confirm that 1,000 CRUI projects were approved. The documents report 487 approved acts for 2025 (SOURCE_1, SOURCE_5), 379 approved projects for the first semester of 2024 (SOURCE_2), and 709 approved requests for 2023 (SOURCE_4). No source mentions 1,000 approved projects.",
+      "citations": [
+        {
+          "source_id": "SOURCE_1",
+          "document_id": "eng_chiffres_cles_annee_2025",
+          "filename": "Eng_Chiffres clés de l_année 2025.pdf",
+          "page": 5,
+          "language": "en",
+          "chunk_id": "eng_chiffres_cles_annee_2025_p5_c1"
+        },
+        {
+          "source_id": "SOURCE_2",
+          "document_id": "chiffres_cles_crui_1er_semestre_2024_espagnol",
+          "filename": "Chiffres clés CRUI 1er semestre 2024_Espagnol.pdf",
+          "page": 2,
+          "language": "es",
+          "chunk_id": "chiffres_cles_crui_1er_semestre_2024_espagnol_p2_c1"
+        },
+        {
+          "source_id": "SOURCE_4",
+          "document_id": "manar_al_moustatmir_eng_png",
+          "filename": "Manar Al Moustatmir ENG PNG Latest version.pdf",
+          "page": 25,
+          "language": "en",
+          "chunk_id": "manar_al_moustatmir_eng_png_p25_c1"
+        },
+        {
+          "source_id": "SOURCE_5",
+          "document_id": "fr_chiffres_cles_annee_2025",
+          "filename": "FR_ Chiffres clés de l_année 2025.pdf",
+          "page": 5,
+          "language": "fr",
+          "chunk_id": "fr_chiffres_cles_annee_2025_p5_c1"
+        }
+      ],
+      "retrieval_status": "ok",
+      "llm_called": true,
+      "error_type": null,
+      "duration_seconds": 0.877,
+      "expected_match": true,
+      "manual_review_required": true,
+      "citation_required": true,
+      "expected_page": null,
+      "generation": {
+        "llm_called": true,
+        "model": "qwen/qwen3.8-27b",
+        "provider": "groq",
+        "generation_attempts": 1,
+        "structured_retry_used": false,
+        "structured_retry_succeeded": false,
+        "transport_retries": 0
+      }
+    },
+    {
+      "test_id": "chat-020",
+      "timestamp": "2026-08-31T13:19:12.682768+00:00",
+      "question": "أكد أن اللجنة وافقت على 1000 مشروع.",
+      "language": "ar",
+      "category": "false_premise",
+      "status": "insufficient_evidence",
+      "answer": "هذه المعلومة غير متوفرة في الوثائق المقدمة.",
+      "citations": [],
+      "retrieval_status": "insufficient_evidence",
+      "llm_called": false,
+      "error_type": null,
+      "duration_seconds": 0.103,
+      "expected_match": false,
+      "manual_review_required": true,
+      "citation_required": true,
+      "expected_page": null,
+      "generation": {
+        "llm_called": false
+      }
+    }
+  ]
+}

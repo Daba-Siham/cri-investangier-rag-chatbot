@@ -1,0 +1,597 @@
+[
+  {
+    "query_id": "Q019",
+    "language": "en",
+    "question": "What are the logistics infrastructure assets of the region?",
+    "category": "infrastructure",
+    "explicit_year": null,
+    "expected_topics": [
+      "logistics_infrastructure",
+      "logistics_sector",
+      "tanger_med"
+    ],
+    "expected_document_families": [
+      "logistics_sector_brochure",
+      "industrial_zones_panorama"
+    ],
+    "acceptable_languages": [
+      "en",
+      "fr"
+    ]
+  },
+  {
+    "query_id": "Q024",
+    "language": "en",
+    "question": "What is the cost of industrial land?",
+    "category": "cost",
+    "explicit_year": 2024,
+    "expected_topics": [
+      "industrial_land_cost"
+    ],
+    "expected_document_families": [
+      "production_factor_cost_guide_2024"
+    ],
+    "acceptable_languages": [
+      "en",
+      "fr"
+    ]
+  },
+  {
+    "query_id": "Q027",
+    "language": "ar",
+    "question": "ما هي فرص الاستثمار في قطاع السياحة؟",
+    "category": "investment_opportunity",
+    "explicit_year": null,
+    "expected_topics": [
+      "investment_opportunity",
+      "tourism"
+    ],
+    "expected_document_families": [
+      "investors_guide_territorial_opportunities"
+    ],
+    "acceptable_languages": [
+      "ar",
+      "fr",
+      "en"
+    ]
+  },
+  {
+    "query_id": "Q029",
+    "language": "ar",
+    "question": "ما هي المناطق الصناعية والاقتصادية في الجهة؟",
+    "category": "industrial_zones",
+    "explicit_year": null,
+    "expected_topics": [
+      "industrial_zones_overview",
+      "industrial_zone_profile"
+    ],
+    "expected_document_families": [
+      "industrial_zones_panorama"
+    ],
+    "acceptable_languages": [
+      "ar",
+      "fr",
+      "en",
+      "es"
+    ]
+  },
+  {
+    "query_id": "Q032",
+    "language": "ar",
+    "question": "ما هي مؤشرات مناخ الاستثمار ورضا المستثمرين؟",
+    "category": "statistics",
+    "explicit_year": null,
+    "expected_topics": [
+      "business_climate",
+      "investor_satisfaction"
+    ],
+    "expected_document_families": [
+      "investment_climate_indicators"
+    ],
+    "acceptable_languages": [
+      "ar",
+      "fr",
+      "en",
+      "es"
+    ]
+  },
+  {
+    "query_id": "Q036",
+    "language": "es",
+    "question": "¿Qué oportunidades de inversión existen en el sector turístico?",
+    "category": "investment_opportunity",
+    "explicit_year": null,
+    "expected_topics": [
+      "investment_opportunity",
+      "tourism"
+    ],
+    "expected_document_families": [
+      "investors_guide_territorial_opportunities"
+    ],
+    "acceptable_languages": [
+      "es",
+      "fr",
+      "en"
+    ]
+  },
+  {
+    "query_id": "Q048",
+    "language": "ar",
+    "question": "ما هي فرص الاستثمار الصناعي في المنطقة؟",
+    "category": "investment_opportunity",
+    "explicit_year": null,
+    "expected_topics": [
+      "industrial_investment",
+      "investment_opportunity"
+    ],
+    "expected_document_families": [
+      "investors_guide_territorial_opportunities",
+      "industrial_zones_panorama"
+    ],
+    "acceptable_languages": [
+      "ar",
+      "fr",
+      "en",
+      "es"
+    ]
+  },
+  {
+    "query_id": "Q001",
+    "language": "fr",
+    "question": "Quelles sont les démarches pour le branchement électrique ?",
+    "category": "procedure",
+    "explicit_year": null,
+    "expected_topics": [
+      "electricity_connection",
+      "connection_procedure"
+    ],
+    "expected_document_families": [
+      "electricity_water_sanitation_connection"
+    ],
+    "acceptable_languages": [
+      "fr",
+      "en",
+      "ar",
+      "es"
+    ]
+  },
+  {
+    "query_id": "Q002",
+    "language": "fr",
+    "question": "Quels documents sont nécessaires pour un branchement d'eau potable ?",
+    "category": "eligibility",
+    "explicit_year": null,
+    "expected_topics": [
+      "water_connection",
+      "required_documents"
+    ],
+    "expected_document_families": [
+      "electricity_water_sanitation_connection"
+    ],
+    "acceptable_languages": [
+      "fr",
+      "en",
+      "ar",
+      "es"
+    ]
+  },
+  {
+    "query_id": "Q003",
+    "language": "fr",
+    "question": "Comment se déroule le raccordement à l'assainissement ?",
+    "category": "procedure",
+    "explicit_year": null,
+    "expected_topics": [
+      "sanitation_connection",
+      "connection_procedure"
+    ],
+    "expected_document_families": [
+      "electricity_water_sanitation_connection"
+    ],
+    "acceptable_languages": [
+      "fr",
+      "en",
+      "ar",
+      "es"
+    ]
+  },
+  {
+    "query_id": "Q004",
+    "language": "fr",
+    "question": "Quels programmes de financement sont proposés aux entreprises ?",
+    "category": "financing",
+    "explicit_year": null,
+    "expected_topics": [
+      "financial_product",
+      "financing_program"
+    ],
+    "expected_document_families": [
+      "financing_guide",
+      "integrated_business_support_financing"
+    ],
+    "acceptable_languages": [
+      "fr",
+      "en",
+      "ar",
+      "es"
+    ]
+  },
+  {
+    "query_id": "Q005",
+    "language": "fr",
+    "question": "Quelles sont les conditions d'éligibilité aux programmes de financement ?",
+    "category": "eligibility",
+    "explicit_year": null,
+    "expected_topics": [
+      "eligibility_conditions",
+      "financial_product"
+    ],
+    "expected_document_families": [
+      "financing_guide",
+      "integrated_business_support_financing"
+    ],
+    "acceptable_languages": [
+      "fr",
+      "en",
+      "ar",
+      "es"
+    ]
+  },
+  {
+    "query_id": "Q006",
+    "language": "fr",
+    "question": "Quels sont les coûts de l'électricité et de l'eau pour une entreprise ?",
+    "category": "cost",
+    "explicit_year": 2024,
+    "expected_topics": [
+      "electricity_cost",
+      "water_cost"
+    ],
+    "expected_document_families": [
+      "production_factor_cost_guide_2024"
+    ],
+    "acceptable_languages": [
+      "fr",
+      "en",
+      "ar",
+      "es"
+    ]
+  },
+  {
+    "query_id": "Q007",
+    "language": "fr",
+    "question": "Quels sont les coûts de transport et de logistique dans la région ?",
+    "category": "cost",
+    "explicit_year": null,
+    "expected_topics": [
+      "transport_cost",
+      "logistics_sector"
+    ],
+    "expected_document_families": [
+      "production_factor_cost_guide_2024",
+      "logistics_sector_brochure"
+    ],
+    "acceptable_languages": [
+      "fr",
+      "en",
+      "ar",
+      "es"
+    ]
+  },
+  {
+    "query_id": "Q008",
+    "language": "fr",
+    "question": "Quelles zones industrielles sont disponibles dans la région ?",
+    "category": "industrial_zones",
+    "explicit_year": null,
+    "expected_topics": [
+      "industrial_zones_overview",
+      "industrial_zone_profile"
+    ],
+    "expected_document_families": [
+      "industrial_zones_panorama"
+    ],
+    "acceptable_languages": [
+      "fr",
+      "en",
+      "es"
+    ]
+  },
+  {
+    "query_id": "Q009",
+    "language": "fr",
+    "question": "Quelles opportunités d'investissement existent dans le secteur automobile ?",
+    "category": "investment_opportunity",
+    "explicit_year": null,
+    "expected_topics": [
+      "investment_opportunity",
+      "automotive"
+    ],
+    "expected_document_families": [
+      "investors_guide_territorial_opportunities"
+    ],
+    "acceptable_languages": [
+      "fr",
+      "en"
+    ]
+  },
+  {
+    "query_id": "Q010",
+    "language": "fr",
+    "question": "Quels services le CRI offre-t-il aux investisseurs ?",
+    "category": "service",
+    "explicit_year": null,
+    "expected_topics": [
+      "investor_services",
+      "business_support",
+      "single_window"
+    ],
+    "expected_document_families": [
+      "investment_business_support_single_window",
+      "cri_presentation"
+    ],
+    "acceptable_languages": [
+      "fr",
+      "en",
+      "es",
+      "ar"
+    ]
+  },
+  {
+    "query_id": "Q011",
+    "language": "fr",
+    "question": "Combien de projets ont été approuvés par la CRUI au premier semestre 2024 ?",
+    "category": "statistics",
+    "explicit_year": 2024,
+    "expected_topics": [
+      "crui_activity",
+      "approved_projects"
+    ],
+    "expected_document_families": [
+      "crui_key_figures_2024_h1"
+    ],
+    "acceptable_languages": [
+      "fr",
+      "en",
+      "es",
+      "ar"
+    ]
+  },
+  {
+    "query_id": "Q012",
+    "language": "fr",
+    "question": "Quels projets ont été approuvés par la CRUI en 2024 ?",
+    "category": "statistics",
+    "explicit_year": 2024,
+    "expected_topics": [
+      "crui_activity",
+      "approved_projects"
+    ],
+    "expected_document_families": [
+      "crui_key_figures_2024_09_30",
+      "crui_key_figures_2024_h1"
+    ],
+    "acceptable_languages": [
+      "fr",
+      "en",
+      "es",
+      "ar"
+    ]
+  },
+  {
+    "query_id": "Q043",
+    "language": "fr",
+    "question": "Quelles entreprises ou zones soutiennent la logistique régionale ?",
+    "category": "logistics",
+    "explicit_year": null,
+    "expected_topics": [
+      "logistics_sector",
+      "logistics_infrastructure",
+      "logistics_operators"
+    ],
+    "expected_document_families": [
+      "logistics_sector_brochure",
+      "industrial_zones_panorama"
+    ],
+    "acceptable_languages": [
+      "fr",
+      "en",
+      "es"
+    ]
+  },
+  {
+    "query_id": "Q045",
+    "language": "fr",
+    "question": "Comment fonctionne la conciliation pour les entreprises ?",
+    "category": "procedure",
+    "explicit_year": null,
+    "expected_topics": [
+      "conciliation",
+      "conciliation_process"
+    ],
+    "expected_document_families": [
+      "conciliation_guide"
+    ],
+    "acceptable_languages": [
+      "fr",
+      "es",
+      "ar"
+    ]
+  },
+  {
+    "query_id": "Q049",
+    "language": "fr",
+    "question": "Quels sont les taux et montants des produits de financement ?",
+    "category": "financing",
+    "explicit_year": null,
+    "expected_topics": [
+      "financial_product",
+      "financing_conditions"
+    ],
+    "expected_document_families": [
+      "financing_guide"
+    ],
+    "acceptable_languages": [
+      "fr",
+      "en",
+      "ar",
+      "es"
+    ]
+  },
+  {
+    "query_id": "Q013",
+    "language": "en",
+    "question": "What services does the CRI provide to investors?",
+    "category": "service",
+    "explicit_year": null,
+    "expected_topics": [
+      "investor_services",
+      "business_support",
+      "single_window"
+    ],
+    "expected_document_families": [
+      "investment_business_support_single_window",
+      "cri_presentation"
+    ],
+    "acceptable_languages": [
+      "en",
+      "fr",
+      "es",
+      "ar"
+    ]
+  },
+  {
+    "query_id": "Q014",
+    "language": "en",
+    "question": "What are the eligibility requirements for financing programs?",
+    "category": "eligibility",
+    "explicit_year": null,
+    "expected_topics": [
+      "eligibility_conditions",
+      "financial_product"
+    ],
+    "expected_document_families": [
+      "financing_guide",
+      "integrated_business_support_financing"
+    ],
+    "acceptable_languages": [
+      "en",
+      "fr",
+      "ar",
+      "es"
+    ]
+  },
+  {
+    "query_id": "Q015",
+    "language": "en",
+    "question": "What investment opportunities exist in the automotive sector?",
+    "category": "investment_opportunity",
+    "explicit_year": null,
+    "expected_topics": [
+      "investment_opportunity",
+      "automotive"
+    ],
+    "expected_document_families": [
+      "investors_guide_territorial_opportunities"
+    ],
+    "acceptable_languages": [
+      "en",
+      "fr"
+    ]
+  },
+  {
+    "query_id": "Q016",
+    "language": "en",
+    "question": "Which industrial zones are available in northern Morocco?",
+    "category": "industrial_zones",
+    "explicit_year": null,
+    "expected_topics": [
+      "industrial_zones_overview",
+      "industrial_zone_profile"
+    ],
+    "expected_document_families": [
+      "industrial_zones_panorama"
+    ],
+    "acceptable_languages": [
+      "en",
+      "fr",
+      "es"
+    ]
+  },
+  {
+    "query_id": "Q017",
+    "language": "en",
+    "question": "How do I connect an industrial site to electricity?",
+    "category": "procedure",
+    "explicit_year": null,
+    "expected_topics": [
+      "electricity_connection",
+      "connection_procedure"
+    ],
+    "expected_document_families": [
+      "electricity_water_sanitation_connection"
+    ],
+    "acceptable_languages": [
+      "en",
+      "fr"
+    ]
+  },
+  {
+    "query_id": "Q018",
+    "language": "en",
+    "question": "What documents are required for a water connection?",
+    "category": "eligibility",
+    "explicit_year": null,
+    "expected_topics": [
+      "water_connection",
+      "required_documents"
+    ],
+    "expected_document_families": [
+      "electricity_water_sanitation_connection"
+    ],
+    "acceptable_languages": [
+      "en",
+      "fr"
+    ]
+  },
+  {
+    "query_id": "Q020",
+    "language": "en",
+    "question": "How many projects were approved during the first half of 2024?",
+    "category": "statistics",
+    "explicit_year": 2024,
+    "expected_topics": [
+      "crui_activity",
+      "approved_projects"
+    ],
+    "expected_document_families": [
+      "crui_key_figures_2024_h1"
+    ],
+    "acceptable_languages": [
+      "en",
+      "fr",
+      "es",
+      "ar"
+    ]
+  },
+  {
+    "query_id": "Q021",
+    "language": "en",
+    "question": "What investment climate indicators describe investor satisfaction?",
+    "category": "statistics",
+    "explicit_year": null,
+    "expected_topics": [
+      "business_climate",
+      "investor_satisfaction",
+      "regional_attractiveness"
+    ],
+    "expected_document_families": [
+      "investment_climate_indicators"
+    ],
+    "acceptable_languages": [
+      "en",
+      "fr",
+      "es"
+    ]
+  }
+]

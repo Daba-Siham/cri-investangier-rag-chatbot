@@ -1,0 +1,491 @@
+{
+  "status": "PASS",
+  "frozen_4e2_results_sha256": "B18ADA928032C5C26C60FBB48294708C337325C424855876897C969A2E62AAAF",
+  "frozen_4e2_queries_sha256": "1FB72325471FC45E2401F13DB7BA2637B7EC3EB036DF44B69DF1720540097BFE",
+  "frozen_4e_results_sha256": "A2F82E251AE7316BCEF59EDEA55D8EE65C675BB2A6C4125F2E12E30998127097",
+  "frozen_4e2_gate": {
+    "unicode_dataset_validation": true,
+    "retrieval_at_least_frozen_v2": true,
+    "multilingual_acceptable": true,
+    "abstention_calibrated": true,
+    "temporal_improvement_preserved": true,
+    "generated_answer_evaluation_completed": false,
+    "groundedness_at_least_v1": false,
+    "exact_citations": true,
+    "critical_regressions": 0,
+    "status": "V2_NOT_READY"
+  },
+  "query_count": 70,
+  "answerable_count": 50,
+  "no_answer_count": 20,
+  "frozen_calibration": {
+    "threshold": 0.825,
+    "evidence": {
+      "threshold": 0.825,
+      "answerable_acceptance_recall": 0.74,
+      "no_answer_rejection": 1.0,
+      "false_acceptance_rate": 0.0,
+      "false_rejection_rate": 0.26,
+      "balanced_accuracy": 0.87,
+      "precision_answerable": 1.0,
+      "f1": 0.8505747126436781
+    },
+    "temporal_experiment": {
+      "strict_query_count": 8,
+      "frozen": {
+        "requested_year_context_rate": 0.875,
+        "conflicting_year_context_rate": 0.875,
+        "family_recall_at_5": 0.875
+      },
+      "experimental": {
+        "requested_year_context_rate": 0.875,
+        "conflicting_year_context_rate": 0.125,
+        "family_recall_at_5": 0.875
+      }
+    }
+  },
+  "frozen_context_citation_validation": {
+    "checked": 70,
+    "passed": 70,
+    "pass_rate": 1.0,
+    "failures": []
+  },
+  "llm_preflight": {
+    "status": "PASS",
+    "configuration": {
+      "endpoint_host": "api.groq.com",
+      "model": "qwen/qwen3.8-27b",
+      "api_key_configured": true
+    },
+    "checks": [
+      {
+        "name": "trivial_request",
+        "status": "PASS"
+      },
+      {
+        "name": "rag_style_request",
+        "status": "PASS"
+      }
+    ]
+  },
+  "generated_answers": {
+    "status": "RATE_LIMIT_PAUSED",
+    "pause_reason": "rate-limit retries exhausted for Q024/v1/generation",
+    "subset_count": 30,
+    "completed_queries": 0,
+    "attempted": 15,
+    "succeeded": 0,
+    "failed": 0,
+    "success_rate": 0.0,
+    "system_success": {},
+    "stats": {
+      "actual_llm_calls": 15,
+      "avoided_llm_calls": 0,
+      "rate_limit_events": [
+        {
+          "query_id": "Q019",
+          "system": "v1",
+          "phase": "generation",
+          "retry_number": 1,
+          "status": "429",
+          "retry_delay_seconds": 60.0
+        },
+        {
+          "query_id": "Q019",
+          "system": "v1",
+          "phase": "generation",
+          "retry_number": 2,
+          "status": "429",
+          "retry_delay_seconds": 60.0
+        },
+        {
+          "query_id": "Q019",
+          "system": "v1",
+          "phase": "generation",
+          "retry_number": 3,
+          "status": "429",
+          "retry_delay_seconds": 60.0
+        },
+        {
+          "query_id": "Q019",
+          "system": "v1",
+          "phase": "generation",
+          "retry_number": 4,
+          "status": "429",
+          "retry_delay_seconds": 60.0
+        },
+        {
+          "query_id": "Q024",
+          "system": "v1",
+          "phase": "generation",
+          "retry_number": 1,
+          "status": "429",
+          "retry_delay_seconds": 60.0
+        },
+        {
+          "query_id": "Q024",
+          "system": "v1",
+          "phase": "generation",
+          "retry_number": 2,
+          "status": "429",
+          "retry_delay_seconds": 60.0
+        },
+        {
+          "query_id": "Q024",
+          "system": "v1",
+          "phase": "generation",
+          "retry_number": 3,
+          "status": "429",
+          "retry_delay_seconds": 60.0
+        },
+        {
+          "query_id": "Q024",
+          "system": "v1",
+          "phase": "generation",
+          "retry_number": 4,
+          "status": "429",
+          "retry_delay_seconds": 60.0
+        },
+        {
+          "query_id": "Q024",
+          "system": "v1",
+          "phase": "generation",
+          "retry_number": 5,
+          "status": "429",
+          "retry_delay_seconds": 60.0
+        },
+        {
+          "query_id": "Q024",
+          "system": "v1",
+          "phase": "generation",
+          "retry_number": 6,
+          "status": "429",
+          "retry_delay_seconds": 60.0
+        }
+      ],
+      "total_rate_limit_wait_seconds": 600.0,
+      "resumed_queries": 1
+    },
+    "rows": [
+      {
+        "query_id": "Q019",
+        "query": {
+          "query_id": "Q019",
+          "language": "en",
+          "question": "What are the logistics infrastructure assets of the region?",
+          "category": "infrastructure",
+          "explicit_year": null,
+          "expected_topics": [
+            "logistics_infrastructure",
+            "logistics_sector",
+            "tanger_med"
+          ],
+          "expected_document_families": [
+            "logistics_sector_brochure",
+            "industrial_zones_panorama"
+          ],
+          "acceptable_languages": [
+            "en",
+            "fr"
+          ]
+        },
+        "experimental_generation_reused": true,
+        "v1": {
+          "status": "generation_error",
+          "answer": "",
+          "citations": [],
+          "error": "LLM generation failed: Error code: 400 - {'error': {'message': \"Failed to generate JSON. Please adjust your prompt. See 'failed_generation' for more details.\", 'type': 'invalid_request_error', 'code': 'json_validate_failed', 'failed_generation': 'max completion tokens reached before generating a valid document'}}",
+          "generation_ms": 41236.51890002657,
+          "generation_metadata": {
+            "generation_attempts": 2,
+            "structured_retry_used": false,
+            "structured_retry_succeeded": false,
+            "transport_retries": 0
+          },
+          "evaluation_ms": 44236.93680006545
+        },
+        "evaluation": {
+          "v1": {
+            "claims": [],
+            "language_compliant": false,
+            "relevance_pass": null,
+            "completeness_pass": null,
+            "citation_validation": {
+              "citation_validation_pass": false,
+              "emitted_citation_ids": [],
+              "valid_citation_ids": [],
+              "unknown_citation_ids": []
+            },
+            "judge": {
+              "status": "not_applicable",
+              "claims": []
+            }
+          },
+          "v2": {
+            "claims": [
+              {
+                "claim": "The region's logistics infrastructure assets include a high-quality network of roads, ports, and airports, with strong national,",
+                "status": "supported",
+                "evidence_ids": []
+              }
+            ],
+            "lexical_secondary": {
+              "claim_count": 1,
+              "supported": 1,
+              "partially_supported": 0,
+              "unclear": 0,
+              "claims": [
+                {
+                  "sentence": "The region's logistics infrastructure assets include a high-quality network of roads, ports, and airports, with strong national,",
+                  "overlap": 0.875,
+                  "status": "supported"
+                }
+              ]
+            },
+            "language_compliant": true,
+            "relevance_pass": null,
+            "completeness_pass": null,
+            "citation_validation": {
+              "emitted_citation_ids": [
+                "SOURCE_2",
+                "SOURCE_5",
+                "SOURCE_6"
+              ],
+              "valid_citation_ids": [
+                "SOURCE_2",
+                "SOURCE_5",
+                "SOURCE_6"
+              ],
+              "unknown_citation_ids": [],
+              "context_provenance_valid": true,
+              "citation_validation_pass": true
+            },
+            "judge": {
+              "status": "FAIL",
+              "error": "judge claims missing",
+              "claims": []
+            }
+          },
+          "v2_experimental": {
+            "claims": [
+              {
+                "claim": "The region's logistics infrastructure assets include a high-quality network of roads, ports, and airports, with strong national,",
+                "status": "supported",
+                "evidence_ids": []
+              }
+            ],
+            "lexical_secondary": {
+              "claim_count": 1,
+              "supported": 1,
+              "partially_supported": 0,
+              "unclear": 0,
+              "claims": [
+                {
+                  "sentence": "The region's logistics infrastructure assets include a high-quality network of roads, ports, and airports, with strong national,",
+                  "overlap": 0.875,
+                  "status": "supported"
+                }
+              ]
+            },
+            "language_compliant": true,
+            "relevance_pass": null,
+            "completeness_pass": null,
+            "citation_validation": {
+              "citation_validation_pass": false,
+              "emitted_citation_ids": [],
+              "valid_citation_ids": [],
+              "unknown_citation_ids": []
+            },
+            "judge": {
+              "status": "FAIL",
+              "error": "judge claims missing",
+              "claims": []
+            }
+          }
+        },
+        "v2": {
+          "status": "answered",
+          "answer": "The region's logistics infrastructure assets include a high-quality network of roads, ports, and airports, with strong national,",
+          "citations": [
+            {
+              "source_id": "SOURCE_2",
+              "document_id": "investors_guide_territorial_opportunities_en",
+              "filename": "Investors_Guide_territorial_opportunities_EN.json",
+              "page": "p. 133",
+              "language": "en",
+              "chunk_id": "investors_guide_territorial_opportunities_en_chunk_0032__r001a"
+            },
+            {
+              "source_id": "SOURCE_5",
+              "document_id": "investors_guide_territorial_opportunities_en",
+              "filename": "Investors_Guide_territorial_opportunities_EN.json",
+              "page": "p. 130",
+              "language": "en",
+              "chunk_id": "investors_guide_territorial_opportunities_en_chunk_0031__r001b"
+            },
+            {
+              "source_id": "SOURCE_6",
+              "document_id": "investors_guide_territorial_opportunities_en",
+              "filename": "Investors_Guide_territorial_opportunities_EN.json",
+              "page": "pp. 133–134",
+              "language": "en",
+              "chunk_id": "investors_guide_territorial_opportunities_en_chunk_0032__r001b"
+            }
+          ],
+          "sufficient_context": true,
+          "generation_ms": 41335.87109996006,
+          "generation_metadata": {
+            "generation_attempts": 2,
+            "structured_retry_used": false,
+            "structured_retry_succeeded": false,
+            "transport_retries": 0
+          },
+          "evaluation_ms": 44336.26929996535
+        },
+        "v2_experimental": {
+          "status": "answered",
+          "answer": "The region's logistics infrastructure assets include a high-quality network of roads, ports, and airports, with strong national,",
+          "citations": [
+            {
+              "source_id": "SOURCE_2",
+              "document_id": "investors_guide_territorial_opportunities_en",
+              "filename": "Investors_Guide_territorial_opportunities_EN.json",
+              "page": "p. 133",
+              "language": "en",
+              "chunk_id": "investors_guide_territorial_opportunities_en_chunk_0032__r001a"
+            },
+            {
+              "source_id": "SOURCE_5",
+              "document_id": "investors_guide_territorial_opportunities_en",
+              "filename": "Investors_Guide_territorial_opportunities_EN.json",
+              "page": "p. 130",
+              "language": "en",
+              "chunk_id": "investors_guide_territorial_opportunities_en_chunk_0031__r001b"
+            },
+            {
+              "source_id": "SOURCE_6",
+              "document_id": "investors_guide_territorial_opportunities_en",
+              "filename": "Investors_Guide_territorial_opportunities_EN.json",
+              "page": "pp. 133–134",
+              "language": "en",
+              "chunk_id": "investors_guide_territorial_opportunities_en_chunk_0032__r001b"
+            }
+          ],
+          "sufficient_context": true,
+          "generation_ms": 13586.771300062537,
+          "generation_metadata": {
+            "generation_attempts": 1,
+            "structured_retry_used": false,
+            "structured_retry_succeeded": false,
+            "transport_retries": 0
+          },
+          "evaluation_ms": 16587.949999957345
+        }
+      },
+      {
+        "query_id": "Q024",
+        "query": {
+          "query_id": "Q024",
+          "language": "en",
+          "question": "What is the cost of industrial land?",
+          "category": "cost",
+          "explicit_year": 2024,
+          "expected_topics": [
+            "industrial_land_cost"
+          ],
+          "expected_document_families": [
+            "production_factor_cost_guide_2024"
+          ],
+          "acceptable_languages": [
+            "en",
+            "fr"
+          ]
+        },
+        "experimental_generation_reused": true
+      }
+    ]
+  },
+  "generation_metrics": {
+    "v1": {
+      "status": "NOT_EVALUATED",
+      "supported_claim_rate": null,
+      "unsupported_claim_rate": null,
+      "language_compliance_rate": null,
+      "relevance_pass_rate": null,
+      "completeness_pass_rate": null
+    },
+    "v2": {
+      "status": "NOT_EVALUATED",
+      "supported_claim_rate": null,
+      "unsupported_claim_rate": null,
+      "language_compliance_rate": null,
+      "relevance_pass_rate": null,
+      "completeness_pass_rate": null
+    },
+    "v2_experimental": {
+      "status": "NOT_EVALUATED",
+      "supported_claim_rate": null,
+      "unsupported_claim_rate": null,
+      "language_compliance_rate": null,
+      "relevance_pass_rate": null,
+      "completeness_pass_rate": null
+    }
+  },
+  "gate_metrics": {
+    "v2_family_recall_at_5": 0.86,
+    "frozen_v2_family_recall_at_5": 0.86,
+    "language_breakdown": {
+      "fr": {
+        "count": 15,
+        "frozen_recall_at_5": 1.0,
+        "evaluated_recall_at_5": 1,
+        "not_worse": true
+      },
+      "en": {
+        "count": 15,
+        "frozen_recall_at_5": 0.8666666666666667,
+        "evaluated_recall_at_5": 0.8666666666666667,
+        "not_worse": true
+      },
+      "ar": {
+        "count": 10,
+        "frozen_recall_at_5": 0.6,
+        "evaluated_recall_at_5": 0.6,
+        "not_worse": true
+      },
+      "es": {
+        "count": 10,
+        "frozen_recall_at_5": 0.9,
+        "evaluated_recall_at_5": 0.9,
+        "not_worse": true
+      }
+    },
+    "generation_success_rate": 0.0,
+    "frozen_context_citation_pass_rate": 1.0
+  },
+  "critical_regression_details": [
+    "generation_benchmark_incomplete"
+  ],
+  "gate": {
+    "unicode_dataset_validation": true,
+    "retrieval_at_least_frozen_v2": true,
+    "multilingual_acceptable": true,
+    "abstention_calibrated": true,
+    "temporal_improvement_preserved": true,
+    "generation_evaluation_completed": false,
+    "generation_success_rate": 0.0,
+    "judge_success_requirement_met": false,
+    "v1_supported_claim_rate": null,
+    "v2_supported_claim_rate": null,
+    "v1_unsupported_claim_rate": null,
+    "v2_unsupported_claim_rate": null,
+    "groundedness_at_least_v1": false,
+    "answer_relevance_at_least_v1": false,
+    "answer_completeness_at_least_v1": false,
+    "answer_language_at_least_v1": false,
+    "citation_validation_pass_rate": null,
+    "exact_citations": false,
+    "critical_regressions": 1,
+    "status": "V2_NOT_READY"
+  }
+}

@@ -1,0 +1,53 @@
+# Secrets / environment
+.env
+.env.*
+!.env.example
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+node_modules/
+dist/
+
+# Logs
+*.log
+logs/
+
+# Hugging Face / model caches
+.cache/
+huggingface/
+models/
+
+# Qdrant local storage
+qdrant_storage/
+storage/
+
+# Temporary files
+*.tmp
+*.temp
+~$*
+
+# Internal/private CRI documents
+data/raw/
+data/corrected/
+data/documents/
+data/pdfs/
+data/semantic_json/

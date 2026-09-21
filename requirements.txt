@@ -1,0 +1,8 @@
+qdrant-client>=1.12.0
+sentence-transformers>=3.0.0
+torch>=2.0.0
+groq>=0.9.0
+openai>=1.0.0
+python-dotenv>=1.0.0
+fastapi>=0.100.0
+uvicorn>=0.23.0

@@ -1,0 +1,268 @@
+:root { font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; color: var(--gh-text); background: var(--gh-cream); font-synthesis: none; --gh-navy: #003d5c; --gh-navy-dark: #002d45; --gh-cream: #f8f5ee; --gh-gold: #d8b474; --gh-text: #20252b; --gh-muted: #78838c; --gh-white: #fff; --gh-success: #67c587; --gh-error: #9b4a42; --gh-border: #dfd2ba; }
+* { box-sizing: border-box; } body { margin: 0; min-width: 320px; }
+.ghaitta-widget, .ghaitta-widget button, .ghaitta-widget textarea { font: inherit; } .ghaitta-widget button { cursor: pointer; }
+.ghaitta-launcher {
+  position: fixed;
+  right: 18px;
+  bottom: 16px;
+  z-index: 1100;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3px;
+  width: 188px;
+  height: 205px;
+  padding: 0;
+  overflow: visible;
+  border: 0;
+  border-radius: 0;
+  color: var(--gh-navy);
+  background: transparent;
+  box-shadow: none;
+  text-align: center;
+}
+.ghaitta-launcher__greeting { display: flex; flex-direction: column; gap: 1px; width: max-content; max-width: 188px; padding: 7px 11px 6px; border-radius: 10px; color: var(--gh-navy); background: #fffffff2; box-shadow: 0 5px 16px #1d34402b; font-size: .76rem; line-height: 1.16; }
+.ghaitta-launcher__greeting strong { font-size: .84rem; }
+.ghaitta-launcher__character {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  width: 130px;
+  height: 165px;
+}
+.ghaitta-launcher__character img {
+  display: block;
+  width: 120px;
+  height: 165px;
+  object-fit: contain;
+  object-position: center bottom;
+}
+.ghaitta-launcher__fallback, .ghaitta-logo-fallback { color: var(--gh-navy); font-weight: 800; }
+.ghaitta-launcher:focus-visible, .ghaitta-widget button:focus-visible, .ghaitta-widget textarea:focus-visible { outline: 3px solid #e7be70; outline-offset: 3px; }
+.ghaitta-overlay { position: fixed; inset: 0; z-index: 1000; padding: 75px 24px 25px; background: #10232e99; }
+.ghaitta-modal { display: flex; flex-direction: column; width: clamp(900px, 65vw, 1180px); height: min(700px, calc(100vh - 100px)); margin-left: auto; overflow: hidden; border: 1px solid #d8c39a; border-radius: 14px; background-color: var(--gh-cream); background-image: linear-gradient(#fff8e926, #fff8e926), url("/assets/chat/ghaitta-background.jpg"); background-position: center; background-size: cover; box-shadow: 0 20px 70px #10232e40; }
+.ghaitta-modal:has(.ghaitta-welcome) { width: min(1180px, 88vw); height: min(680px, calc(100vh - 110px)); }
+.ghaitta-modal:has(.ghaitta-welcome) { background-image: linear-gradient(#fff8e94d, #fff8e94d), url("/assets/chat/ghaitta-background.jpg"); }
+.ghaitta-header { display: flex; align-items: center; justify-content: space-between; gap: 18px; min-height: 112px; padding: 20px 24px; background: transparent; }
+.ghaitta-header__logo img { display: block; width: clamp(115px, 12vw, 145px); height: auto; } .ghaitta-header__actions { display: flex; align-items: center; gap: 9px; }
+.ghaitta-header-button { border: 0; border-radius: 999px; padding: 11px 17px; color: #fff; background: var(--gh-navy); font-size: .78rem; font-weight: 700; white-space: nowrap; } .ghaitta-header-button:hover { background: var(--gh-navy-dark); }
+.ghaitta-close, .ghaitta-welcome-close { width: 42px; height: 42px; border: 0; border-radius: 50%; color: #fff; background: var(--gh-navy); font-size: 1.55rem; line-height: 1; }
+.ghaitta-header__name { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0,0,0,0); }
+.ghaitta-welcome {
+  position: relative;
+  display: block;
+  flex: 1;
+  overflow: hidden;
+  padding: 0;
+  text-align: center;
+}
+.ghaitta-welcome-close {
+  position: absolute;
+  top: 18px;
+  right: 20px;
+  z-index: 10;
+}
+.ghaitta-welcome__logo {
+  position: absolute;
+  top: 55px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 2;
+}
+.ghaitta-welcome__logo img {
+  display: block;
+  width: 215px;
+  height: auto;
+  margin: 0 auto;
+}
+.ghaitta-welcome__main {
+  position: absolute;
+  top: 235px;
+  left: 47%;
+  width: 700px;
+  max-width: calc(100% - 380px);
+  transform: translateX(-50%);
+  z-index: 3;
+}
+.ghaitta-welcome__copy {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.ghaitta-welcome__title {
+  margin: 0;
+  color: #202020;
+  font-size: 1.85rem;
+  font-weight: 500;
+  line-height: 1.25;
+  white-space: nowrap;
+}
+.ghaitta-welcome__subtitle { display: none; }
+.ghaitta-welcome__character {
+  position: absolute;
+  top: 84px;
+  right: 62px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  width: 230px;
+  height: 440px;
+}
+.ghaitta-welcome__character img {
+  display: block;
+  width: 220px;
+  height: 440px;
+  object-fit: contain;
+  object-position: center top;
+}
+.ghaitta-start-button {
+  position: relative;
+  z-index: 1;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  isolation: isolate;
+  gap: 8px;
+  border: 0;
+  border-radius: 999px;
+  padding: 13px 28px;
+  color: #fff;
+  background: var(--gh-navy);
+  font-size: 1rem;
+  font-weight: 600;
+  overflow: visible;
+  animation: ghaitta-button-pulse 2s ease-out infinite;
+}
+.ghaitta-welcome__cta {
+  margin-top: 105px;
+  flex-direction: row-reverse;
+}
+.ghaitta-welcome__cta::after { content: "💬"; font-size: .9rem; line-height: 1; }
+@keyframes ghaitta-button-pulse { 0% { box-shadow: 0 0 0 0 rgba(0, 61, 92, .30), 0 0 0 0 rgba(0, 61, 92, .16); } 50% { box-shadow: 0 0 0 10px rgba(0, 61, 92, .12), 0 0 0 18px rgba(0, 61, 92, .06); } 100% { box-shadow: 0 0 0 18px rgba(0, 61, 92, 0), 0 0 0 28px rgba(0, 61, 92, 0); } }
+.ghaitta-start-button:hover {
+  background: var(--gh-navy-dark);
+}
+.ghaitta-terms {
+  position: absolute;
+  right: 70px;
+  bottom: 38px;
+  left: 70px;
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 12px;
+
+  max-width: 1000px;
+  margin: 0;
+
+  color: var(--gh-muted);
+  font-size: 1rem;
+  line-height: 1.55;
+  text-align: left;
+}
+.ghaitta-terms__icon {
+  display: inline-grid;
+  flex: 0 0 auto;
+  place-items: center;
+
+  width: 28px;
+  height: 28px;
+
+  border: 1.5px solid currentColor;
+  border-radius: 50%;
+
+  font-size: .9rem;
+  font-weight: 750;
+}
+.ghaitta-terms a {
+  color: #b47b27;
+  font-weight: 750;
+  text-decoration: underline;
+}
+.ghaitta-privacy { color: var(--gh-muted); font-size: .65rem; line-height: 1.45; }
+.ghaitta-active-chat { display: flex; min-height: 0; flex: 1; flex-direction: column; } .ghaitta-active-status { display: flex; justify-content: flex-end; padding: 0 clamp(70px, 6vw, 90px) 2px; }
+.ghaitta-status { display: inline-flex; align-items: center; gap: 5px; color: var(--gh-muted); font-size: .7rem; } .ghaitta-status i { width: 7px; height: 7px; border-radius: 50%; background: #d7ad62; } .ghaitta-status--connected i { background: var(--gh-success); }
+.ghaitta-messages { min-height: 0; flex: 1; overflow-y: auto; padding: 8px clamp(70px, 7vw, 110px) 8px; overscroll-behavior: contain; scrollbar-width: thin; scrollbar-color: #6a7b83aa transparent; }
+.ghaitta-messages::-webkit-scrollbar { width: 6px; } .ghaitta-messages::-webkit-scrollbar-thumb { border-radius: 8px; background: #6a7b83aa; }
+.ghaitta-message-row { display: flex; align-items: flex-start; gap: 10px; margin: 14px 0; } .ghaitta-message-row--user { justify-content: flex-end; }
+.ghaitta-message__avatar, .ghaitta-typing img { flex: 0 0 auto; width: 52px; height: 52px; object-fit: cover; object-position: center top; border-radius: 50%; }
+.ghaitta-message { max-width: 70%; padding: 12px 15px; border-radius: 8px; color: var(--gh-text); background: #ffffffe0; line-height: 1.55; overflow-wrap: anywhere; } .ghaitta-message-row--user .ghaitta-message { max-width: 62%; background: rgba(255, 255, 255, 0.38); border: none; box-shadow: none; backdrop-filter: blur(2px); border-bottom-right-radius: 3px; }
+.ghaitta-message-row--assistant .ghaitta-message:not(.ghaitta-message--error) { background: rgba(255, 255, 255, 0.38); border: none; box-shadow: none; backdrop-filter: blur(2px); }
+.ghaitta-message p { margin: 0; white-space: pre-wrap; } .ghaitta-message--error { color: #704a30; background: #fff7e5d9; } .ghaitta-user-icon { align-self: flex-end; display: grid; width: 40px; height: 40px; place-items: center; border-radius: 50%; color: #fff; background: var(--gh-navy); }
+.ghaitta-message ul, .ghaitta-message ol { margin: 8px 0 0; padding-inline-start: 22px; } .ghaitta-message li + li { margin-top: 4px; } .ghaitta-message a { color: var(--gh-navy); text-decoration: underline; }
+.ghaitta-user-icon svg { width: 23px; height: 23px; fill: none; stroke: currentColor; stroke-width: 1.7; stroke-linecap: round; } .ghaitta-citations { margin-top: 11px; padding-top: 9px; border-top: 1px solid var(--gh-border); } .ghaitta-citations h3 { margin: 0 0 5px; color: var(--gh-navy); font-size: .7rem; text-transform: uppercase; }
+.ghaitta-citations ul { margin: 0; padding: 0; list-style: none; color: var(--gh-navy); font-size: .73rem; } .ghaitta-citations li { display: flex; flex-wrap: wrap; gap: 4px; margin: 4px 0; }
+.ghaitta-typing { display: flex; align-items: center; gap: 10px; margin: 12px 0; } .ghaitta-typing img { width: 48px; height: 48px; } .ghaitta-typing__dots { color: var(--gh-navy); letter-spacing: 4px; animation: ghaitta-pulse 1.2s infinite; } @keyframes ghaitta-pulse { 50% { opacity: .35; } }
+.ghaitta-composer { display: flex; align-items: flex-end; gap: 8px; width: min(82%, 820px); margin: 10px auto 12px; padding: 6px 7px 6px 14px; border: 0; border-radius: 18px; background: rgba(255, 255, 255, .72); box-shadow: 0 3px 12px rgba(0, 45, 69, .08); backdrop-filter: blur(3px); }
+.ghaitta-composer textarea { flex: 1 1 auto; display: block; width: 100%; min-width: 0; min-height: 40px; max-height: 130px; padding: 10px 4px; resize: none; overflow-y: hidden; border: 0; outline: 0; color: var(--gh-text); background: transparent; font-size: 1rem; line-height: 1.4; }
+.ghaitta-composer__footer { display: flex; flex: 0 0 auto; align-items: flex-end; gap: 8px; color: var(--gh-muted); font-size: .62rem; } .ghaitta-composer__footer > span { align-self: flex-end; padding-bottom: 4px; white-space: nowrap; } .ghaitta-speech-language { display: flex; align-items: center; align-self: center; } .ghaitta-speech-language select { max-width: 112px; padding: 5px 19px 5px 6px; border: 1px solid var(--gh-border); border-radius: 8px; color: var(--gh-navy); background: rgba(255, 255, 255, .55); font-size: .68rem; } .ghaitta-composer__send, .ghaitta-composer__mic { display: grid; flex: 0 0 auto; width: 42px; height: 42px; place-items: center; border: 0; border-radius: 12px; color: #fff; background: var(--gh-navy); transition: transform .15s ease, opacity .15s ease, background .15s ease; } .ghaitta-composer__send svg, .ghaitta-composer__mic svg { width: 20px; height: 20px; fill: none; stroke: currentColor; stroke-linecap: round; stroke-linejoin: round; stroke-width: 2; } .ghaitta-composer__send:hover:not(:disabled), .ghaitta-composer__mic:hover:not(:disabled) { background: var(--gh-navy-dark); transform: translateY(-1px); } .ghaitta-composer__send:disabled, .ghaitta-composer__mic:disabled { opacity: .4; cursor: not-allowed; } .ghaitta-composer__mic--listening { background: var(--gh-error); animation: ghaitta-mic-pulse 1.5s ease-out infinite; } .ghaitta-composer__mic--listening:hover:not(:disabled) { background: var(--gh-error); } @keyframes ghaitta-mic-pulse { 0%, 100% { box-shadow: 0 0 0 0 rgba(155, 74, 66, .3); } 60% { box-shadow: 0 0 0 8px rgba(155, 74, 66, 0); } }
+.ghaitta-message__speak { display: grid; width: 28px; height: 28px; margin: 8px 0 0 auto; place-items: center; border: 0; border-radius: 8px; color: var(--gh-navy); background: transparent; opacity: .7; } .ghaitta-message__speak:hover:not(:disabled) { background: rgba(0, 61, 92, .1); opacity: 1; } .ghaitta-message__speak:disabled { cursor: not-allowed; opacity: .35; filter: grayscale(1); } .ghaitta-message__speak svg { width: 18px; height: 18px; fill: none; stroke: currentColor; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1.8; }
+.ghaitta-privacy { margin: 7px auto 12px; text-align: center; } .ghaitta-sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0,0,0,0); }
+@media (max-width: 1100px) {
+  .ghaitta-launcher__character {
+    width: 115px;
+    height: 150px;
+  }
+
+  .ghaitta-launcher__character img {
+    width: 105px;
+    height: 150px;
+  }
+}
+@media (max-width: 767px) {
+  .ghaitta-composer { width: calc(100% - 20px); margin: 8px auto 10px; padding-left: 10px; }
+  .ghaitta-composer__footer { gap: 5px; }
+  .ghaitta-composer__footer > span { font-size: .58rem; }
+  .ghaitta-speech-language select { max-width: 78px; padding-right: 14px; font-size: .58rem; }
+  .ghaitta-launcher {
+    right: 10px;
+    bottom: 10px;
+    width: 154px;
+    height: 165px;
+    gap: 1px;
+  }
+
+  .ghaitta-launcher__greeting {
+    max-width: 154px;
+    padding: 5px 7px;
+    font-size: .64rem;
+  }
+
+  .ghaitta-launcher__greeting strong {
+    font-size: .7rem;
+  }
+
+  .ghaitta-launcher__character {
+    width: 95px;
+    height: 125px;
+  }
+
+  .ghaitta-launcher__character img {
+    width: 90px;
+    height: 125px;
+  }
+}
+@media (max-width: 1100px) {
+  .ghaitta-welcome__logo { top: 30px; }
+  .ghaitta-welcome__main { top: 124px; width: min(600px, calc(100% - 300px)); }
+.ghaitta-welcome__title { font-size: 2rem; }
+  .ghaitta-welcome__character { top: 104px; right: 42px; width: 180px; height: 360px; }
+  .ghaitta-welcome__character img { width: 170px; height: 360px; }
+  .ghaitta-terms { right: 40px; bottom: 38px; left: 40px; font-size: .92rem; }
+}
+@media (max-width: 767px) {
+  .ghaitta-modal:has(.ghaitta-welcome) { width: calc(100vw - 16px); height: calc(100dvh - 16px); }
+  .ghaitta-welcome { display: flex; flex-direction: column; align-items: center; overflow-y: auto; padding: 30px 18px 14px; }
+  .ghaitta-welcome__logo { position: static; transform: none; }
+  .ghaitta-welcome__logo img { width: 170px; }
+  .ghaitta-welcome__main { position: static; width: 100%; transform: none; margin-top: 24px; }
+  .ghaitta-welcome__copy { min-height: 0; }
+  .ghaitta-welcome__title { max-width: 300px; font-size: 1.45rem; white-space: normal; }
+  .ghaitta-welcome__subtitle { font-size: .95rem; }
+  .ghaitta-welcome__cta { margin-top: 28px; }
+  .ghaitta-welcome__character { position: static; width: 140px; height: 220px; margin-top: 10px; }
+  .ghaitta-welcome__character img { width: 125px; height: 220px; }
+  .ghaitta-terms { position: static; margin: auto 0 0; font-size: .7rem; }
+}
+@media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation-duration: .01ms !important; animation-iteration-count: 1 !important; scroll-behavior: auto !important; } .ghaitta-welcome__cta { animation: none; box-shadow: none; } }

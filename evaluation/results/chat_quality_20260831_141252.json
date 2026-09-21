@@ -1,0 +1,575 @@
+{
+  "generated_at": "2026-08-31T13:14:28.073421+00:00",
+  "live_api": true,
+  "case_count": 16,
+  "results": [
+    {
+      "test_id": "chat-004",
+      "timestamp": "2026-08-31T13:12:53.619929+00:00",
+      "question": "¿Cuántas nuevas empresas fueron creadas en la región en 2025?",
+      "language": "es",
+      "category": "documentary_known_fact",
+      "status": "answered",
+      "answer": "En 2025 se crearon 15.286 nuevas empresas en la región.",
+      "citations": [
+        {
+          "source_id": "SOURCE_1",
+          "document_id": "esp_chiffres_cles_annee_2025",
+          "filename": "ESP_Chiffres clés de l_année 2025.pdf",
+          "page": 2,
+          "language": "es",
+          "chunk_id": "esp_chiffres_cles_annee_2025_p2_c1"
+        },
+        {
+          "source_id": "SOURCE_2",
+          "document_id": "esp_chiffres_cles_annee_2025",
+          "filename": "ESP_Chiffres clés de l_année 2025.pdf",
+          "page": 3,
+          "language": "es",
+          "chunk_id": "esp_chiffres_cles_annee_2025_p3_c1"
+        },
+        {
+          "source_id": "SOURCE_3",
+          "document_id": "eng_chiffres_cles_annee_2025",
+          "filename": "Eng_Chiffres clés de l_année 2025.pdf",
+          "page": 2,
+          "language": "en",
+          "chunk_id": "eng_chiffres_cles_annee_2025_p2_c1"
+        }
+      ],
+      "retrieval_status": "ok",
+      "llm_called": true,
+      "error_type": null,
+      "duration_seconds": 1.475,
+      "expected_match": true,
+      "manual_review_required": false,
+      "citation_required": true,
+      "expected_page": null,
+      "generation": {
+        "llm_called": true,
+        "model": "qwen/qwen3.8-27b",
+        "provider": "groq",
+        "generation_attempts": 1,
+        "structured_retry_used": false,
+        "structured_retry_succeeded": false,
+        "transport_retries": 0
+      }
+    },
+    {
+      "test_id": "chat-008",
+      "timestamp": "2026-08-31T13:12:55.306432+00:00",
+      "question": "¿Cuál fue el número de proyectos aprobados por la CRUI en el primer semestre de 2024?",
+      "language": "es",
+      "category": "documentary_reformulation",
+      "status": "answered",
+      "answer": "379",
+      "citations": [
+        {
+          "source_id": "SOURCE_1",
+          "document_id": "chiffres_cles_crui_1er_semestre_2024_espagnol",
+          "filename": "Chiffres clés CRUI 1er semestre 2024_Espagnol.pdf",
+          "page": 2,
+          "language": "es",
+          "chunk_id": "chiffres_cles_crui_1er_semestre_2024_espagnol_p2_c1"
+        },
+        {
+          "source_id": "SOURCE_3",
+          "document_id": "chiffres_cles_crui_1er_semestre_2024_francais",
+          "filename": "Chiffres clés CRUI 1er semestre 2024_Français.pdf",
+          "page": 2,
+          "language": "fr",
+          "chunk_id": "chiffres_cles_crui_1er_semestre_2024_francais_p2_c1"
+        }
+      ],
+      "retrieval_status": "ok",
+      "llm_called": true,
+      "error_type": null,
+      "duration_seconds": 1.686,
+      "expected_match": true,
+      "manual_review_required": true,
+      "citation_required": true,
+      "expected_page": null,
+      "generation": {
+        "llm_called": true,
+        "model": "qwen/qwen3.8-27b",
+        "provider": "groq",
+        "generation_attempts": 1,
+        "structured_retry_used": false,
+        "structured_retry_succeeded": false,
+        "transport_retries": 0
+      }
+    },
+    {
+      "test_id": "chat-012",
+      "timestamp": "2026-08-31T13:13:04.519482+00:00",
+      "question": "¿Cuántos proyectos fueron aprobados?",
+      "language": "es",
+      "category": "ambiguous",
+      "status": "answered",
+      "answer": "Según el documento 'Chiffres clés CRUI 1er semestre 2024_Espagnol.pdf', se aprobaron 379 proyectos. Según el documento 'ESP_Chiffres clés de l_année 2025.pdf', se aprobaron 487 expedientes de inversión.",
+      "citations": [
+        {
+          "source_id": "SOURCE_1",
+          "document_id": "chiffres_cles_crui_1er_semestre_2024_espagnol",
+          "filename": "Chiffres clés CRUI 1er semestre 2024_Espagnol.pdf",
+          "page": 2,
+          "language": "es",
+          "chunk_id": "chiffres_cles_crui_1er_semestre_2024_espagnol_p2_c1"
+        },
+        {
+          "source_id": "SOURCE_2",
+          "document_id": "esp_chiffres_cles_annee_2025",
+          "filename": "ESP_Chiffres clés de l_année 2025.pdf",
+          "page": 5,
+          "language": "es",
+          "chunk_id": "esp_chiffres_cles_annee_2025_p5_c1"
+        }
+      ],
+      "retrieval_status": "ok",
+      "llm_called": true,
+      "error_type": null,
+      "duration_seconds": 9.213,
+      "expected_match": true,
+      "manual_review_required": true,
+      "citation_required": true,
+      "expected_page": null,
+      "generation": {
+        "llm_called": true,
+        "model": "qwen/qwen3.8-27b",
+        "provider": "groq",
+        "generation_attempts": 1,
+        "structured_retry_used": false,
+        "structured_retry_succeeded": false,
+        "transport_retries": 0
+      }
+    },
+    {
+      "test_id": "chat-016",
+      "timestamp": "2026-08-31T13:13:16.629690+00:00",
+      "question": "¿Cuántos proyectos aprobó la CRUI en el primer semestre de 2024?",
+      "language": "es",
+      "category": "cross_lingual",
+      "status": "answered",
+      "answer": "La CRUI aprobó 379 proyectos en el primer semestre de 2024.",
+      "citations": [
+        {
+          "source_id": "SOURCE_1",
+          "document_id": "chiffres_cles_crui_1er_semestre_2024_espagnol",
+          "filename": "Chiffres clés CRUI 1er semestre 2024_Espagnol.pdf",
+          "page": 2,
+          "language": "es",
+          "chunk_id": "chiffres_cles_crui_1er_semestre_2024_espagnol_p2_c1"
+        },
+        {
+          "source_id": "SOURCE_4",
+          "document_id": "chiffres_cles_crui_1er_semestre_2024_francais",
+          "filename": "Chiffres clés CRUI 1er semestre 2024_Français.pdf",
+          "page": 2,
+          "language": "fr",
+          "chunk_id": "chiffres_cles_crui_1er_semestre_2024_francais_p2_c1"
+        }
+      ],
+      "retrieval_status": "ok",
+      "llm_called": true,
+      "error_type": null,
+      "duration_seconds": 12.11,
+      "expected_match": true,
+      "manual_review_required": true,
+      "citation_required": true,
+      "expected_page": null,
+      "generation": {
+        "llm_called": true,
+        "model": "qwen/qwen3.8-27b",
+        "provider": "groq",
+        "generation_attempts": 1,
+        "structured_retry_used": false,
+        "structured_retry_succeeded": false,
+        "transport_retries": 0
+      }
+    },
+    {
+      "test_id": "chat-023",
+      "timestamp": "2026-08-31T13:13:30.781223+00:00",
+      "question": "Indica los proyectos examinados, aprobados, la inversión y los empleos previstos en el primer semestre de 2024.",
+      "language": "es",
+      "category": "multi_part",
+      "status": "answered",
+      "answer": "En el primer semestre de 2024, la Comisión Regional Unificada de Inversiones (CRUI) examinó 433 proyectos, de los cuales 379 fueron aprobados (el 87,5% de los examinados). La inversión prevista ascendió a 40,76 mil millones de dirhams, lo que representa un 72% más que en el primer semestre de 2023. Se prevén 45.630 empleos a medio y largo plazo.",
+      "citations": [
+        {
+          "source_id": "SOURCE_1",
+          "document_id": "chiffres_cles_crui_1er_semestre_2024_espagnol",
+          "filename": "Chiffres clés CRUI 1er semestre 2024_Espagnol.pdf",
+          "page": 2,
+          "language": "es",
+          "chunk_id": "chiffres_cles_crui_1er_semestre_2024_espagnol_p2_c1"
+        }
+      ],
+      "retrieval_status": "ok",
+      "llm_called": true,
+      "error_type": null,
+      "duration_seconds": 14.151,
+      "expected_match": true,
+      "manual_review_required": true,
+      "citation_required": true,
+      "expected_page": null,
+      "generation": {
+        "llm_called": true,
+        "model": "qwen/qwen3.8-27b",
+        "provider": "groq",
+        "generation_attempts": 1,
+        "structured_retry_used": false,
+        "structured_retry_succeeded": false,
+        "transport_retries": 0
+      }
+    },
+    {
+      "test_id": "chat-029",
+      "timestamp": "2026-08-31T13:13:30.804961+00:00",
+      "question": "Hola",
+      "language": "es",
+      "category": "social_greeting",
+      "status": "answered",
+      "answer": "¡Hola! Puedo ayudarte con los documentos del CRI.",
+      "citations": [],
+      "retrieval_status": null,
+      "llm_called": null,
+      "error_type": null,
+      "duration_seconds": 0.024,
+      "expected_match": true,
+      "manual_review_required": false,
+      "citation_required": false,
+      "expected_page": null,
+      "generation": {}
+    },
+    {
+      "test_id": "chat-032",
+      "timestamp": "2026-08-31T13:13:30.821115+00:00",
+      "question": "Gracias",
+      "language": "es",
+      "category": "social_thanks",
+      "status": "answered",
+      "answer": "¡Con mucho gusto!",
+      "citations": [],
+      "retrieval_status": null,
+      "llm_called": null,
+      "error_type": null,
+      "duration_seconds": 0.016,
+      "expected_match": true,
+      "manual_review_required": false,
+      "citation_required": false,
+      "expected_page": null,
+      "generation": {}
+    },
+    {
+      "test_id": "chat-037",
+      "timestamp": "2026-08-31T13:13:30.839012+00:00",
+      "question": "hola me llamo Siham",
+      "language": "es",
+      "category": "social_introduction",
+      "status": "answered",
+      "answer": "Encantado, Siham. Puedo ayudarte a encontrar información en los documentos del CRI.",
+      "citations": [],
+      "retrieval_status": null,
+      "llm_called": null,
+      "error_type": null,
+      "duration_seconds": 0.018,
+      "expected_match": true,
+      "manual_review_required": false,
+      "citation_required": false,
+      "expected_page": null,
+      "generation": {}
+    },
+    {
+      "test_id": "chat-048",
+      "timestamp": "2026-08-31T13:13:30.912258+00:00",
+      "question": "¿Y en 2025?",
+      "language": "es",
+      "category": "follow_up",
+      "status": "insufficient_evidence",
+      "answer": "Esta información no está disponible en los documentos proporcionados.",
+      "citations": [],
+      "retrieval_status": "insufficient_evidence",
+      "llm_called": false,
+      "error_type": null,
+      "duration_seconds": 0.073,
+      "expected_match": false,
+      "manual_review_required": true,
+      "citation_required": true,
+      "expected_page": null,
+      "generation": {
+        "llm_called": false
+      }
+    },
+    {
+      "test_id": "chat-052",
+      "timestamp": "2026-08-31T13:13:31.011742+00:00",
+      "question": "¿Quién ganará el próximo Mundial de fútbol?",
+      "language": "es",
+      "category": "out_of_corpus",
+      "status": "insufficient_evidence",
+      "answer": "Esta información no está disponible en los documentos proporcionados.",
+      "citations": [],
+      "retrieval_status": "insufficient_evidence",
+      "llm_called": false,
+      "error_type": null,
+      "duration_seconds": 0.099,
+      "expected_match": true,
+      "manual_review_required": false,
+      "citation_required": false,
+      "expected_page": null,
+      "generation": {
+        "llm_called": false
+      }
+    },
+    {
+      "test_id": "chat-063",
+      "timestamp": "2026-08-31T13:13:40.265689+00:00",
+      "question": "Resume detalladamente todos los indicadores disponibles de la CRUI para 2024 y 2025.",
+      "language": "es",
+      "category": "long_answer",
+      "status": "answered",
+      "answer": "Para 2024, los indicadores disponibles de la CRUI son: 235 reuniones de la CRUI (con un promedio de 5 reuniones por semana), 1.211 proyectos presentados, 949 proyectos instruidos en la CRUI, 731 proyectos aprobados (88% de los instruidos) y 570 actos emitidos. En términos de impacto, se proyectan 72.000 empleos y 85.500 millones de MAD en inversiones aprobadas. Para 2025, los indicadores son: 224 reuniones de la CRUI, un plazo medio de tramitación de 6,44 días, 487 expedientes de inversión aprobados, 80.000 millones de MAD en inversiones aprobadas y 57.043 empleos proyectados.",
+      "citations": [
+        {
+          "source_id": "SOURCE_1",
+          "document_id": "fr_presentation_cri_tta_vf",
+          "filename": "FR_Présentation CRI TTA VF.pdf",
+          "page": 41,
+          "language": "fr",
+          "chunk_id": "fr_presentation_cri_tta_vf_p41_c1"
+        },
+        {
+          "source_id": "SOURCE_4",
+          "document_id": "esp_chiffres_cles_annee_2025",
+          "filename": "ESP_Chiffres clés de l_année 2025.pdf",
+          "page": 4,
+          "language": "es",
+          "chunk_id": "esp_chiffres_cles_annee_2025_p4_c1"
+        },
+        {
+          "source_id": "SOURCE_5",
+          "document_id": "esp_chiffres_cles_annee_2025",
+          "filename": "ESP_Chiffres clés de l_année 2025.pdf",
+          "page": 5,
+          "language": "es",
+          "chunk_id": "esp_chiffres_cles_annee_2025_p5_c1"
+        }
+      ],
+      "retrieval_status": "ok",
+      "llm_called": true,
+      "error_type": null,
+      "duration_seconds": 9.254,
+      "expected_match": true,
+      "manual_review_required": true,
+      "citation_required": false,
+      "expected_page": null,
+      "generation": {
+        "llm_called": true,
+        "model": "qwen/qwen3.8-27b",
+        "provider": "groq",
+        "generation_attempts": 1,
+        "structured_retry_used": false,
+        "structured_retry_succeeded": false,
+        "transport_retries": 0
+      }
+    },
+    {
+      "test_id": "chat-066",
+      "timestamp": "2026-08-31T13:13:55.933956+00:00",
+      "question": "Explica con detalle las misiones del CRI, el apoyo a inversores, los sectores y los procedimientos.",
+      "language": "es",
+      "category": "token_stress",
+      "status": "answered",
+      "answer": "El CRI (Centro Regional de Inversiones) tiene como misiones principales la recepción e instrucción de solicitudes de conciliación, facilitar el acercamiento de puntos de vista entre inversores y la administración o entidades públicas, manejar quejas y recomendar soluciones equitativas, facilitar reuniones de conciliación, realizar mediación y seguir la evolución de las disputas. El apoyo a inversores se estructura a través de la Ventanilla Única, que incluye servicios como la expedición de autorizaciones administrativas de forma 100% digital, la planificación estratégica regional, la oferta territorial, el marketing y promoción territorial, y la conciliación. Además, el CRI ofrece acompañamiento en la creación de empresas, orientación y asesoramiento previo a los proyectos (incluyendo oportunidades de inversión, necesidades de financiamiento y regulaciones), y seguimiento del estado de avance de los proyectos en el terreno. El programa 'Manar Al Moustatmir' actúa como una ventanilla única virtual que estructura la acción colectiva, optimiza el asesoramiento, permite la calificación previa de necesidades, ofrece programas de acompañamiento estándar y personalizados, y permite el seguimiento en tiempo real del progreso. Los sectores y áreas de intervención incluyen la promoción y planificación territorial, la creación de empresas, el acompañamiento previo a los proyectos y el seguimiento de proyectos en curso. Los procedimientos incluyen la presentación de casos ante el CRI a través de correo electrónico, correo postal o la plataforma digital 'e-requête', que debe incluir la denominación social, sede social, número de registro comercial, dirección del inversor, estado civil del representante legal, resumen del litigio y documentos justificativos. La reforma de los CRI, impulsada por la ley 47-18, entró en vigor en diciembre de 2019, transformándolos en entidades públicas con personalidad jurídica y autonomía financiera, y mejorando la celeridad en el tratamiento de expedientes y la toma de decisiones.",
+      "citations": [
+        {
+          "source_id": "SOURCE_1",
+          "document_id": "guide_de_conciliation_es",
+          "filename": "Guide de Conciliation_ES.pdf",
+          "page": 4,
+          "language": "es",
+          "chunk_id": "guide_de_conciliation_es_p4_c1"
+        },
+        {
+          "source_id": "SOURCE_2",
+          "document_id": "investment_business_support_single_window_es",
+          "filename": "Investment and Business Support Single Window_ES.pdf",
+          "page": 3,
+          "language": "es",
+          "chunk_id": "investment_business_support_single_window_es_p3_c1"
+        },
+        {
+          "source_id": "SOURCE_3",
+          "document_id": "esp_indicateurs_climat_dinvestissement",
+          "filename": "ESP_Indicateurs climat d_investissement.pdf",
+          "page": 26,
+          "language": "es",
+          "chunk_id": "esp_indicateurs_climat_dinvestissement_p26_c1"
+        },
+        {
+          "source_id": "SOURCE_4",
+          "document_id": "investment_business_support_single_window_es",
+          "filename": "Investment and Business Support Single Window_ES.pdf",
+          "page": 11,
+          "language": "es",
+          "chunk_id": "investment_business_support_single_window_es_p11_c1"
+        }
+      ],
+      "retrieval_status": "ok",
+      "llm_called": true,
+      "error_type": null,
+      "duration_seconds": 15.668,
+      "expected_match": true,
+      "manual_review_required": true,
+      "citation_required": false,
+      "expected_page": null,
+      "generation": {
+        "llm_called": true,
+        "model": "qwen/qwen3.8-27b",
+        "provider": "groq",
+        "generation_attempts": 1,
+        "structured_retry_used": false,
+        "structured_retry_succeeded": false,
+        "transport_retries": 0
+      }
+    },
+    {
+      "test_id": "chat-071",
+      "timestamp": "2026-08-31T13:14:06.968686+00:00",
+      "question": "¿Qué documento respalda el número de nuevas empresas?",
+      "language": "es",
+      "category": "citation_validation",
+      "status": "answered",
+      "answer": "El documento que respalda el número de nuevas empresas es 'ESP_Chiffres clés de l_année 2025.pdf', específicamente en la página 2, donde se indica que se crearon 15.286 nuevas empresas en 2025, citando a OMPIC como fuente.",
+      "citations": [
+        {
+          "source_id": "SOURCE_2",
+          "document_id": "esp_chiffres_cles_annee_2025",
+          "filename": "ESP_Chiffres clés de l_année 2025.pdf",
+          "page": 2,
+          "language": "es",
+          "chunk_id": "esp_chiffres_cles_annee_2025_p2_c1"
+        }
+      ],
+      "retrieval_status": "ok",
+      "llm_called": true,
+      "error_type": null,
+      "duration_seconds": 11.033,
+      "expected_match": true,
+      "manual_review_required": true,
+      "citation_required": true,
+      "expected_page": null,
+      "generation": {
+        "llm_called": true,
+        "model": "qwen/qwen3.8-27b",
+        "provider": "groq",
+        "generation_attempts": 1,
+        "structured_retry_used": false,
+        "structured_retry_succeeded": false,
+        "transport_retries": 0
+      }
+    },
+    {
+      "test_id": "chat-079",
+      "timestamp": "2026-08-31T13:14:07.061223+00:00",
+      "question": "¿Qué datos corresponden específicamente a 2025?",
+      "language": "es",
+      "category": "year_temporal",
+      "status": "insufficient_evidence",
+      "answer": "Esta información no está disponible en los documentos proporcionados.",
+      "citations": [],
+      "retrieval_status": "insufficient_evidence",
+      "llm_called": false,
+      "error_type": null,
+      "duration_seconds": 0.092,
+      "expected_match": false,
+      "manual_review_required": true,
+      "citation_required": true,
+      "expected_page": null,
+      "generation": {
+        "llm_called": false
+      }
+    },
+    {
+      "test_id": "chat-082",
+      "timestamp": "2026-08-31T13:14:19.000731+00:00",
+      "question": "¿Cuántos proyectos aprobó la CRUI durante el primer semestre de 2024?",
+      "language": "es",
+      "category": "false_refusal_candidate",
+      "status": "answered",
+      "answer": "La CRUI aprobó 379 proyectos durante el primer semestre de 2024.",
+      "citations": [
+        {
+          "source_id": "SOURCE_1",
+          "document_id": "chiffres_cles_crui_1er_semestre_2024_espagnol",
+          "filename": "Chiffres clés CRUI 1er semestre 2024_Espagnol.pdf",
+          "page": 2,
+          "language": "es",
+          "chunk_id": "chiffres_cles_crui_1er_semestre_2024_espagnol_p2_c1"
+        },
+        {
+          "source_id": "SOURCE_4",
+          "document_id": "chiffres_cles_crui_1er_semestre_2024_francais",
+          "filename": "Chiffres clés CRUI 1er semestre 2024_Français.pdf",
+          "page": 2,
+          "language": "fr",
+          "chunk_id": "chiffres_cles_crui_1er_semestre_2024_francais_p2_c1"
+        }
+      ],
+      "retrieval_status": "ok",
+      "llm_called": true,
+      "error_type": null,
+      "duration_seconds": 11.94,
+      "expected_match": true,
+      "manual_review_required": false,
+      "citation_required": true,
+      "expected_page": null,
+      "generation": {
+        "llm_called": true,
+        "model": "qwen/qwen3.8-27b",
+        "provider": "groq",
+        "generation_attempts": 1,
+        "structured_retry_used": false,
+        "structured_retry_succeeded": false,
+        "transport_retries": 0
+      }
+    },
+    {
+      "test_id": "chat-087",
+      "timestamp": "2026-08-31T13:14:28.072946+00:00",
+      "question": "Prueba Unicode y numérica: 15 286 empresas en 2025.",
+      "language": "es",
+      "category": "unicode_numeric",
+      "status": "answered",
+      "answer": "En 2025 se crearon 15 286 nuevas empresas, lo que sitúa a la región en la segunda posición en términos de creación de empresas con aproximadamente el 14% del total nacional.",
+      "citations": [
+        {
+          "source_id": "SOURCE_1",
+          "document_id": "esp_chiffres_cles_annee_2025",
+          "filename": "ESP_Chiffres clés de l_année 2025.pdf",
+          "page": 2,
+          "language": "es",
+          "chunk_id": "esp_chiffres_cles_annee_2025_p2_c1"
+        }
+      ],
+      "retrieval_status": "ok",
+      "llm_called": true,
+      "error_type": null,
+      "duration_seconds": 9.072,
+      "expected_match": true,
+      "manual_review_required": true,
+      "citation_required": false,
+      "expected_page": null,
+      "generation": {
+        "llm_called": true,
+        "model": "qwen/qwen3.8-27b",
+        "provider": "groq",
+        "generation_attempts": 1,
+        "structured_retry_used": false,
+        "structured_retry_succeeded": false,
+        "transport_retries": 0
+      }
+    }
+  ]
+}

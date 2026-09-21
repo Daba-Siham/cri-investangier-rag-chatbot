@@ -1,0 +1,231 @@
+{
+  "generated_at": "2026-08-31T13:19:38.464076+00:00",
+  "live_api": true,
+  "case_count": 4,
+  "results": [
+    {
+      "test_id": "chat-064",
+      "timestamp": "2026-08-31T13:19:34.719203+00:00",
+      "question": "Présente toutes les informations disponibles sur les missions, l'accompagnement, les secteurs et les indicateurs du CRI.",
+      "language": "fr",
+      "category": "token_stress",
+      "status": "answered",
+      "answer": "Le CRI TTA a pour mission de mettre à la disposition des investisseurs toute information utile et nécessaire à la floraison d'un projet, en les accompagnant tout au long du processus de mise en place. Dans ce cadre, il propose un référentiel des prestations d'accompagnement, qui recense 62 organes (publics, privés et de la société civile) détaillant la nature de leurs services, leur champ d'intervention, le secteur d'activité et le territoire concerné. Le CRI TTA est également décrit comme un levier territorial du développement économique de la région, offrant une offre multisectorielle d'accueil et un accompagnement qualifié. En ce qui concerne les indicateurs, l'Axe 2 du climat d'investissement évalue la qualité de la relation et le niveau de satisfaction par rapport aux services rendus par le CRI TTA.",
+      "citations": [
+        {
+          "source_id": "SOURCE_1",
+          "document_id": "investors_guide_territorial_opportunities_fr",
+          "filename": "Investors Guide to territorial opportunities_FR.pdf",
+          "page": 211,
+          "language": "fr",
+          "chunk_id": "investors_guide_territorial_opportunities_fr_p211_c1"
+        },
+        {
+          "source_id": "SOURCE_4",
+          "document_id": "fr_indicateurs_climat_dinvestissement",
+          "filename": "Fr_Indicateurs-climat-dinvestissement.pdf",
+          "page": 14,
+          "language": "fr",
+          "chunk_id": "fr_indicateurs_climat_dinvestissement_p14_c1"
+        },
+        {
+          "source_id": "SOURCE_5",
+          "document_id": "eng_presentation_cri_tta_vf",
+          "filename": "ENG_Présentation CRI TTA VF.pdf",
+          "page": 39,
+          "language": "en",
+          "chunk_id": "eng_presentation_cri_tta_vf_p39_c1"
+        }
+      ],
+      "retrieval_status": "ok",
+      "llm_called": true,
+      "error_type": null,
+      "duration_seconds": 0.992,
+      "expected_match": true,
+      "manual_review_required": true,
+      "citation_required": false,
+      "expected_page": null,
+      "generation": {
+        "llm_called": true,
+        "model": "qwen/qwen3.8-27b",
+        "provider": "groq",
+        "generation_attempts": 1,
+        "structured_retry_used": false,
+        "structured_retry_succeeded": false,
+        "transport_retries": 0
+      }
+    },
+    {
+      "test_id": "chat-065",
+      "timestamp": "2026-08-31T13:19:36.014127+00:00",
+      "question": "Explain in detail the CRI missions, investor support, sectors, procedures and regional indicators.",
+      "language": "en",
+      "category": "token_stress",
+      "status": "answered",
+      "answer": "The CRI TTA (Regional Investment Center of Tangier - Tetouan - Al Hoceima) has a mission to provide economic incentives and promote the region's investment offers. It compiles a database of 50 turnkey investment projects, organized by sector and territory, to highlight the region's strengths and opportunities. The identification of these projects involves four main components: import substitution, meeting national and global demand, integrating value chains, and collective reflection with local players. The CRI provides various support services, including local workspace, IT infrastructure, coaching and assistance services (legal, accounting, banking), strategic services (marketing, financial advice, intellectual property, market research), access to a network of investment funds and partners, and qualified personnel. Investors' expectations regarding the CRI include strengthening support for companies (9%), assistance in finding land solutions (6%), and finding financial/subsidy solutions (6%). The CRI TTA also has a platform called MANAR AL MOUSTATMIR, which is a virtual one-stop shop for investor and project owner support. The CRI TTA's regional indicators are assessed through a survey that covers investors' perception of the business climate, satisfaction with CRI services, and stakeholders' perspectives on the business climate, including environmental and energy efficiency matters.",
+      "citations": [
+        {
+          "source_id": "SOURCE_1",
+          "document_id": "investors_guide_territorial_opportunities_en",
+          "filename": "Investors Guide to territorial opportunities_EN.pdf",
+          "page": 149,
+          "language": "en",
+          "chunk_id": "investors_guide_territorial_opportunities_en_p149_c4"
+        },
+        {
+          "source_id": "SOURCE_2",
+          "document_id": "eng_indicateurs_climat_dinvestissement",
+          "filename": "ENG_Indicateurs-climat-dinvestissement.pdf",
+          "page": 2,
+          "language": "en",
+          "chunk_id": "eng_indicateurs_climat_dinvestissement_p2_c1"
+        },
+        {
+          "source_id": "SOURCE_3",
+          "document_id": "investors_guide_territorial_opportunities_en",
+          "filename": "Investors Guide to territorial opportunities_EN.pdf",
+          "page": 13,
+          "language": "en",
+          "chunk_id": "investors_guide_territorial_opportunities_en_p13_c1"
+        },
+        {
+          "source_id": "SOURCE_4",
+          "document_id": "eng_indicateurs_climat_dinvestissement",
+          "filename": "ENG_Indicateurs-climat-dinvestissement.pdf",
+          "page": 19,
+          "language": "en",
+          "chunk_id": "eng_indicateurs_climat_dinvestissement_p19_c1"
+        }
+      ],
+      "retrieval_status": "ok",
+      "llm_called": true,
+      "error_type": null,
+      "duration_seconds": 1.292,
+      "expected_match": true,
+      "manual_review_required": true,
+      "citation_required": false,
+      "expected_page": null,
+      "generation": {
+        "llm_called": true,
+        "model": "qwen/qwen3.8-27b",
+        "provider": "groq",
+        "generation_attempts": 1,
+        "structured_retry_used": false,
+        "structured_retry_succeeded": false,
+        "transport_retries": 0
+      }
+    },
+    {
+      "test_id": "chat-066",
+      "timestamp": "2026-08-31T13:19:37.242763+00:00",
+      "question": "Explica con detalle las misiones del CRI, el apoyo a inversores, los sectores y los procedimientos.",
+      "language": "es",
+      "category": "token_stress",
+      "status": "answered",
+      "answer": "El CRI (Centro Regional de Inversiones) tiene como misiones principales la recepción e instrucción de solicitudes de conciliación, facilitar el acercamiento de puntos de vista entre inversores y la administración o entidades públicas, manejar quejas y recomendar soluciones equitativas, facilitar reuniones de conciliación, realizar mediación y seguir la evolución de las disputas. El apoyo a inversores se estructura a través de la Ventanilla Única, que incluye servicios como la expedición de autorizaciones administrativas de forma 100% digital, la planificación estratégica regional, la oferta territorial, el marketing y promoción territorial, y la conciliación. Además, el CRI ofrece acompañamiento en la creación de empresas, orientación y asesoramiento previo a los proyectos (incluyendo oportunidades de inversión, necesidades de financiamiento y regulaciones), y seguimiento del estado de avance de los proyectos en el terreno. El programa 'Manar Al Moustatmir' actúa como una ventanilla única virtual que estructura la acción colectiva, optimiza el asesoramiento, permite la calificación previa de necesidades, ofrece programas de acompañamiento estándar y personalizados, y permite el seguimiento en tiempo real del progreso. Los sectores y procedimientos se enfocan en la simplificación del proceso del inversor mediante la agilización de los procedimientos y el control de plazos a través de la Comisión Regional Unificada de Inversiones (CRUI), la mejora de la atractividad y la oferta territorial, y la transformación digital de los CRI para una mayor satisfacción de los usuarios.",
+      "citations": [
+        {
+          "source_id": "SOURCE_1",
+          "document_id": "guide_de_conciliation_es",
+          "filename": "Guide de Conciliation_ES.pdf",
+          "page": 4,
+          "language": "es",
+          "chunk_id": "guide_de_conciliation_es_p4_c1"
+        },
+        {
+          "source_id": "SOURCE_2",
+          "document_id": "investment_business_support_single_window_es",
+          "filename": "Investment and Business Support Single Window_ES.pdf",
+          "page": 3,
+          "language": "es",
+          "chunk_id": "investment_business_support_single_window_es_p3_c1"
+        },
+        {
+          "source_id": "SOURCE_3",
+          "document_id": "esp_indicateurs_climat_dinvestissement",
+          "filename": "ESP_Indicateurs climat d_investissement.pdf",
+          "page": 26,
+          "language": "es",
+          "chunk_id": "esp_indicateurs_climat_dinvestissement_p26_c1"
+        },
+        {
+          "source_id": "SOURCE_4",
+          "document_id": "investment_business_support_single_window_es",
+          "filename": "Investment and Business Support Single Window_ES.pdf",
+          "page": 11,
+          "language": "es",
+          "chunk_id": "investment_business_support_single_window_es_p11_c1"
+        }
+      ],
+      "retrieval_status": "ok",
+      "llm_called": true,
+      "error_type": null,
+      "duration_seconds": 1.227,
+      "expected_match": true,
+      "manual_review_required": true,
+      "citation_required": false,
+      "expected_page": null,
+      "generation": {
+        "llm_called": true,
+        "model": "qwen/qwen3.8-27b",
+        "provider": "groq",
+        "generation_attempts": 1,
+        "structured_retry_used": false,
+        "structured_retry_succeeded": false,
+        "transport_retries": 0
+      }
+    },
+    {
+      "test_id": "chat-067",
+      "timestamp": "2026-08-31T13:19:38.463239+00:00",
+      "question": "اشرح بالتفصيل مهام المركز ودعم المستثمرين والقطاعات والإجراءات والمؤشرات الجهوية.",
+      "language": "ar",
+      "category": "token_stress",
+      "status": "answered",
+      "answer": "المركز الجهوي للاستثمار (CRI) هو الرافعة الترابية للتنمية الاقتصادية للجهة، ويقدم عرض دعم متعدد القطاعات يشمل استضافة المشاريع، توفير اليد العاملة الماهرة والمؤهلة، وتقديم خدمات دعم متنوعة. كما يقوم المركز بتطوير أدلة وبرامج لدعم المستثمرين، مثل دليل المستثمرين إلى الفرص على الصعيد الإقليمي، دليل تمويل الأعمال، دليل توصيلات الكهرباء ومياه الشرب والصرف الصحي، دليل الأراضي المخططة للاستثمار، ودليل البرامج المتكاملة لدعم وتمويل الأعمال (PIAFE). بالإضافة إلى ذلك، ينشط المركز في الترويج والشراكات، حيث أطلق قافلة إعلامية عبر 8 أقاليم/عمالات لشرح شروط الأهلية والاستفادة من المنح، وحساب منحة الاستثمار، مع تنظيم مكاتب استقبال في مقر المركز وملحقاته. وقد أسفرت هذه الحملات عن مشاركة أكثر من 1600 مشارك وتقديم 35 مشروعاً، وخلق 915 منصب شغل، واستثمار بقيمة 420 مليون درهم.",
+      "citations": [
+        {
+          "source_id": "SOURCE_2",
+          "document_id": "akhbar_al_moustatmir_news",
+          "filename": "Akhbar Al Moustatmir News VA compress.pdf",
+          "page": 40,
+          "language": "ar",
+          "chunk_id": "akhbar_al_moustatmir_news_p40_c1"
+        },
+        {
+          "source_id": "SOURCE_3",
+          "document_id": "arabe_chiffres_cles_2025",
+          "filename": "Arabe_ Chiffres clés 2025.pdf",
+          "page": 16,
+          "language": "ar",
+          "chunk_id": "arabe_chiffres_cles_2025_p16_c1"
+        },
+        {
+          "source_id": "SOURCE_5",
+          "document_id": "eng_presentation_cri_tta_vf",
+          "filename": "ENG_Présentation CRI TTA VF.pdf",
+          "page": 39,
+          "language": "en",
+          "chunk_id": "eng_presentation_cri_tta_vf_p39_c1"
+        }
+      ],
+      "retrieval_status": "ok",
+      "llm_called": true,
+      "error_type": null,
+      "duration_seconds": 1.219,
+      "expected_match": true,
+      "manual_review_required": true,
+      "citation_required": false,
+      "expected_page": null,
+      "generation": {
+        "llm_called": true,
+        "model": "qwen/qwen3.8-27b",
+        "provider": "groq",
+        "generation_attempts": 1,
+        "structured_retry_used": false,
+        "structured_retry_succeeded": false,
+        "transport_retries": 0
+      }
+    }
+  ]
+}
