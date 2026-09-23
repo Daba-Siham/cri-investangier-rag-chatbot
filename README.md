@@ -242,3 +242,185 @@ The final gate remained `V2_NOT_READY`; this means generated-answer comparison w
 ## Security and handoff
 
 Never commit `.env`, API keys, private/internal PDFs, confidential JSON, local Qdrant storage, `.venv`, `node_modules`, or generated caches. Before handoff, provide/update `.env.example`, use a company-owned OpenAI key, do not transfer personal Groq credentials, verify internal-data Git policy, and inspect Git history for accidentally committed secrets.
+
+
+# Rebuild Qdrant
+
+This section explains how to rebuild the Qdrant vector database for both V1 and V2 from the project data.
+
+## V1
+
+### 1. Start Qdrant
+
+```bash
+docker compose up -d
+```
+
+### 2. Prepare the V1 documents
+
+The V1 source files must be available in the following directory:
+
+```text
+data/
+└── raw/
+    ├── pdf/
+    │   ├── document_1.pdf
+    │   ├── document_2.pdf
+    │   └── ...
+    │
+    └── json/
+        ├── document_1.json
+        ├── document_2.json
+        └── ...
+```
+
+The `pdf/` directory contains the original PDF documents, while the `json/` directory contains the corresponding JSON files used by the V1 processing pipeline.
+
+Make sure the required JSON files are available in:
+
+```text
+data/raw/json/
+```
+
+Then run:
+
+```bash
+python scripts/prepare_documents.py
+```
+
+This step processes the V1 JSON files and generates the processed chunks used by the V1 indexing pipeline.
+
+### 3. Build the V1 Qdrant collection
+
+```bash
+python scripts/build_vector_index.py --model multilingual-e5-base
+```
+
+The expected Qdrant collection is:
+
+```text
+cri_chunks_multilingual_e5_base
+```
+
+### 4. Start the backend API
+
+```bash
+python scripts/run_api.py
+```
+
+### 5. Start the frontend
+
+```bash
+cd frontend
+npm install
+npm run dev
+```
+
+---
+
+## V2
+
+### 1. Clone the chatbot repository
+
+Clone the repository and move to the project directory.
+
+### 2. Add the V2 semantic JSON files
+
+The V2 JSON files must be placed in:
+
+```text
+data/semantic_json/
+```
+
+The expected structure is:
+
+```text
+data/
+├── raw/
+│   ├── pdf/
+│   │   ├── document_1.pdf
+│   │   ├── document_2.pdf
+│   │   └── ...
+│   │
+│   └── json/
+│       ├── document_1.json
+│       ├── document_2.json
+│       └── ...
+│
+└── semantic_json/
+    ├── document_1.json
+    ├── document_2.json
+    └── ...
+```
+
+The `data/semantic_json/` directory contains the V2 semantic JSON files used to generate the retrieval chunks.
+
+### 3. Install Python dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### 4. Configure the environment
+
+Create a `.env` file from `.env.example` and configure the required variables.
+
+Do not commit API keys or other secrets.
+
+### 5. Start Qdrant
+
+```bash
+docker compose up -d
+```
+
+### 6. Generate the V2 retrieval chunks
+
+```bash
+python scripts/build_retrieval_chunks_v2.py
+```
+
+This step generates the V2 retrieval artifacts, including:
+
+```text
+data/retrieval_v2/retrieval_chunks.jsonl
+data/retrieval_v2/retrieval_manifest.json
+```
+
+### 7. Build the V2 Qdrant collection
+
+```bash
+python scripts/ingest_qdrant_v2.py
+```
+
+The expected Qdrant collection is:
+
+```text
+cri_chunks_multilingual_e5_v2
+```
+
+### 8. Start the backend API
+
+```bash
+python scripts/run_api.py
+```
+
+### 9. Start the frontend
+
+```bash
+cd frontend
+npm install
+npm run dev
+```
+
+---
+
+## Expected Qdrant collections
+
+After rebuilding both versions, Qdrant should contain:
+
+```text
+cri_chunks_multilingual_e5_base   # V1
+cri_chunks_multilingual_e5_v2     # V2
+```
+
+V1 is kept as the historical baseline, while V2 is the semantic retrieval architecture used for evaluation and future extension.
